@@ -57,64 +57,25 @@ title: PowerPointLabs
 
     <div class="feature-grid">
       <div class="row">
-        <div class="col-xs-4">
-          <img class="image-center" src="./img/spotlight.gif">
-          <h3>
-            Light up your slides.
-          </h3>
-          <p>
-            Draw a region of any shape, and use
-            <strong>spotlight</strong>
-            to attract your audience's attention to it. <a href="./docs.html#spotlight">[More]</a>
-          </p>
-        </div>
-
-        <div class="col-xs-4">
-          <img class="image-center" src="./img/auto-animate.gif">
-          <h3>
-            Easily animate from A to B.
-          </h3>
-          <p>
-            Show where an object starts, and where it should end up.
-            <strong>Auto animate</strong>
-            takes care of the rest. <a href="./docs.html#auto-animate">[More]</a>
-          </p>
-        </div>
-
-        <div class="col-xs-4">
-          <img class="image-center" src="./img/zoomtoarea.gif">
-          <h3>
-            Make it big.
-          </h3>
-          <p>
-            Mark an area on the slide, and
-            <strong>zoom to area</strong>
-            zooms in on it with a slick animation. [Coming Soon]
-          </p>
-        </div>
+      {% assign currentRow = 1 %}
+      {% for feature in site.data.features %}
+      {% if forloop.index == 4 * currentRow %}
       </div>
-
       <div class="row">
-        <div class="col-xs-4">
-          <img class="image-center" src="./img/highlightpoints.gif">
-          <h3>
-            Point-by-point highlights.
-          </h3>
-          <p>
-            <strong>Highlight</strong>
-            individual bullet points to show what you're describing. [Coming Soon]
-          </p>
-        </div>
-
-        <div class="col-xs-4">
-          <img class="image-center" src="./img/notestoaudio.gif">
-          <h3>
-            Generate narration with a click.
-          </h3>
-          <p>
-            Create audio explanations using your speaker notes - perfect for self-learning materials. [Coming Soon]
-          </p>
-        </div>
+      {% endif %}
+      <div class="col-xs-4">
+        <img class="image-center" src="{{feature.img}}">
+        <h3>{{feature.tagline}}</h3>
+        <p>
+          {{feature.description}}
+          {% if feature.url %}
+          <a href="{{feature.url}}">[More]</a>
+          {% else %}
+          [Coming Soon]
+          {% endif %}
+        </p>
+      </div>
+      {% endfor %}
       </div>
     </div>
   </div>

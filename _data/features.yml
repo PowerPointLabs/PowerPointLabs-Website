@@ -1,0 +1,32 @@
+- {
+  img: "./img/spotlight.gif",
+  tagline: "Light up your slides.",
+  description: "Draw a region of any shape, and use <strong>spotlight</strong> to attract your audience's attention to it.",
+  url: "./docs.html#spotlight"
+}
+
+
+- {
+  img: "./img/auto-animate.gif",
+  tagline: "Easily animate from A to B. ",
+  description: "Show where an object starts, and where it should end up. <strong>Auto animate</strong> takes care of the rest.",
+  url: "./docs.html#auto-animate"
+}
+
+- {
+  img: "./img/zoomtoarea.gif",
+  tagline: "Make it big.",
+  description: "Mark an area on the slide, and <strong>zoom to area</strong> zooms in on it with a slick animation."
+}
+
+- {
+  img: "./img/highlightpoints.gif",
+  tagline: "Point-by-point highlights.",
+  description: "<strong>Highlight</strong> individual bullet points to show what you're describing."
+}
+
+- {
+  img: "./img/notestoaudio.gif",
+  tagline: "Generate narration with a click.",
+  description: "Create audio explanations using your speaker notes - perfect for self-learning materials."
+}
