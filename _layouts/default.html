@@ -6,6 +6,8 @@
       
       {{ content }}
 
+      {% unless page.hideFooter %}
       {% include footer.html %}
+      {% endunless %}
     </body>
 </html>
