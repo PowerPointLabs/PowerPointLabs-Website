@@ -14,6 +14,13 @@
 }
 
 - {
+  img: "./img/notestoaudio.gif",
+  tagline: "Generate narration with a click.",
+  description: "Create audio explanations using your speaker notes - perfect for self-learning materials.",
+  url: "./docs.html#auto-narrate"
+}
+
+- {
   img: "./img/zoomtoarea.gif",
   tagline: "Make it big.",
   description: "Mark an area on the slide, and <strong>zoom to area</strong> zooms in on it with a slick animation."
@@ -23,10 +30,4 @@
   img: "./img/highlightpoints.gif",
   tagline: "Point-by-point highlights.",
   description: "<strong>Highlight</strong> individual bullet points to show what you're describing."
-}
-
-- {
-  img: "./img/notestoaudio.gif",
-  tagline: "Generate narration with a click.",
-  description: "Create audio explanations using your speaker notes - perfect for self-learning materials."
 }
