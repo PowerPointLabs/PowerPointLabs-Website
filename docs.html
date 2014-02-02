@@ -1,6 +1,6 @@
----
-layout: defaultScrollSpy
-title: Documentation - PowerPointLabs
+--- 
+layout: defaultScrollSpy 
+title: Documentation - PowerPointLabs 
 ---
 
 <div class="container">
@@ -35,7 +35,8 @@ title: Documentation - PowerPointLabs
         <div class="page-header">
           <h2>
             <a class="anchor-bookmark" id="spotlight"></a>Spotlight
-            <small><a href="./samples/spotlight%20sample.pptx">[Sample Slides]</a></small>
+            <small><a href="./samples/spotlight%20sample.pptx">[Sample Slides]</a>
+            </small>
           </h2>
         </div>
         <p>
@@ -68,14 +69,18 @@ title: Documentation - PowerPointLabs
           tab (shown above), then select the darkened shadow area and click
           <code>Recreate Spotlight</code>.
         </p>
-        <p><strong>You can download the slides used in this example <a href="./img/docs/spotlight%20sample.pptx">here.</a></strong></p>
+        <p>
+          <strong>You can download the slides used in this example <a href="./img/docs/spotlight%20sample.pptx">here.</a>
+          </strong>
+        </p>
       </div>
 
       <div class="documentation-body">
         <div class="page-header">
           <h2>
             <a class="anchor-bookmark" id="auto-animate"></a>Auto Animate
-            <small><a href="./samples/auto-animate%20sample.pptx">[Sample Slides]</a></small>
+            <small><a href="./samples/auto-animate%20sample.pptx">[Sample Slides]</a>
+            </small>
           </h2>
         </div>
         <p>
@@ -118,7 +123,10 @@ title: Documentation - PowerPointLabs
           <img src="./img/docs/auto-animate-4.png" />
         </p>
         <p>That's all there is to it! You can play the slides to see how the animation turned out.</p>
-        <p><strong>You can download the slides used in this example <a href="./samples/auto-animate%20sample.pptx">here.</a></strong></p>
+        <p>
+          <strong>You can download the slides used in this example <a href="./samples/auto-animate%20sample.pptx">here.</a>
+          </strong>
+        </p>
         <h3>Adjusting Animations</h3>
         <p>
           The easiest way to tweak the animations is to adjust the shapes in the start and/or end slides, then select the animation slide and click
@@ -163,7 +171,105 @@ title: Documentation - PowerPointLabs
 
       <div class="documentation-body">
         <div class="page-header">
-          <h2>Zoom to Area, Highlight, and Narration</h2>
+          <h2>
+            <a class="anchor-bookmark" id="auto-narrate"></a>Auto Narrate</h2>
+        </div>
+
+        <p>
+          <img class="box-shadow" src="./img/docs/auto-narrate-1.png">
+        </p>
+        <p>
+          <strong>Auto Narrate</strong>
+          creates synthesized audio from your speaker notes, and embeds it on each slide. It's great for figuring out exactly what your speech will sound like, or creating pre-packaged presentations that can play automatically.</p>
+        <p>Auto Narrate uses the text entered in the Speaker Notes pane below each slide to generate audio:</p>
+        <p>
+          <img src="./img/docs/auto-narrate-2.png">
+        </p>
+        <p>Simply type what you'd like to say for the slide in the Speaker Notes, then click the
+          <code>Add Audio</code>
+          button; to hear what it sounds like immediately, check the
+          <code>Preview</code>
+          option. You can remove audio easily by clicking
+          <code>Remove Audio</code>.</p>
+        <p>To hear what a particular sentence or phrase will sound like without having to add audio for the entire slide, simply select it in the Speaker Notes pane, right-click, and choose
+          <code>Speak Selected Text</code>.</p>
+        <p>
+          <img class="box-shadow" src="./img/docs/auto-narrate-3.png">
+        </p>
+        <blockquote>
+          <p>
+            <strong>Note</strong>: if you make changes to your speech, it isn't necessary to remove any audio that's already been embedded; PowerPointLabs will automatically take care of it when you click
+            <code>Add Audio</code>
+            again.</p>
+        </blockquote>
+        <p>If you'd like to add or remove audio on all the slides in your presentation, simply check the
+          <code>All Slides</code>
+          option. PowerPointLabs will use each slide's speaker notes when generating audio.</p>
+        <h3>Tags</h3>
+        <p>For more fine-grained control over the generated audio, you can use a variety of
+          <strong>tags</strong>
+          to specify aspects such as speed, pronunciation, and even the type of voice to use.</p>
+        <p>Tags come in two types:
+          <em>paired</em>
+          and
+          <em>unpaired</em>.</p>
+        <h4>Paired Tags</h4>
+        <p>A paired set of tags encloses a particular word or phrase, and is used to inform PowerPointLabs how to vocalise that particular section of text.</p>
+        <ul>
+          <li>
+            [Speed: &lt;fast/medium/slow/extra fast/extra slow&gt;] &lt;Text to say&gt; [EndSpeed]
+            <ul>
+              <li>Specifies the speed at which the enclosed text should be read.</li>
+            </ul>
+          </li>
+          <li>
+            [Voice: &lt;voice name&gt;] &lt;Text to say&gt; [EndVoice]
+            <ul>
+              <li>Specifies the voice the enclosed text should be read in.</li>
+            </ul>
+          </li>
+          <li>
+            [Pronounce: &lt;IPA pronunciation&gt;] &lt;Word to pronounce&gt; [EndPronounce]
+            <ul>
+              <li>Specifies a particular pronunciation to use for the enclosed word.</li>
+            </ul>
+          </li>
+        </ul>
+        <p>For example, to have a particular sentence read at a quick pace, we would use:
+          <code>[Speed: fast]This sentence will be read quickly![EndSpeed]</code>
+        </p>
+        <h4>Unpaired Tags</h4>
+        <p>An unpaired tag is used to specify information that doesn't relate to a particular word or phrase.</p>
+        <ul>
+          <li>
+            [Pause: &lt;duration in seconds&gt;]
+            <ul>
+              <li>Inserts a pause at this point in the narration.</li>
+            </ul>
+          </li>
+          <li>
+            [AfterClick]
+            <ul>
+              <li>Triggers any narration after this point only after a &quot;click&quot; on the slide.</li>
+            </ul>
+          </li>
+        </ul>
+        <blockquote>
+          <p>
+            <strong>Note</strong>: the AfterClick tag is especially useful if you have existing animations on the slide which are triggered by clicks. PowerPointLabs will set narration to play after all animations triggered by the corresponding click have completed.</p>
+        </blockquote>
+      </div>
+
+      <div class="documentation-body">
+        <div class="page-header">
+          <h2>
+            <a class="anchor-bookmark" id="auto-captions"></a>Auto Captions</h2>
+        </div>
+      </div>
+
+      <div class="documentation-body">
+        <div class="page-header">
+          <h2>Zoom to Area and Highlight</h2>
         </div>
         <p>
           These features are coming soon. Check back again later!
@@ -182,14 +288,17 @@ title: Documentation - PowerPointLabs
         <li>
           <a href="#auto-animate">Auto Animate</a>
         </li>
+        <li>
+          <a href="#auto-narrate">Auto Narrate</a>
+        </li>
+        <li>
+          <a href="#auto-captions">Auto Captions</a>
+        </li>
         <li class="disabled">
           <a>Zoom to Area</a>
         </li>
         <li class="disabled">
           <a>Highlight</a>
-        </li>
-        <li class="disabled">
-          <a>Narration</a>
         </li>
       </ul>
     </div>
