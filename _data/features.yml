@@ -7,9 +7,16 @@
 
 - {
   img: "./img/auto-animate.gif",
-  tagline: "Easily animate from A to B.",
-  description: "Show where an object starts, and where it should end up. <strong>Auto animate</strong> takes care of the rest.",
+  tagline: "Easily transition from A to B.",
+  description: "Show where objects start, and where they should go. <strong>Auto animate</strong> takes care of the rest.",
   url: "./docs.html#auto-animate"
+}
+
+- {
+  img: "./img/animate-in-slide.gif",
+  tagline: "In-slide animations, simplified.",
+  description: "<strong>Animate In Slide</strong> makes custom animations a breeze.",
+  url: "./docs.html#animate-in-slide"
 }
 
 - {
