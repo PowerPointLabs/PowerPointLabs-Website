@@ -7,7 +7,7 @@
 
 - {
   img: "./img/auto-animate.gif",
-  tagline: "Easily animate from A to B. ",
+  tagline: "Easily animate from A to B.",
   description: "Show where an object starts, and where it should end up. <strong>Auto animate</strong> takes care of the rest.",
   url: "./docs.html#auto-animate"
 }
@@ -29,7 +29,8 @@
 - {
   img: "./img/zoomtoarea.gif",
   tagline: "Make it big.",
-  description: "Mark an area on the slide, and <strong>zoom to area</strong> zooms in on it with a slick animation."
+  description: "Use <strong>Auto Zoom</strong> to effortlessly zoom in on the details, then zoom back out to see the bigger picture.",
+  url: "./docs.html#auto-zoom"
 }
 
 - {

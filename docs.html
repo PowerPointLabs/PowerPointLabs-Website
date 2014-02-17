@@ -238,52 +238,95 @@ title: Documentation - PowerPointLabs
           and
           <em>unpaired</em>.</p>
 
-      <h3>Paired Tags</h3>
-      <p>A paired set of tags encloses a particular word or phrase, and is used to inform PowerPointLabs how to vocalise that particular section of text.</p>
-      <h4>Speed</h4>
-      <p>Speed tags are used to specify the pace at which the text they enclose should be read.</p>
-      <blockquote>
-      <p><strong>Syntax:</strong> <code>[Speed: &lt;fast/medium/slow/extra fast/extra slow&gt;]</code> &lt;Text to say&gt; <code>[EndSpeed]</code></p>
-      <p><strong>Example:</strong> <code>[Speed: slow]</code>This point is very important.<code>[EndSpeed]</code></p>
-      </blockquote>
-      <h4>Voice</h4>
-      <p>Voice tags can be used to change the synthesized voice for a particular section of text. You can see a list of all voices installed on your computer in the <code>Default Voice</code> dropdown:</p>
-      <p><img src="./img/docs/auto-narrate-4.png" /></p>
-      <blockquote>
-      <p><strong>Note:</strong> there's no need to type the entire name displayed in the dropdown; PowerPointLabs will choose the first voice that contains the portion that you enter.</p>
-      </blockquote>
-      <p><span></span></p>
-      <blockquote>
-      <p><strong>Syntax:</strong> <code>[Voice: &lt;voice name\&gt;]</code> &lt;Text to say&gt; <code>[EndVoice]</code></p>
-      <p><strong>Example:</strong> <code>[Voice: David]</code>Hello there!<code>[EndVoice]</code></p>
-      </blockquote>
-      <h4>Pronounce</h4>
-      <p>Pronounce tags can be used to specify the way a word should be pronounced, using <a href="http://www.langsci.ucl.ac.uk/ipa/fullchart.html">IPA notation.</a> This can be useful in situations where the generated speech uses a particular pronunciation of a word which isn't correct in context.</p>
-      <blockquote>
-      <p><strong>Note:</strong> the <a href="http://www.dictionary.com">Dictionary.com</a> definition pages include IPA pronunciations that can be used with the Pronounce tag.</p>
-      </blockquote>
-      <p><span></span></p>
-      <blockquote>
-      <p><strong>Syntax:</strong> <code>[Pronounce: &lt;IPA pronunciation\&gt;]</code> &lt;Word to pronounce&gt; <code>[EndPronounce]</code></p>
-      <p><strong>Example:</strong> I <code>[Pronounce: rɛd]</code>read<code>[EndPronounce]</code> that book a while ago.</p>
-      </blockquote>
-      <h3>Unpaired Tags</h3>
-      <p>An unpaired tag is used to specify information that doesn't relate to a particular word or phrase.</p>
-      <h4>Pause</h4>
-      <p>As its name implies, the Pause tag can be used to specify a pause in the narration. This is useful for creating short breaks between sentences or ideas.</p>
-      <blockquote>
-      <p><strong>Syntax:</strong> <code>[Pause: &lt;duration in seconds\&gt;]</code></p>
-      <p><strong>Example:</strong> That's an important point. <code>[Pause: 3]</code> Let's move on to discuss...</p>
-      </blockquote>
-      <h4>AfterClick</h4>
-      <p>The AfterClick tag is used to set portions of narration to be triggered only after the slide is clicked.</p>
-      <blockquote>
-      <p><strong>Note</strong>: this tag is especially useful if you have existing animations on the slide which are triggered by clicks. PowerPointLabs will set narration to play after all animations triggered by the corresponding click have completed.</p>
-      </blockquote>
-      <p><span></span></p>
-      <blockquote>
-      <p><strong>Syntax:</strong> <code>[AfterClick]</code></p>
-      </blockquote>
+        <h3>Paired Tags</h3>
+        <p>A paired set of tags encloses a particular word or phrase, and is used to inform PowerPointLabs how to vocalise that particular section of text.</p>
+        <h4>Speed</h4>
+        <p>Speed tags are used to specify the pace at which the text they enclose should be read.</p>
+        <blockquote>
+          <p>
+            <strong>Syntax:</strong>
+            <code>[Speed: &lt;fast/medium/slow/extra fast/extra slow&gt;]</code>&lt;Text to say&gt;
+            <code>[EndSpeed]</code>
+          </p>
+          <p>
+            <strong>Example:</strong>
+            <code>[Speed: slow]</code>This point is very important.
+            <code>[EndSpeed]</code>
+          </p>
+        </blockquote>
+        <h4>Voice</h4>
+        <p>Voice tags can be used to change the synthesized voice for a particular section of text. You can see a list of all voices installed on your computer in the
+          <code>Default Voice</code>dropdown:</p>
+        <p>
+          <img src="./img/docs/auto-narrate-4.png" />
+        </p>
+        <blockquote>
+          <p>
+            <strong>Note:</strong>there's no need to type the entire name displayed in the dropdown; PowerPointLabs will choose the first voice that contains the portion that you enter.</p>
+        </blockquote>
+        <p>
+          <span></span>
+        </p>
+        <blockquote>
+          <p>
+            <strong>Syntax:</strong>
+            <code>[Voice: &lt;voice name\&gt;]</code>&lt;Text to say&gt;
+            <code>[EndVoice]</code>
+          </p>
+          <p>
+            <strong>Example:</strong>
+            <code>[Voice: David]</code>Hello there!
+            <code>[EndVoice]</code>
+          </p>
+        </blockquote>
+        <h4>Pronounce</h4>
+        <p>Pronounce tags can be used to specify the way a word should be pronounced, using <a href="http://www.langsci.ucl.ac.uk/ipa/fullchart.html">IPA notation.</a> This can be useful in situations where the generated speech uses a particular pronunciation of a word which isn't correct in context.</p>
+        <blockquote>
+          <p>
+            <strong>Note:</strong>the <a href="http://www.dictionary.com">Dictionary.com</a> definition pages include IPA pronunciations that can be used with the Pronounce tag.</p>
+        </blockquote>
+        <p>
+          <span></span>
+        </p>
+        <blockquote>
+          <p>
+            <strong>Syntax:</strong>
+            <code>[Pronounce: &lt;IPA pronunciation\&gt;]</code>&lt;Word to pronounce&gt;
+            <code>[EndPronounce]</code>
+          </p>
+          <p>
+            <strong>Example:</strong>I
+            <code>[Pronounce: rɛd]</code>read
+            <code>[EndPronounce]</code>that book a while ago.</p>
+        </blockquote>
+        <h3>Unpaired Tags</h3>
+        <p>An unpaired tag is used to specify information that doesn't relate to a particular word or phrase.</p>
+        <h4>Pause</h4>
+        <p>As its name implies, the Pause tag can be used to specify a pause in the narration. This is useful for creating short breaks between sentences or ideas.</p>
+        <blockquote>
+          <p>
+            <strong>Syntax:</strong>
+            <code>[Pause: &lt;duration in seconds\&gt;]</code>
+          </p>
+          <p>
+            <strong>Example:</strong>That's an important point.
+            <code>[Pause: 3]</code>Let's move on to discuss...</p>
+        </blockquote>
+        <h4>AfterClick</h4>
+        <p>The AfterClick tag is used to set portions of narration to be triggered only after the slide is clicked.</p>
+        <blockquote>
+          <p>
+            <strong>Note</strong>: this tag is especially useful if you have existing animations on the slide which are triggered by clicks. PowerPointLabs will set narration to play after all animations triggered by the corresponding click have completed.</p>
+        </blockquote>
+        <p>
+          <span></span>
+        </p>
+        <blockquote>
+          <p>
+            <strong>Syntax:</strong>
+            <code>[AfterClick]</code>
+          </p>
+        </blockquote>
 
 
       </div>
@@ -316,16 +359,57 @@ title: Documentation - PowerPointLabs
             <code>Add Captions</code>
             again, and PowerPointLabs will update everything for you.</p>
         </blockquote>
+      </div>
 
+      <div class="documentation-body">
+        <div class="page-header">
+          <h2>
+            <a class="anchor-bookmark" id="auto-zoom"></a>Auto Zoom
+          </h2>
+        </div>
+
+        <p>
+          <img src="./img/docs/auto-zoom-1.gif" />
+        </p>
+        <p>
+          <strong>Auto Zoom</strong>
+          allows you to progressively drill down into details without your audience losing sight of the big picture, while preventing them from being overwhelmed with information.
+          </p>
+        <p>To use Auto Zoom, you first need to create two slides: one for the &quot;bigger picture&quot; view, and one with the content to drill down into. Leave an empty area on the &quot;big picture&quot; slide where you want the zoom effect to take place:</p>
+        <p>
+          <img src="./img/docs/auto-zoom-2.png" />
+        </p>
+        <p>Next, on the &quot;big picture&quot; slide, draw a rectangle in the empty space - this will be where the content from the &quot;drill down&quot; slide will appear.</p>
+        <p>
+          <img src="./img/docs/auto-zoom-3.png" />
+        </p>
+        <p>Select the rectangle, and click the
+          <code>Zoom In</code>
+          button.</p>
+        <p>
+          <img src="./img/docs/auto-zoom-4.png" />
+        </p>
+        <p>PowerPointLabs will replace the rectangle with an image of the &quot;drill down&quot; slide, and add an animation slide with the zoom effect.</p>
+        <p>
+          <img src="./img/docs/auto-zoom-5.png" />
+        </p>
+        <p>If you change the content of the &quot;drill down&quot; slide later, just select the picture and click
+          <code>Zoom In</code>
+          again to regenerate the zoom animation.</p>
+        <h3>Zooming Out</h3>
+        <p>To create the effect of zooming back out to the &quot;big picture&quot; slide, simply duplicate the &quot;big picture&quot; slide and place it after the &quot;drill down&quot; slide. Next, select the picture of the &quot;drill down&quot; slide and click
+          <code>Zoom Out</code>.</p>
+
+        <p>The <a href="./samples/tutorial.pptx">Quick Tutorial file</a> also contains a full walkthrough of this process, including both zooming in and out.</p>
 
       </div>
 
       <div class="documentation-body">
         <div class="page-header">
-          <h2>Zoom to Area and Highlight</h2>
+          <h2>Highlight</h2>
         </div>
         <p>
-          These features are coming soon. Check back again later!
+          This feature is coming soon. Check back again later!
         </p>
       </div>
     </div>
@@ -347,8 +431,8 @@ title: Documentation - PowerPointLabs
         <li>
           <a href="#auto-captions">Auto Captions</a>
         </li>
-        <li class="disabled">
-          <a>Zoom to Area</a>
+        <li>
+          <a href="#auto-zoom">Auto Zoom</a>
         </li>
         <li class="disabled">
           <a>Highlight</a>
