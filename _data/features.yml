@@ -34,18 +34,19 @@
 }
 
 - {
-  img: "./img/auto-zoom.gif",
-  tagline: "Drill down. Step back.",
-  description: "Use <strong>Auto Zoom</strong> to effortlessly drill down to the details, then step back out to see the whole picture.",
-  url: "./docs.html#auto-zoom"
-}
-
-- {
   img: "./img/zoom-to-area.gif",
   tagline: "Make it big.",
   description: "Easily zoom in on part of the slide with <strong>Zoom to Area</strong>.",
   url: "./docs.html#zoom-to-area"
 }
+
+- {
+  img: "./img/auto-zoom.gif",
+  tagline: "Drill down. Step back.",
+  description: "Use <strong>Drill Down</strong> to effortlessly drill down to the details, then step back out to see the whole picture.",
+  url: "./docs.html#drill-down"
+}
+
 
 - {
   img: "./img/auto-crop.gif",
