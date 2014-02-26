@@ -48,9 +48,9 @@
 }
 
 - {
-  img: "./img/crop-to-shape.gif",
+  img: "./img/auto-crop.gif",
   tagline: "Cut it out.",
-  description: "Need just part of an image? <strong>Crop to Shape</strong> lets you cut it, no image editor necessary.",
+  description: "Need just part of an image? <strong>Auto Crop</strong> lets you cut it, no image editor necessary.",
   url: "./docs.html#crop-to-shape"
 }
 
