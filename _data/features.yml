@@ -34,11 +34,26 @@
 }
 
 - {
-  img: "./img/zoomtoarea.gif",
-  tagline: "Make it big.",
-  description: "Use <strong>Auto Zoom</strong> to effortlessly zoom in on the details, then zoom back out to see the bigger picture.",
+  img: "./img/auto-zoom.gif",
+  tagline: "Drill down. Step back.",
+  description: "Use <strong>Auto Zoom</strong> to effortlessly drill down to the details, then step back out to see the whole picture.",
   url: "./docs.html#auto-zoom"
 }
+
+- {
+  img: "./img/zoom-to-area.gif",
+  tagline: "Make it big.",
+  description: "Easily zoom in on part of the slide with <strong>Zoom to Area</strong>.",
+  url: "/docs.html#zoom-to-area"
+}
+
+- {
+  img: "./img/crop-to-shape.gif",
+  tagline: "Cut it out.",
+  description: "Need just part of an image? <strong>Crop to Shape</strong> lets you cut it, no image editor necessary.",
+  url: "./docs.html#crop-to-shape"
+}
+
 
 - {
   img: "./img/highlightpoints.gif",
