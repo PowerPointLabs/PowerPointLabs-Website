@@ -59,9 +59,10 @@ title: PowerPointLabs
       <div class="row">
       {% assign currentRow = 1 %}
       {% for feature in site.data.features %}
-      {% if forloop.index == 4 * currentRow %}
+      {% if forloop.index0 == 3 * currentRow %}
       </div>
       <div class="row">
+        {% increment currentRow %}
       {% endif %}
       <div class="col-xs-4">
         <img class="image-center" src="{{feature.img}}">
