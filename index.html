@@ -57,13 +57,7 @@ title: PowerPointLabs
 
     <div class="feature-grid">
       <div class="row">
-      {% assign currentRow = 1 %}
       {% for feature in site.data.features %}
-      {% if forloop.index0 == 3 * currentRow %}
-      </div>
-      <div class="row">
-        {% increment currentRow %}
-      {% endif %}
       <div class="col-xs-4">
         <img class="image-center" src="{{feature.img}}">
         <h3>{{feature.tagline}}</h3>
@@ -76,6 +70,11 @@ title: PowerPointLabs
           {% endif %}
         </p>
       </div>
+      {% capture remainder %}{{ forloop.index | modulo:3 }}{% endcapture %}
+      {% if remainder == '0' %}
+      </div>
+      <div class="row">
+      {% endif %}
       {% endfor %}
       </div>
     </div>
