@@ -44,14 +44,14 @@
   img: "./img/zoom-to-area.gif",
   tagline: "Make it big.",
   description: "Easily zoom in on part of the slide with <strong>Zoom to Area</strong>.",
-  url: "/docs.html#zoom-to-area"
+  url: "./docs.html#zoom-to-area"
 }
 
 - {
   img: "./img/auto-crop.gif",
   tagline: "Cut it out.",
   description: "Need just part of an image? <strong>Auto Crop</strong> lets you cut it, no image editor necessary.",
-  url: "./docs.html#crop-to-shape"
+  url: "./docs.html#auto-crop"
 }
 
 
