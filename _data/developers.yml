@@ -14,3 +14,8 @@
   img: "./img/team/jerome.png",
   url: "http://ayulin.net"
 }
+
+- {
+  name: "Xie Kai",
+  img: "./img/team/kai.png"
+}
