@@ -1,0 +1,16 @@
+- {
+  name: "Damith C. Rajapakse",
+  img: "./img/team/damith.png",
+  url: "http://www.comp.nus.edu.sg/~damithch/"
+}
+
+- {
+  name: "Raunak Rajpuria",
+  img: "./img/team/raunak.png",
+}
+
+- {
+  name: "Jerome Cheng",
+  img: "./img/team/jerome.png",
+  url: "http://ayulin.net"
+}

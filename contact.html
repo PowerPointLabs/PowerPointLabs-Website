@@ -9,24 +9,23 @@ hideFooter: true
     <h1>The Team</h1>
   </div>
   <div class="row">
+  {% for developer in site.data.developers %}
     <div class="developer-details col-xs-2">
-      <a href="http://www.comp.nus.edu.sg/~damithch/">
-        <img class="box-shadow" src="./img/team/damith.png">
-        <p>Damith C. Rajapakse</p>
-      </a>
-    </div>
-
-    <div class="developer-details col-xs-2">
-      <img class="box-shadow" src="./img/team/raunak.png">
-      <p>Raunak Rajpuria</p>
-    </div>
-
-    <div class="developer-details col-xs-2">
-      <a href="http://ayulin.net">
-        <img class="box-shadow" src="./img/team/jerome.png">
-        <p>Jerome Cheng</p>
-      </a>
-    </div>
+      {% if developer.url %}
+        <a href="{{developer.url}}">
+      {% endif %}
+        <img class="box-shadow" src="{{developer.img}}">
+        <p>{{developer.name}}</p>
+      {% if developer.url %}
+        </a>
+      {% endif %}
+      </div>
+      {% capture remainder %}{{ forloop.index | modulo: 6}}{% endcapture %}
+      {% if remainder == '0' %}
+        </div>
+        <div class="row">
+      {% endif %}
+  {% endfor %}
   </div>
   <div class="row col-xs-12">
     <p>
