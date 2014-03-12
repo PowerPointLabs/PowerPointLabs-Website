@@ -70,4 +70,6 @@ footer {
 .nav-pills > li > a {
   border-radius: 0;
 }
-
+.slide {
+  width: 320px;
+}
