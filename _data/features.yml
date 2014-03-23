@@ -36,7 +36,7 @@
 - {
   img: "./img/zoom-to-area.gif",
   tagline: "Zoom and Pan.",
-  description: "Easily zoom in on part of the slide with <strong>Zoom to Area</strong>.",
+  description: "Easily zoom in on and pan between parts of the slide with <strong>Zoom to Area</strong>.",
   url: "./docs.html#zoom-to-area"
 }
 
