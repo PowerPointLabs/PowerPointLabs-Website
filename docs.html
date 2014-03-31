@@ -21,6 +21,7 @@ title: Documentation - PowerPointLabs
           <div class="page-header">
             <h2>
               <a class="anchor-bookmark" {% if section.bookmark %}id="{{section.bookmark}}"{% endif %}></a>{{section.title}}
+              {% if section.sample %}<small><a href="{{section.sample}}">[Sample Slides]</a></small>{% endif %}
             </h2>
           </div>
           {{section.content}}
