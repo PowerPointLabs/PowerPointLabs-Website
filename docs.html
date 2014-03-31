@@ -16,27 +16,16 @@ title: Documentation - PowerPointLabs
         </p>
       </div>
 
-      <div class="documentation-body">
-        <div class="page-header">
-          <h2>
-            <a class="anchor-bookmark" id="faq"></a>Frequently Asked Questions
-          </h2>
+      {% for section in site.categories.documentation %}
+        <div class="documentation-body">
+          <div class="page-header">
+            <h2>
+              <a class="anchor-bookmark" {% if section.bookmark %}id="{{section.bookmark}}"{% endif %}></a>{{section.title}}
+            </h2>
+          </div>
+          {{section.content}}
         </div>
-        <p>
-          <strong>What versions of PowerPoint does PowerPointLabs work with?</strong>
-          <br />PowerPointLabs supports PowerPoint 2010 and 2013 on Windows.
-        </p>
-
-        <p>
-          <strong>Do I need PowerPointLabs installed when I present?</strong>
-          <br />Nope! The presentations created with PowerPointLabs can be opened and presented even without the plugin installed - you can display them on other computers without needing to install the plugin on them.
-        </p>
-
-        <p>
-          <strong>How do I get new versions of PowerPointLabs?</strong>
-          <br />You don't need to do a thing; PowerPointLabs will update itself automatically.
-        </p>
-      </div>
+      {% endfor %}
 
       <div class="documentation-body">
         <div class="page-header">
