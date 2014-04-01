@@ -27,4 +27,21 @@ During the presentation, each bullet point will then be highlighted after a corr
 
 >If you'd like to specify a different ordering, simply `Ctrl+click` the text boxes in the desired order, then click `Highlight Text`.
 
- 
+###Highlight Background
+**Highlight Background** can be used when you want a flashier way of emphasis, and provides an effect similar to that of a real highlighter on paper.
+
+<p>
+  <img class="box-shadow slide" src="./img/docs/highlight-background-1.gif">
+</p>
+
+To apply this effect to a slide with bullet points on it, just click `Highlight Background` on the PowerPointLabs ribbon.
+
+<p>
+  <img class="box-shadow" src="./img/docs/highlight-background-2.png">
+</p>
+
+When the presentation is running, each bullet point will be highlighted after a corresponding click.
+
+> **Note:** just as with Highlight Text, multiple text boxes will be highlighted in the order in which they appear in the selection pane.
+
+> To override this ordering, just `Ctrl+click` the text boxes in the order they should be highlighted in, then click `Highlight Background`.
