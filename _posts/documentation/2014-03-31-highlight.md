@@ -45,3 +45,20 @@ When the presentation is running, each bullet point will be highlighted after a 
 > **Note:** just as with Highlight Text, multiple text boxes will be highlighted in the order in which they appear in the selection pane.
 
 > To override this ordering, just `Ctrl+click` the text boxes in the order they should be highlighted in, then click `Highlight Background`.
+
+###Custom Colors
+The colors used by Highlight Bullets can be customized by opening the settings dialog from the ribbon:
+
+<p>
+  <img class="box-shadow" src="./img/docs/highlight-bullets-1.png">
+</p>
+
+<p>
+  <img class="box-shadow" src="./img/docs/highlight-bullets-2.png">
+</p>
+
+The `Text Highlight Color` is the color used by Highlight Text to emphasise the current point. After the highlight moves on to the next point, the `Text Default Color` is applied to the previously-highlighted point.
+
+The `Background Highlight Color` is the color used by Highlight Background when applying the "highlighter effect" to a point.
+
+> **Tip:** though the `Text Default Color` is usually the "normal" color used for text on the slide, changing it to a more subtle shade can be used to further emphasise that focus has moved on.
