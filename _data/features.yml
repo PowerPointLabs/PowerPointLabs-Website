@@ -1,4 +1,11 @@
 - {
+  img: "./img/highlightpoints.gif",
+  tagline: "Point-by-point highlights.",
+  description: "<strong>Highlight</strong> individual bullet points to show what you're describing.",
+  url: "./docs.html#highlight"
+}
+
+- {
   img: "./img/spotlight.gif",
   tagline: "Light up your slides.",
   description: "Draw a region of any shape, and use <strong>spotlight</strong> to attract your audience's attention to it.",
@@ -53,12 +60,4 @@
   tagline: "Cut it out.",
   description: "Need just part of an image? <strong>Auto Crop</strong> lets you cut it, no image editor necessary.",
   url: "./docs.html#auto-crop"
-}
-
-
-- {
-  img: "./img/highlightpoints.gif",
-  tagline: "Point-by-point highlights.",
-  description: "<strong>Highlight</strong> individual bullet points to show what you're describing.",
-  url: "./docs.html#highlight"
 }
