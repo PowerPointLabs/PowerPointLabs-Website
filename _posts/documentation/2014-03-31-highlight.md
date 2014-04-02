@@ -2,7 +2,7 @@
 layout: post
 title: Highlight Bullets
 category: documentation
-date: 2014-03-31 13:45:06
+date: 2014-03-31 13:45:00
 bookmark: highlight
 ---
 
