@@ -36,6 +36,9 @@ The settings dialog allows you to change the default voice used for narration, o
 
 ![](./img/docs/auto-narrate-6.png)
 
+> Older versions of PowerPointLabs offered an "All Slides" checkbox in the settings dialog. Starting with version 1.7, PowerPointLabs will add or remove audio from the slides selected in the lefthand slide selection pane.
+
+> To add or remove audio from all slides at once, simply click in the slide selection pane, press `Ctrl+A` to select all slides, then click the `Add Audio` or `Remove Audio` button. You can also select individual slides by `Ctrl+Click`ing on them.
 
 ###Tags
 
