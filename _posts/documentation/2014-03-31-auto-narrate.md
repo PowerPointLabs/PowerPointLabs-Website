@@ -70,8 +70,7 @@ Voice tags can be used to change the synthesized voice for a particular section 
  
  
 ####Pronounce
-Pronounce tags can be used to specify the way a word should be pronounced, using [IPA notation](http://www.langsci.ucl.ac.uk/ipa/fullchart.html)
-This can be useful in situations where the generated speech uses a particular pronunciation of a word which isn't correct in context.
+Pronounce tags can be used to specify the way a word should be pronounced, using [IPA notation](http://www.langsci.ucl.ac.uk/ipa/fullchart.html). This can be useful in situations where the generated speech uses a particular pronunciation of a word which isn't correct in context.
 
 > **Note:** the [Dictionary.com](http://www.dictionary.com) definition pages include IPA pronunciations that can be used with the Pronounce tag.
 
