@@ -19,3 +19,4 @@ button.
 
 > **Note:** as with Auto Narrate, it isn't necessary to remove captions when you update the text in the Speaker Notes - just hit `Add Captions` again, and PowerPointLabs will update everything for you.
 
+> Similarly, to add or remove captions to multiple slides at once, simply select them by `Ctrl+Click`ing in the lefthand slide selection pane.
