@@ -3,52 +3,66 @@
   max-width: none !important;
   width: 1170px;
 }
+
 h1, h2, h3, h4, h5, h6, p, a, li {
   font-family:'Open Sans', sans-serif;
 }
+
 body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .text-right {
   text-align: right;
 }
+
 .text-center {
   text-align: center;
 }
+
 .feature-grid .row {
   margin-bottom: 65px;
 }
+
 .feature-grid h3 {
   color: #FF6500;
 }
+
 .developer-details {
   vertical-align: top;
 }
+
 .download-button {
   color: #FFF;
   border-color: #F0590F;
   background-color: #F37A3F;
 }
+
 .subtle-background {
   background-color: #eef4fb;
 }
+
 .image-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .box-shadow {
   -webkit-box-shadow: 0 1px 5px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0 1px 5px rgba(50, 50, 50, 0.75);
   box-shadow: 0 1px 5px rgba(50, 50, 50, 0.75);
 }
+
 .documentation-body blockquote p {
   font-size: 100%;
 }
+
 .anchor-bookmark {
   padding-top: 50px;
 }
+
 footer {
   position: fixed;
   bottom: 0;
@@ -59,17 +73,21 @@ footer {
   -moz-box-shadow: 0 -1px 2px rgba(50, 50, 50, 0.1);
   box-shadow: 0 -1px 2px rgba(50, 50, 50, 0.1);
 }
+
 .documentation-body code {
   color: #2a2a2a;
   background: #eee;
 }
+
 .right-navbar .affix {
   top: 60px;
   width: 165px;
 }
+
 .nav-pills > li > a {
   border-radius: 0;
 }
+
 .slide {
   width: 270px;
 }
