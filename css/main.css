@@ -91,3 +91,7 @@ footer {
 .slide {
   width: 270px;
 }
+
+a, .btn-link {
+  color: #0070C0;
+}
