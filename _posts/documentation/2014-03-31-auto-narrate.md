@@ -47,18 +47,18 @@ to specify aspects such as speed, pronunciation, and even the type of voice to u
 
 Tags come in two types: *paired* and *unpaired*.
 
-###Paired Tags
+####Paired Tags
 
 A paired set of tags encloses a particular word or phrase, and is used to inform PowerPointLabs how to vocalise that particular section of text.
 
-####Speed
+#####Speed
 Speed tags are used to specify the pace at which the text they enclose should be read.
 
 > **Syntax:** `[Speed: <fast/medium/slow/extra fast/extra slow>]`&lt;Text to say&gt;`[EndSpeed]`
 
 > **Example:** `[Speed: slow]` This point is very important. `[EndSpeed]`
   
-####Voice
+#####Voice
 Voice tags can be used to change the synthesized voice for a particular section of text. You can see a list of all voices installed on your computer in the `Default Voice` dropdown:
 
 ![](./img/docs/auto-narrate-4.png)
@@ -72,7 +72,7 @@ Voice tags can be used to change the synthesized voice for a particular section 
 >**Example:** `[Voice: David]` Hello there! `[EndVoice]`
  
  
-####Pronounce
+#####Pronounce
 Pronounce tags can be used to specify the way a word should be pronounced, using [IPA notation](http://www.langsci.ucl.ac.uk/ipa/fullchart.html). This can be useful in situations where the generated speech uses a particular pronunciation of a word which isn't correct in context.
 
 > **Note:** the [Dictionary.com](http://www.dictionary.com) definition pages include IPA pronunciations that can be used with the Pronounce tag.
@@ -85,11 +85,11 @@ Pronounce tags can be used to specify the way a word should be pronounced, using
 > **Example:** I `[Pronounce: rɛd]` read `[EndPronounce]` that book a while ago.
 
 
-###Unpaired Tags
+####Unpaired Tags
 
 An unpaired tag is used to specify information that doesn't relate to a particular word or phrase.
 
-####Pause
+#####Pause
 As its name implies, the Pause tag can be used to specify a pause in the narration. This is useful for creating short breaks between sentences or ideas.
 
 > **Syntax:** `[Pause: <duration in seconds>]`
@@ -97,7 +97,7 @@ As its name implies, the Pause tag can be used to specify a pause in the narrati
 > **Example:** That's an important point. `[Pause: 3]` Let's move on to discuss...
 
 
-####AfterClick
+#####AfterClick
 The AfterClick tag is used to set portions of narration to be triggered only after the slide is clicked.
 
 > **Note:** this tag is especially useful if you have existing animations on the slide which are triggered by clicks. PowerPointLabs will set narration to play after all animations triggered by the corresponding click have completed.
