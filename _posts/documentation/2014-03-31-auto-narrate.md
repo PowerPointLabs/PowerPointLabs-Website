@@ -28,19 +28,13 @@ To hear what a particular sentence or phrase will sound like without having to a
 
 >**Note:** if you make changes to your speech, it isn't necessary to remove any audio that's already been embedded; PowerPointLabs will automatically take care of it when you click `Add Audio` again.
 
-
-There are several options that can be adjusted by opening the settings dialog:
+The settings dialog allows you to change the default voice used for narration, or to preview audio after it is added:
 
 <p>
   <img class="box-shadow" src="./img/docs/auto-narrate-5.png">
 </p>
 
 ![](./img/docs/auto-narrate-6.png)
-
-To preview the audio being added to the current slide, just check the `Preview` option.
-
-If you'd like to add or remove audio on all the slides in your presentation, simply check the `All Slides`
-option. PowerPointLabs will use each slide's speaker notes when generating audio.
 
 
 ###Tags
