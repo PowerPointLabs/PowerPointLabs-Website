@@ -10,8 +10,9 @@ bookmark: auto-narrate
   <img class="box-shadow" src="./img/docs/auto-narrate-1.png">
 </p>
 
-**Auto Narrate** creates synthesized audio from your speaker notes, and embeds it on each slide. It's great for figuring out exactly what your speech will sound like, or creating pre-packaged presentations that can play automatically.
+**Auto Narrate** creates synthesized audio from your speaker notes, and embeds it on each slide. It's great for figuring out exactly what your speech will sound like, or creating pre-packaged presentations that can play automatically. If you'd like, you can go one step further and easily record your own replacements for the generated audio.
 
+### Synthesizing Audio
 Auto Narrate uses the text entered in the Speaker Notes pane below each slide to generate audio:
 
 <p>
@@ -107,4 +108,35 @@ The AfterClick tag is used to set portions of narration to be triggered only aft
 
 > **Syntax:** `[AfterClick]`
 
+### Recording Your Own Audio
+PowerPointLabs also makes it easy to record your own audio narration, whether you're replacing synthesized narration or starting from scratch.
 
+To bring up the recording pane, click on the `Add Audio` menu button, then click `Record Audio Manually`.
+
+![](./img/docs/auto-narrate-7.png)
+
+<img class="box-shadow" src="./img/docs/auto-narrate-8.png">
+
+#### Replacing Synthesized Narration
+Any synthesized pieces of narration will appear in the `Audio` panel of the recording pane. To replace a particular section of the narration, simply select it - the corresponding section of the script (from the speaker notes) will then be shown in the `Current Script` field.
+
+<img class="box-shadow" src="./img/docs/auto-narrate-9.png">
+
+Simply click the record button to begin recording, then click stop once you have finished.
+
+Alternatively, you can click `Record During Slide Show` to replace audio while viewing the presentation - the slide show will launch, with two buttons overlaid onto each slide:
+
+<img class="box-shadow" src="./img/docs/auto-narrate-10.png">
+
+This allows you to record narration for the slide or presentation in sequence, viewing animations and transitions in the process. You'll hear the current line to be recorded over - just click `Start Recording` to being recording your replacement.
+
+<img class="box-shadow" src="./img/docs/auto-narrate-11.png">
+
+When you're done, click `Stop and Advance`. If you want to go back and try again, just click `Undo` afterwards.
+
+#### Recording from a Script
+Even if you haven't used Auto Narrate to create synthesized narration, you can still record your own narration easily using the same process. Simply enter your speech into the speaker notes pane as if you were going to use Auto Narrate (including `AfterClick` tags to separate speech for animations), then bring up the recording pane.
+
+<img class="box-shadow" src="./img/docs/auto-narrate-12.png">
+
+Each "line" to record will be displayed in the `Scripts` panel of the recording pane. Just select the one you'd like to record, then use the recording controls to start!
