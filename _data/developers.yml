@@ -19,3 +19,8 @@
   name: "Xie Kai",
   img: "./img/team/kai.png"
 }
+
+- {
+  name: "Huang Da",
+  img: "./img/team/huangda.jpg"
+}
