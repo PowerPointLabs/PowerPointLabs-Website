@@ -10,12 +10,6 @@
 }
 
 - {
-  name: "Jerome Cheng",
-  img: "./img/team/jerome.png",
-  url: "http://ayulin.net"
-}
-
-- {
   name: "Xie Kai",
   img: "./img/team/kai.png"
 }
@@ -23,4 +17,10 @@
 - {
   name: "Huang Da",
   img: "./img/team/huangda.jpg"
+}
+
+- {
+  name: "Jerome Cheng",
+  img: "./img/team/jerome.png",
+  url: "http://ayulin.net"
 }
