@@ -124,15 +124,11 @@ Any synthesized pieces of narration will appear in the `Audio` panel of the reco
 
 Simply click the record button to begin recording, then click stop once you have finished.
 
-Alternatively, you can click `Record During Slide Show` to replace audio while viewing the presentation - the slide show will launch, with two buttons overlaid onto each slide:
+> **Tip**: you can also right-click on any of the audio segments listed in the `Audio` panel to play, remove, or replace it.
 
-<img class="box-shadow" src="./img/docs/auto-narrate-10.png">
+> <img class="box-shadow" src="./img/docs/auto-narrate-13.png">
 
-This allows you to record narration for the slide or presentation in sequence, viewing animations and transitions in the process. You'll hear the current line to be recorded over - just click `Start Recording` to being recording your replacement.
-
-<img class="box-shadow" src="./img/docs/auto-narrate-11.png">
-
-When you're done, click `Stop and Advance`. If you want to go back and try again, just click `Undo` afterwards.
+> Double-clicking on anything within the `Audio` or `Scripts` panes will also play the corresponding piece of audio if it has been generated.
 
 #### Recording from a Script
 Even if you haven't used Auto Narrate to create synthesized narration, you can still record your own narration easily using the same process. Simply enter your speech into the speaker notes pane as if you were going to use Auto Narrate (including `AfterClick` tags to separate speech for animations), then bring up the recording pane.
@@ -140,3 +136,18 @@ Even if you haven't used Auto Narrate to create synthesized narration, you can s
 <img class="box-shadow" src="./img/docs/auto-narrate-12.png">
 
 Each "line" to record will be displayed in the `Scripts` panel of the recording pane. Just select the one you'd like to record, then use the recording controls to start!
+
+#### In-Show Recording
+Clicking `Record During Slide Show` will launch the slide show, with two buttons overlaid onto each slide:
+
+<img class="box-shadow" src="./img/docs/auto-narrate-10.png">
+
+This allows you to record narration for the slide or presentation in sequence, viewing animations and transitions in the process. Think of the presentation as being made of many segments, each separated by an animation or transition triggered by a mouse click; you can record narration for each of these segments.
+
+> **Tip:** try using Auto Captions to add captions before recording. You can then use them in the same way as a teleprompter, and remove them after you're done.
+
+To record, just hit the `Start Recording` button.
+
+<img class="box-shadow" src="./img/docs/auto-narrate-11.png">
+
+When you're done, click `Stop and Advance`. If you want to go back and try again, just click `Undo` afterwards.
