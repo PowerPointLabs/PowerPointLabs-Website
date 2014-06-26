@@ -20,6 +20,12 @@
 }
 
 - {
+  name: "Karan Kamath",
+  img: "./img/team/karan.jpg",
+  url: "http://karankamath.com"
+}
+
+- {
   name: "Jerome Cheng",
   img: "./img/team/jerome.png",
   url: "http://ayulin.net"
