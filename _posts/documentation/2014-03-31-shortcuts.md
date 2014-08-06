@@ -2,7 +2,7 @@
 layout: post
 title: Shortcuts
 category: documentation
-date: 2014-03-31 13:45:08
+date: 2014-03-31 13:45:09
 bookmark: shortcuts
 ---
 
