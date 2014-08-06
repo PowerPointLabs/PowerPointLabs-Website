@@ -22,7 +22,7 @@ You can also fine-tune your choice by using the Brightness and Contrast sliders.
 
 <img class="box-shadow" src="./img/docs/colors-lab-5.png">
 
-## Matching Colors
+### Matching Colors
 
 The Colors Lab allows you to create entire color schemes from just a single color. Five different schemes are generated and shown in the `Matching Colors` section.
 
@@ -30,7 +30,7 @@ The Colors Lab allows you to create entire color schemes from just a single colo
 
 You can drag and drop the colors you like to the Favorites palette, which can then be saved for later use.
 
-### Saving and Loading Favorite Colors
+#### Saving and Loading Favorite Colors
 
 <img class="box-shadow" src="./img/docs/colors-lab-7.png">
 
@@ -42,7 +42,7 @@ To restore a previously loaded set of colors (after having changed the palette),
 
 Finally, the entire palette can be cleared by clicking on the Clear button.
 
-## Applying Colors
+### Applying Colors
 The Colors Lab allows you to apply colors to text and shapes on any of your slides. To do so, first select the element to change by clicking on it within the slide.
 
 The Colors Lab can change the color of text, as well as the border outline color and background fill color of shapes. This can be done by clicking and dragging from the appropriate button to the color you wish to use:
