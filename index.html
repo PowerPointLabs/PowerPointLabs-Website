@@ -58,27 +58,32 @@ title: PowerPointLabs
       <hr />
     </div>
 
-    <div class="feature-grid">
-      <div class="row">
+    <div class="row col-xs-10 col-xs-offset-1 feature-grid">
       {% for feature in site.data.features %}
-      <div class="col-xs-4">
-        <img class="image-center" src="{{feature.img}}">
-        <h3>{{feature.tagline}}</h3>
-        <p>
-          {{feature.description}}
-          {% if feature.url %}
-          <a href="{{feature.url}}">[More]</a>
-          {% else %}
-          [Coming Soon]
-          {% endif %}
-        </p>
+      <div class="row col-xs-offset-1">
+      {% capture remainder %}{{ forloop.index | modulo:2 }}{% endcapture %}
+      	{% if remainder == '1' %}
+      	<div class="col-xs-3">
+          <img src="{{feature.img}}">
+        </div>
+        {% endif %}
+        <div class="col-xs-7">
+	        <h3>{{feature.tagline}}</h3>
+	        <p>
+	          {{feature.description}}
+	          {% if feature.url %}
+	          <a href="{{feature.url}}">[More]</a>
+	          {% else %}
+	          [Coming Soon]
+	          {% endif %}
+	        </p>
+        </div>
+      	{% if remainder == '0' %}
+      	<div class="col-xs-3">
+          <img src="{{feature.img}}">
+        </div>
+        {% endif %}
       </div>
-      {% capture remainder %}{{ forloop.index | modulo:3 }}{% endcapture %}
-      {% if remainder == '0' %}
-      </div>
-      <div class="row">
-      {% endif %}
       {% endfor %}
-      </div>
     </div>
   </div>
