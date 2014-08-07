@@ -4,86 +4,68 @@ title: PowerPointLabs
 ---
 
 <div class="container">
-    <div class="jumbotron row text-center subtle-background">
-      <div class="row">
-        <div class="col-xs-4">
-          <img src="./img/before.png" width="100%">
-          <p>
-            Typical slides are boring.
-          </p>
-        </div>
-        <div class="col-xs-4">
-          <img src="./img/after.gif" width="100%">
-          <p>
-            They don't have to be.
-          </p>
-        </div>
-        <div class="col-xs-4">
-          <img src="./img/install.png" width="100%">
-          <p>
-            Better slides, with less effort.
-          </p>
-        </div>
-      </div>
+	<div class="jumbotron row subtle-background" style="margin-top: 20px">
+		<div class="col-xs-6 text-center">
+			<h1>
+				PowerPoint, supercharged.
+			</h1>
+			<p>
+				Impressive presentations made easy.
+			</p>
+			<p>
+				<a class="btn btn-lg btn-success" href="https://docs.google.com/forms/d/19R9StG_Zoj9XabdCpiNgXpiKhXNrloxmBfW9VNFh1aY/viewform">
+					Grab it while it's free.
+				</a>
+			</p>
+			<p>
+				<small>Works with PowerPoint 2010 and PowerPoint 2013.</small>
+			</p>
+		</div>
 
-      <div class="row col-xs-10 col-xs-offset-1">
-        <h2>
-          PowerPoint, supercharged.
-        </h2>
-        <p>
-          Impressive presentations made easy.
-          <strong>Grab it while it's free.</strong>
-        </p>
-        <p>
-          <a class="btn btn-lg btn-success" href="https://docs.google.com/forms/d/19R9StG_Zoj9XabdCpiNgXpiKhXNrloxmBfW9VNFh1aY/viewform">
-            Download
-          </a>
-        </p>
-        <p>
-          <small>Works with PowerPoint 2010 and PowerPoint 2013.</small>
-        </p>
-      </div>
-    </div>
+		<div class="col-xs-4">
+			<video style="margin-top: 35px" src="./img/demo.mp4" autoplay loop>
+			</div>
+		</div>
 
-    <div class="row col-xs-10 col-xs-offset-1">
-      <p>
-        The typical PowerPoint presentation isn't very interesting. Walls of text or bullet points, with few visuals - it's no wonder audiences find it hard to pay attention.
-      </p>
-      <p>
-        Your slides don't have to be this way, and it doesn't take a whole lot of effort to make them better.
-      </p>
-      <p>
-        PowerPointLabs makes creating engaging PowerPoint presentations easy. <strong>Check out what it can do for you below, or <a href="http://www.youtube.com/watch?v=1he53yprqXo&hd=1">watch our demo video</a> to see it in action.</strong>
-      </p>
-      <hr />
-    </div>
+		<div class="row col-xs-10 col-xs-offset-1">
+			<p>
+				The typical PowerPoint presentation isn't very interesting. Walls of text or bullet points, with few visuals - it's no wonder audiences find it hard to pay attention.
+			</p>
+			<p>
+				Your slides don't have to be this way, and it doesn't take a whole lot of effort to make them better.
+			</p>
+			<p>
+				PowerPointLabs makes creating engaging PowerPoint presentations easy. <strong>Check out what it can do for you below, or <a href="http://www.youtube.com/watch?v=1he53yprqXo&hd=1">watch our demo video</a> to see it in action.</strong>
+			</p>
+			<hr />
+		</div>
 
-    <div class="row col-xs-10 col-xs-offset-1 feature-grid">
-      {% for feature in site.data.features %}
-      <div class="row col-xs-offset-1">
-      {% capture remainder %}{{ forloop.index | modulo:2 }}{% endcapture %}
-      	{% if remainder == '1' %}
-      	<div class="col-xs-3">
-          <img src="{{feature.img}}">
-        </div>
-        {% endif %}
-        <div class="col-xs-7">
-	        <h3>{{feature.tagline}}</h3>
-	        <p>
-	          {{feature.description}}
-	          {% if feature.url %}
-	          <a href="{{feature.url}}">[More]</a>
-	          {% else %}
-	          [Coming Soon]
-	          {% endif %}
-	        </p>
-        </div>
-      	{% if remainder == '0' %}
-      	<div class="col-xs-3">
-          <img src="{{feature.img}}">
-        </div>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
+		<div class="row col-xs-10 col-xs-offset-1 feature-grid">
+			{% for feature in site.data.features %}
+			<div class="row col-xs-offset-1">
+				{% capture remainder %}{{ forloop.index | modulo:2 }}{% endcapture %}
+				{% if remainder == '1' %}
+				<div class="col-xs-3">
+					<img src="{{feature.img}}">
+				</div>
+				{% endif %}
+				<div class="col-xs-7">
+					<h3>{{feature.tagline}}</h3>
+					<p>
+						{{feature.description}}
+						{% if feature.url %}
+						<a href="{{feature.url}}">[More]</a>
+						{% else %}
+						[Coming Soon]
+						{% endif %}
+					</p>
+				</div>
+				{% if remainder == '0' %}
+				<div class="col-xs-3">
+					<img src="{{feature.img}}">
+				</div>
+				{% endif %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
