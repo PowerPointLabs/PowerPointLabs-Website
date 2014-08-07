@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 h1, h2, h3, h4, h5, h6 {
   color: #FF6600;
 }
+.jumbotron h1 {
+  color: #FF6600;
+}
 
 body {
   padding-top: 50px;
