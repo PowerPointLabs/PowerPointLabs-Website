@@ -61,3 +61,17 @@
   description: "Need just part of an image? <strong>Auto Crop</strong> lets you cut it, no image editor necessary.",
   url: "./docs.html#auto-crop"
 }
+
+- {
+  img: "./img/colorslab.gif",
+  tagline: "Add a splash of color.",
+  description: "The <strong>Colors Lab</strong> makes picking colors a snap, even from outside PowerPoint.",
+  url: "./docs.html#colors-lab"
+}
+
+- {
+  img: "./img/shapeslab.gif",
+  tagline: "Save the shapes, and your effort.",
+  description: "Add shapes or other elements to the <strong>Shapes Lab</strong>, and reuse them easily in any presentation.",
+  url: "./docs.html#shapes-lab"
+}
