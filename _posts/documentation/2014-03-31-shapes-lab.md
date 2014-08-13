@@ -6,7 +6,7 @@ date: 2014-03-31 13:45:08
 bookmark: shapes-lab
 ---
 
-The **Shapes Lab** allows you to keep track of and save elements from presentations - shapes, text, images, and so on - that you may want to reuse throughout, or across different presentations. Unlike copying and pasting items to and from the clipboard, the Shapes Lab is persistent - shapes are stored even after PowerPoint has been closed.
+The **Shapes Lab** allows you to keep track of and save elements from presentations - shapes, text, images, and so on - that you may want to reuse throughout, or across different presentations. Unlike copying and pasting items to and from the clipboard, the Shapes Lab is persistent - shapes are stored even after PowerPoint has been closed, and any animations or effects applied to them are saved as well.
 
 To open the Shapes Lab, click on its button on the ribbon:
 
