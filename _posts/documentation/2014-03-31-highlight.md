@@ -6,19 +6,19 @@ date: 2014-03-31 13:45:00
 bookmark: highlight
 ---
 
-**Highlight Bullets** can be used to easily emphasise individual bullet points on a slide, allowing each point to stand out in turn as you present it. This can be done in two different ways: **Highlight Text**, and **Highlight Background**.
+**Highlight Bullets** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in three different ways: **Highlight Points**, **Highlight Background**, and **Highlight Text**,
 
-###Highlight Text
-**Highlight Text** can be used when a more subtle approach is desired, and adjusts only the color of each bullet point.
+###Highlight Points
+**Highlight Points** can be used when a more subtle approach is desired, and adjusts only the color of each bullet point.
 
 <p>
-  <img class="box-shadow slide" src="./img/docs/highlight-text-1.gif">
+	<img class="box-shadow slide" src="./img/docs/highlight-points-1.gif">
 </p>
 
-To apply the effect to a slide, simply click the `Highlight Text` button on the PowerPointLabs ribbon.
+To apply the effect to a slide, select the points to be highlighted, then click the `Highlight Points` button on the PowerPointLabs ribbon.
 
 <p>
-  <img class="box-shadow" src="./img/docs/highlight-text-2.png">
+	<img class="box-shadow" src="./img/docs/highlight-points-2.png">
 </p>
 
 During the presentation, each bullet point will then be highlighted after a corresponding click, allowing you to go through them point-by-point.
@@ -31,30 +31,45 @@ During the presentation, each bullet point will then be highlighted after a corr
 **Highlight Background** can be used when you want a flashier way of emphasis, and provides an effect similar to that of a real highlighter on paper.
 
 <p>
-  <img class="box-shadow slide" src="./img/docs/highlight-background-1.gif">
+	<img class="box-shadow slide" src="./img/docs/highlight-background-1.gif">
 </p>
 
-To apply this effect to a slide with bullet points on it, just click `Highlight Background` on the PowerPointLabs ribbon.
+To apply this effect to a slide with bullet points on it, select the points to be highlighted, then click `Highlight Background` on the PowerPointLabs ribbon.
 
 <p>
-  <img class="box-shadow" src="./img/docs/highlight-background-2.png">
+	<img class="box-shadow" src="./img/docs/highlight-background-2.png">
 </p>
 
 When the presentation is running, each bullet point will be highlighted after a corresponding click.
 
-> **Note:** just as with Highlight Text, multiple text boxes will be highlighted in the order in which they appear in the selection pane.
+> **Note:** just as with Highlight Points, multiple text boxes will be highlighted in the order in which they appear in the selection pane.
 
 > To override this ordering, just `Ctrl+click` the text boxes in the order they should be highlighted in, then click `Highlight Background`.
+
+###Highlight Text
+**Highlight Text** can be used if you'd like to emphasize a smaller section of text anywhere on the slide.
+
+<p>
+	 <img class="box-shadow slide" src="./img/docs/highlight-text-1.gif">
+</p>
+
+To apply this effect, select the text to highlight, then click `Highlight Text` on the PowerPointLabs ribbon.
+
+<p>
+	<img class="box-shadow" src="./img/docs/highlight-text-2.png">
+</p>
+
+During the presentation, each text fragment will be highlighted after a corresponding click.
 
 ###Custom Colors
 The colors used by Highlight Bullets can be customized by opening the settings dialog from the ribbon:
 
 <p>
-  <img class="box-shadow" src="./img/docs/highlight-bullets-1.png">
+	<img class="box-shadow" src="./img/docs/highlight-bullets-1.png">
 </p>
 
 <p>
-  <img class="box-shadow" src="./img/docs/highlight-bullets-2.png">
+	<img class="box-shadow" src="./img/docs/highlight-bullets-2.png">
 </p>
 
 The `Text Highlight Color` is the color used by Highlight Text to emphasise the current point. After the highlight moves on to the next point, the `Text Default Color` is applied to the previously-highlighted point.
