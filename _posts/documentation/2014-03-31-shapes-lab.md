@@ -35,3 +35,17 @@ Once a shape has been saved in the Shapes Lab, it can be reused anywhere in the 
 <img class="box-shadow" src="./img/docs/shapes-lab-4.png">
 
 Shapes can also be removed from the Shapes Lab by right-clicking on them and selecting `Remove Shape`. Similarly, a shape can be renamed by selecting `Edit Name`, or by clicking on it after it has been selected.
+
+#### Categories
+
+The Shapes Lab also allows you to create multiple categories to help better organise your shapes - for instance, it may be useful to group shapes by subject or purpose.
+
+To create a new category, right-click on an empty space in the Shapes Lab and select `Add Category`. A dialog box will appear, allowing you to enter a name for the category.
+
+<img class="box-shadow" src="./img/docs/shapes-lab-5.png">
+
+Once you have more than one category in the Shapes Lab, you can use the Category drop-down menu to switch between them. Shapes can be moved between categories by right-clicking on the shape and choosing the destination category from the context menu.
+
+<img class="box-shadow" src="./img/docs/shapes-lab-6.png">
+
+Categories can also be renamed or deleted by right-clicking on an empty space in the Shapes Lab and choosing the appropriate option. You can also set a category as the default category where new shapes will be saved to from the same menu.
