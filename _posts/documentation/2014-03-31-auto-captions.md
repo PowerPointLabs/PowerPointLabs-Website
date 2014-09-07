@@ -15,8 +15,10 @@ bookmark: auto-captions
 Though captions are displayed alongside their corresponding narration, it isn't necessary to use Auto Narrate if you'd just like the captions without any audio.
 
 Captions can be added to any slide by clicking the `Add Captions` button, and removed using the `Remove Captions`
-button.
+button. To remove captions from all slides, click on the `Remove Captions` label and select `Remove All Notes`:
+
+<img class="box-shadow" src="./img/docs/auto-captions-2.png" >
 
 > **Note:** as with Auto Narrate, it isn't necessary to remove captions when you update the text in the Speaker Notes - just hit `Add Captions` again, and PowerPointLabs will update everything for you.
 
-> Similarly, to add or remove captions to multiple slides at once, simply select them by `Ctrl+Click`ing in the lefthand slide selection pane.
+> Similarly, to add or remove captions from multiple slides at once, simply select them by `Ctrl+Click`ing in the lefthand slide selection pane.
