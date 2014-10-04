@@ -1,3 +1,31 @@
+// Flat UI Colors.
+@turquoise: #1abc9c;
+@green-sea: #16a085;
+@emerald: #2ecc71;
+@nephritis: #27ae60;
+@peter-river: #3498db;
+@belize-hole: #2980b9;
+@amethyst: #9b59b6;
+@wisteria: #8e44ad;
+@wet-asphalt: #34495e;
+@midnight-blue: #2c3e50;
+@sun-flower: #f1c40f;
+@orange: #f39c12;
+@carrot: #e67e22;
+@pumpkin: #d35400;
+@alizarin: #e74c3c;
+@pomegranate: #c0392b;
+@clouds: #ecf0f1;
+@silver: #bdc3c7;
+@concrete: #95a5a6;
+@asbestos: #7f8c8d;
+@gray: @concrete;
+@gray-light: @silver;
+@inverse: white;
+
+// Our branding.
+@primary-brand: #FF6600;
+
 /* Disable bootstrap responsiveness. */
  .container {
   max-width: none !important;
@@ -6,15 +34,15 @@
 
 h1, h2, h3, h4, h5, h6, p, a, li {
   font-family:'Lato', sans-serif;
-  color: #34495E; /* From Flat UI - 'Wet Asphalt' */
+  color: @wet-asphalt;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #FF6600;
+  color: @primary-brand;
 }
 
 .jumbotron h1 {
-  color: #FF6600;
+  color: @primary-brand;
 }
 
 .container .jumbotron {
@@ -35,12 +63,14 @@ body {
   text-align: center;
 }
 
-.feature-grid .row {
-  margin-bottom: 40px;
-}
+.feature-grid {
+  .row {
+    margin-bottom: 40px;
+  }
 
-.feature-grid h3 {
-  color: #FF6500;
+  h3 {
+    color: @primary-brand;
+  }
 }
 
 .developer-details {
@@ -54,7 +84,7 @@ body {
 }
 
 .subtle-background {
-  background-color: #ECF0F1;
+  background-color: @clouds;
 }
 
 .image-center {
@@ -82,10 +112,17 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background: white;
-  -webkit-box-shadow: 0 -1px 2px rgba(50, 50, 50, 0.1);
-  -moz-box-shadow: 0 -1px 2px rgba(50, 50, 50, 0.1);
+  background: @midnight-blue;
+  color: @clouds;
   box-shadow: 0 -1px 2px rgba(50, 50, 50, 0.1);
+
+  a {
+    color: @concrete;
+
+    &:hover {
+      color: white;
+    }
+  }
 }
 
 .documentation-body code {
@@ -100,18 +137,18 @@ footer {
 
 .nav-pills > li > a {
   border-radius: 0;
-  background: #34495E;
-  color: #ECF0F1;
+  background: @wet-asphalt;
+  color: @clouds;
 }
 
 .nav-pills > li > a:hover {
-  background: #3498DB;
+  background: @peter-river;
 }
 
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  background: #2980B9;
+  background: @belize-hole;
 }
 
 .slide {
@@ -127,21 +164,21 @@ a, .btn-link {
 }
 
 .navbar {
-  background: #2C3E50;
+  background: @midnight-blue;
 }
 
 .navbar a {
-  color: #ECF0F1;
+  color: @clouds;
+
+  &:hover {
+    color: @silver;
+  }
 }
 
-.navbar a:hover {
-  color: #BDC3C7;
-}
-
-.navbar-brand {
+.navbar-default .navbar-brand {
   background: white;
-}
 
-.navbar-default .navbar-brand:hover {
-  background: #ECF0F1;
+  &:hover {
+    background: @clouds;
+  }
 }
