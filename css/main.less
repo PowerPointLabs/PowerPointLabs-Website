@@ -27,9 +27,18 @@
 @primary-brand: #FF6600;
 
 /* Disable bootstrap responsiveness. */
- .container {
+.container {
   max-width: none !important;
   width: 1170px;
+
+  .jumbotron {
+    font-weight: 400;
+    border-radius: 0;
+
+    h1 {
+      color: @primary-brand;
+    }
+  }
 }
 
 h1, h2, h3, h4, h5, h6, p, a, li {
@@ -41,14 +50,6 @@ h1, h2, h3, h4, h5, h6 {
   color: @primary-brand;
 }
 
-.container .jumbotron {
-  font-weight: 400;
-  border-radius: 0;
-
-  h1 {
-    color: @primary-brand;
-  }
-}
 
 body {
   padding-top: 50px;
@@ -81,10 +82,6 @@ body {
   color: #FFF;
   border-color: #F0590F;
   background-color: #F37A3F;
-}
-
-.subtle-background {
-  background-color: @clouds;
 }
 
 .image-center {
