@@ -1,3 +1,4 @@
 name: PowerPointLabs
 markdown: redcarpet
 pygments: true
+gems: ['jekyll-less']
