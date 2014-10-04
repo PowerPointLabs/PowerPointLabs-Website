@@ -5,16 +5,21 @@
 }
 
 h1, h2, h3, h4, h5, h6, p, a, li {
-  font-family:'Open Sans', sans-serif;
+  font-family:'Lato', sans-serif;
+  color: #34495E; /* From Flat UI - 'Wet Asphalt' */
 }
+
 h1, h2, h3, h4, h5, h6 {
   color: #FF6600;
 }
+
 .jumbotron h1 {
   color: #FF6600;
 }
-.jumbotron {
+
+.container .jumbotron {
   font-weight: 400;
+  border-radius: 0;
 }
 
 body {
@@ -49,7 +54,7 @@ body {
 }
 
 .subtle-background {
-  background-color: #eef4fb;
+  background-color: #ECF0F1;
 }
 
 .image-center {
@@ -103,4 +108,28 @@ footer {
 
 a, .btn-link {
   color: #0070C0;
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
+.navbar {
+  background: #2C3E50;
+}
+
+.navbar a {
+  color: #ECF0F1;
+}
+
+.navbar a:hover {
+  color: #BDC3C7;
+}
+
+.navbar-brand {
+  background: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  background: #ECF0F1;
 }
