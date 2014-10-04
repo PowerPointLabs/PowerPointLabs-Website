@@ -104,6 +104,16 @@ footer {
   color: #ECF0F1;
 }
 
+.nav-pills > li > a:hover {
+  background: #3498DB;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background: #2980B9;
+}
+
 .slide {
   width: 270px;
 }
