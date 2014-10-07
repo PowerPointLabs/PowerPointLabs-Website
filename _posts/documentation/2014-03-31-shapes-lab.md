@@ -36,6 +36,8 @@ Once a shape has been saved in the Shapes Lab, it can be reused anywhere in the 
 
 Shapes can also be removed from the Shapes Lab by right-clicking on them and selecting `Remove Shape`. Similarly, a shape can be renamed by selecting `Edit Name`, or by clicking on it after it has been selected.
 
+> **Tip:** if you'd like to select multiple shapes at once, 
+
 #### Categories
 
 The Shapes Lab also allows you to create multiple categories to help better organise your shapes - for instance, it may be useful to group shapes by subject or purpose.
@@ -49,3 +51,21 @@ Once you have more than one category in the Shapes Lab, you can use the Category
 <img class="box-shadow" src="./img/docs/shapes-lab-6.png">
 
 Categories can also be renamed or deleted by right-clicking on an empty space in the Shapes Lab and choosing the appropriate option. You can also set a category as the default category where new shapes will be saved to from the same menu.
+
+##### Importing and Exporting Categories
+
+The Shapes Lab supports importing of shapes from a file - this can be useful if you use multiple computers, or have a collection of shapes you'd like to share with others.
+
+To save shapes, create a new empty PowerPoint presentation and insert a blank slide. Each slide in this presentation will correspond to a single category; you can thus save multiple categories of shapes in a single file. To name each category, create a textbox on the slide containing "Category:" followed by the desired name:
+
+<img class="box-shadow" src="./img/docs/shapes-lab-9.png">
+
+After saving the file, change its file extension from `.pptx` to `.pptlabsshapes` - this doesn't change the file's contents or format, but makes it easier to select when importing into the Shapes Lab. 
+
+To import shapes from a file, right-click on an empty space in the Shapes Lab, then select Import Category.
+
+<img class="box-shadow" src="./img/docs/shapes-lab-7.png">
+
+Select the file to import from, then click `Open`.
+
+<img class="box-shadow" src="./img/docs/shapes-lab-8.png">
