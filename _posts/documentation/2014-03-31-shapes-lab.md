@@ -52,7 +52,7 @@ Once you have more than one category in the Shapes Lab, you can use the Category
 
 Categories can also be renamed or deleted by right-clicking on an empty space in the Shapes Lab and choosing the appropriate option. You can also set a category as the default category where new shapes will be saved to from the same menu.
 
-##### Importing and Exporting Shape Libraries
+##### <a name="shapes-lab-import"></a> Importing and Exporting Shape Libraries
 
 The Shapes Lab supports importing of shapes from a file - this can be useful if you use multiple computers, or have a collection of shapes you'd like to share with others.
 

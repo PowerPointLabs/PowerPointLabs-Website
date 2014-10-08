@@ -12,9 +12,8 @@ title: Shape Libraries
 		<div class="col-xs-12">
 			<p>
 				Looking for some shapes to add some visual flair to your presentation?
-				Here are some libraries you can import into the <a href="./docs.html#shapes-lab">Shapes Lab</a> and use.
+				Here are some libraries you can import into the <a href="./docs.html#shapes-lab">Shapes Lab</a> and use - just download the steps and follow the steps <a href="./docs.html#shapes-lab-import">here</a>.
 			</p>
-			<p>
 				If you've created a library that you'd like to share, email it to us at <a href="mailto:pptlabs@comp.nus.edu.sg">pptlabs@comp.nus.edu.sg</a>!
 			</p>
 		</div>
@@ -26,17 +25,17 @@ title: Shape Libraries
 			<h2>{{library.name}} <small><a href="./gallery/{{library.file}}">[Download]</a></small></h2>
 		</div>
 
-		<div class="col-xs-4">
+		<div class="col-xs-6">
+			<img class="box-shadow fit" src="./gallery/{{library.images.example}}">
+		</div>
+
+		<div class="col-xs-6">
 			<p>
 				{{library.description}}
 			</p>
 			<p>Contains <span class="accent">{{library.numberIncluded}}</span> shapes.</p>
+			<img src="./gallery/{{library.images.contents}}" >
 		</div>
-
-		<img class="col-xs-4" src="./gallery/{{library.images.example}}">
-
-		<img src="./gallery/{{library.images.contents}}" class="col-xs-4">
 	</div>
 	{% endfor %}
-
 </div>
