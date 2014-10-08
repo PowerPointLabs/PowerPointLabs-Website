@@ -1,0 +1,10 @@
+- {
+	name: "Pins and Stuff",
+	images: {
+		contents: "pins and stuff - contents.png",
+		example: "pins and stuff - example.png"
+	},
+	file: "pins and stuff.pptlabsshapes",
+	numberIncluded: 15,
+	description: "A collection of pins, magnets, and other implements for 'attaching' items to your slides."
+}

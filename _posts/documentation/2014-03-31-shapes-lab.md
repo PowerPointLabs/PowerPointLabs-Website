@@ -69,3 +69,5 @@ To import shapes from a file, right-click on an empty space in the Shapes Lab, t
 Select the file to import from, then click `Open`.
 
 <img class="box-shadow" src="./img/docs/shapes-lab-8.png">
+
+> **Note**: you can find some Shape Libraries over on our [gallery](./gallery.html) page. Feel free to submit your own, too!

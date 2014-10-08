@@ -1,0 +1,42 @@
+---
+layout: default
+title: Shape Libraries
+---
+
+<div class="container">
+	<div class="page-header row col-xs-12">
+		<h1>Shape Libraries</h1>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<p>
+				Looking for some shapes to add some visual flair to your presentation?
+				Here are some libraries you can import into the <a href="./docs.html#shapes-lab">Shapes Lab</a> and use.
+			</p>
+			<p>
+				If you've created a library that you'd like to share, email it to us at <a href="mailto:pptlabs@comp.nus.edu.sg">pptlabs@comp.nus.edu.sg</a>!
+			</p>
+		</div>
+	</div>
+
+	{% for library in site.data.libraries %}
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>{{library.name}}</h2>
+		</div>
+
+		<div class="col-xs-4">
+			<p>
+				{{library.description}}
+			</p>
+			<p>Contains <span class="accent">{{library.numberIncluded}}</span> shapes.</p>
+		</div>
+
+		<img class="col-xs-4" src="./gallery/{{library.images.example}}">
+
+		<img src="./gallery/{{library.images.contents}}" class="col-xs-4">
+	</div>
+	{% endfor %}
+
+</div>
