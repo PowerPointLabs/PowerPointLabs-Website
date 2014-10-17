@@ -33,8 +33,11 @@ title: Shape Libraries
 			<p>
 				{{library.description}}
 			</p>
-			<p>Contains <span class="accent">{{library.numberIncluded}}</span> shapes.</p>
-			<img src="./gallery/{{library.images.contents}}" >
+			<p>
+				Contains <span class="accent">{{library.numberIncluded}}</span> shapes.
+				Submitted by <strong>{{library.submitter}}</strong>.
+			</p>
+			<img src="./gallery/{{library.images.contents}}">
 		</div>
 	</div>
 	{% endfor %}

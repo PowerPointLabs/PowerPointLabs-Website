@@ -6,5 +6,6 @@
 	},
 	file: "pins and stuff.pptlabsshapes",
 	numberIncluded: 15,
-	description: "A collection of pins, magnets, and other implements for 'attaching' items to your slides."
+	description: "A collection of pins, magnets, and other implements for 'attaching' items to your slides.",
+	submitter: "Damien"
 }
