@@ -64,7 +64,7 @@ Select the library file, then click `Open`.
 
 > **Note**: you can find some Shape Libraries over on our [gallery](./gallery.html) page. Feel free to submit your own, too!
 
-##### Exporting Shape Libraries
+##### Creating Shape Libraries
 
 If you'd like to create your own shape libraries, first create a new empty PowerPoint presentation and insert a blank slide. Each slide in this presentation will correspond to a single category; you can thus save multiple categories of shapes in a single library file. 
 
