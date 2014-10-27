@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Colors Lab
 category: documentation
 date: 2014-03-31 13:45:07

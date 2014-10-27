@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Auto Narrate
 category: documentation
 date: 2014-03-31 13:45:03

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Auto Animate
 category: documentation
 date: 2014-03-31 13:45:02
