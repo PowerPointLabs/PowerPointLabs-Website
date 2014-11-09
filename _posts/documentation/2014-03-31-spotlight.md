@@ -41,6 +41,6 @@ If you'd like, you can adjust the transparency of the darkened area and the soft
 <img class="box-shadow" src="./img/docs/spotlight-6.png" />
 </p>
 
-If you're not quite happy with the way things turned out, simply adjust the settings from the dialog (shown above), then select the darkened shadow area and click <code>Recreate Spotlight</code>.
+If you're not quite happy with the way things turned out, simply adjust the settings from the dialog (shown above), delete the slide with the spotlight effect, and click `Create Spotlight` again.
 
 **You can download the slides used in this example [here.](./img/docs/spotlight%20sample.pptx)**
