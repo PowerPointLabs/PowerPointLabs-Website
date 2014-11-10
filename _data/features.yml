@@ -75,3 +75,10 @@
   description: "Add shapes or other elements to the <strong>Shapes Lab</strong>, and reuse them easily in any presentation.",
   url: "./docs.html#shapes-lab"
 }
+
+- {
+  img: "./img/effectsLab.gif",
+  tagline: "Special effects without special software.",
+  description: "Magnify a part of the slide. Blur out the rest, or change its color. <strong>Effects Lab</strong> has you covered.",
+  url: "./docs.html#effects-lab"
+}
