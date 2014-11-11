@@ -38,3 +38,19 @@ Select the shape, then click `Magnifying Glass` from the Effects Lab dropdown.
 This magnifies the area covered by the shape:
 
 <img class="box-shadow" src="./img/docs/effects-lab-6.png">
+
+### Blur Remainder
+
+Blur Remainder is best used to draw attention to a particular part of the slide by adding a blur effect to the surrounding areas - similar to adjusting the focus on a camera.
+
+To use it, first draw a shape over the area to be kept in focus.
+
+<img class="box-shadow" src="./img/docs/effects-lab-7.png">
+
+Select the shape, then click `Blur Remainder` from the Effects Lab dropdown.
+
+<img class="box-shadow" src="./img/docs/effects-lab-8.png">
+
+PowerPointLabs will then insert a new slide containing the blur effect.
+
+<img class="box-shadow" src="./img/docs/effects-lab-9.png">
