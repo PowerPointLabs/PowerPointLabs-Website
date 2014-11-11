@@ -54,3 +54,19 @@ Select the shape, then click `Blur Remainder` from the Effects Lab dropdown.
 PowerPointLabs will then insert a new slide containing the blur effect.
 
 <img class="box-shadow" src="./img/docs/effects-lab-9.png">
+
+### Recolor Remainder
+
+Recolor Remainder works in a similar manner to Blur Remainder, but instead changes the color of the surrounding areas while leaving the focused area unchanged.
+
+First draw a shape over the area which should be left unchanged.
+
+<img class="box-shadow" src="./img/docs/effects-lab-7.png">
+
+Next, select the shape, select `Recolor Remainder` from the Effects Lab dropdown, then choose the scheme to use - in our example here, we chose Gray Scale.
+
+<img class="box-shadow" src="./img/docs/effects-lab-10.png">
+
+PowerPointLabs will insert a new slide, with the surrounding areas recolored.
+
+<img class="box-shadow" src="./img/docs/effects-lab-11.png">
