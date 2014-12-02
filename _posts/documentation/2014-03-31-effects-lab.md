@@ -9,7 +9,7 @@ The **Effects Lab** makes it easy to draw attention to portions of the slide thr
 
 ### Make Transparent
 
-As its name implies, Make Transparent turns the selected image or shape slightly transparent. This can be used to fade an image for use in the background of a slide, or to use a shape as an overlay to draw attention to a part of the slide.
+As its name implies, Make Transparent turns the selected image or shape slightly transparent. This can be used to fade an image for use in the background of a slide - something which can't ordinarily be easily done in PowerPoint itself - or to use a shape as an overlay to draw attention to a part of the slide.
 
 For example, we'd like to use this image as the background for the title slide; as is, though, there isn't enough contrast between it and the title.
 
@@ -22,6 +22,8 @@ To turn an image or shape transparent, select it, then click `Make Transparent` 
 This turns the image slightly transparent, increasing the contrast between it and the slide's text.
 
 <img class="box-shadow" src="./img/docs/effects-lab-3.png">
+
+> **Note:** the transparency of the image or shape can be adjusted afterwards by right-clicking the image/shape and selecting `Format Shape`.
 
 ### Magnifying Glass
 
