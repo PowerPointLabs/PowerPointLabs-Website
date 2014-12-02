@@ -9,3 +9,15 @@
 	description: "A collection of pins, magnets, and other implements for 'attaching' items to your slides.",
 	submitter: "Damien"
 }
+
+- {
+	name: "Thanksgiving",
+	images: {
+		contents: "thanksgiving - contents.png",
+		example: "thanksgiving - example.png"
+	},
+	file: "thanksgiving.pptlabsshapes",
+	numberIncluded: 18,
+	description: "Turkeys, pumpkins, and other thanksgiving symbols - they're all here in this library.",
+	submitter: "Indezine <a href='http://www.indezine.com'>(Link)</a>"
+}
