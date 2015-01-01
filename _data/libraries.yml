@@ -21,3 +21,15 @@
 	description: "Turkeys, pumpkins, and other thanksgiving symbols - they're all here in this library from Indezine. Check them out for other PowerPoint resources!",
 	submitter: "Indezine.com <a href='http://www.indezine.com'>(Link)</a>"
 }
+
+- {
+	name: "Christmas",
+	images: {
+		contents: "christmas - contents.png",
+		example: "christmas - example.png"
+	},
+	file: "christmas.pptlabsshapes",
+	numberIncluded: 10,
+	description: "Happy holidays! Add some Christmas flair to your slides with these shapes from Indezine. Check their site for other PowerPoint tips and tricks!",
+	submitter: "Indezine.com <a href='http://www.indezine.com'>(Link)</a>"
+}
