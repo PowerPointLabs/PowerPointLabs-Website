@@ -64,6 +64,8 @@ Voice tags can be used to change the synthesized voice for a particular section 
 ![](./img/docs/auto-narrate-4.png)
 
 >**Note:** there's no need to type the entire name displayed in the dropdown; PowerPointLabs will choose the first voice that contains the portion that you enter.
+>
+> The amount of voices you have installed may vary depending on Windows' language settings - installing additional languages may provide more voices. Voices may also be purchased from third-party vendors.
 
 <p></p>
 
