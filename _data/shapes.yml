@@ -1,0 +1,15 @@
+- {
+	name: "Square",
+	description: "A square.",
+	image: "square.png",
+	link: "square.txt",
+	tags: ["shape", "square"]
+}
+
+- {
+	name: "Circle",
+	description: "A circle.",
+	image: "circle.png",
+	link: "circle.txt",
+	tags: ["shape", "circle", "round"]
+}

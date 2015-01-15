@@ -1,17 +1,25 @@
 ---
 layout: default
-title: Shape Libraries - PowerPointLabs
+title: Shape Downloads - PowerPointLabs
 ---
 
 <div class="container">
 	<div class="page-header row col-xs-12">
-		<h1>Shape Libraries</h1>
+		<h1>Shape Downloads</h1>
 	</div>
 
 	<div class="row">
 		<div class="col-xs-12">
 			<p>
-				Looking for some shapes to add some visual flair to your presentation?
+				Looking for some shapes to add some visual flair to your presentation? Check out the Shape Libraries below for bundles of themed-shapes, or download individual shapes from our Shape Gallery.
+			</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>Shape Libraries</h2>
+			<p>
 				Here are some libraries you can import into the <a href="./docs.html#shapes-lab">Shapes Lab</a> and use - just download the libraries you want and follow the steps <a href="./docs.html#shapes-lab-import">here</a>.
 			</p>
 			<p>
@@ -20,29 +28,53 @@ title: Shape Libraries - PowerPointLabs
 			<p>
 				Please ensure that you have the appropriate copyright/license for any shapes included in libraries you send. (If you notice any copyright violations in any of the shapes libraries submitted here, please inform us at the email address above; all libraries are user-submitted.)
 			</p>
+			<p class="btn btn-default" data-bind="click: toggleShapeLibraries, visible: !isLibrarySectionOpen()">
+				<i class="glyphicon glyphicon-plus"></i>
+				Show Libraries
+			</p>
+			<p class="btn btn-default" data-bind="click: toggleShapeLibraries, visible: isLibrarySectionOpen">
+				<i class="glyphicon glyphicon-minus"></i>
+				Hide Libraries
+			</p>
 		</div>
 	</div>
 
-	{% for library in site.data.libraries %}
+	<div id="shape-libraries" class="collapsed">
+		{% for library in site.data.libraries %}
+		<div class="row">
+			<div class="col-xs-12 gallery-header">
+				<h3>{{library.name}} <small><a href="./gallery/{{library.file}}">[Download]</a></small></h3>
+			</div>
+
+			<div class="col-xs-6">
+				<img class="box-shadow fit" src="./gallery/{{library.images.example}}">
+			</div>
+
+			<div class="col-xs-6">
+				<p>
+					{{library.description}}
+				</p>
+				<p>
+					Contains <span class="accent">{{library.numberIncluded}}</span> shapes.
+					Submitted by <strong>{{library.submitter}}</strong>.
+				</p>
+				<img src="./gallery/{{library.images.contents}}">
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+
 	<div class="row">
-		<div class="col-xs-12 gallery-header">
-			<h2>{{library.name}} <small><a href="./gallery/{{library.file}}">[Download]</a></small></h2>
+		<div class="col-xs-12">
+			<h2>Shape Gallery</h2>
+			<p>Here are some shapes that can be downloaded on their own, and imported into the Shapes Lab.</p>
 		</div>
-
-		<div class="col-xs-6">
-			<img class="box-shadow fit" src="./gallery/{{library.images.example}}">
-		</div>
-
-		<div class="col-xs-6">
-			<p>
-				{{library.description}}
-			</p>
-			<p>
-				Contains <span class="accent">{{library.numberIncluded}}</span> shapes.
-				Submitted by <strong>{{library.submitter}}</strong>.
-			</p>
-			<img src="./gallery/{{library.images.contents}}">
-		</div>
+		
 	</div>
-	{% endfor %}
 </div>
+
+<script>
+	var shapes = {{ site.data.shapes | jsonify }};
+</script>
+<script src="/js/knockout-3.2.0.js"></script>
+<script src="/js/galleries.js"></script>
