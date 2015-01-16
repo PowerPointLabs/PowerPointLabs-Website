@@ -2,12 +2,22 @@ var App = {};
 App.ViewModels = {};
 App.Models = {};
 
+App.Constants = {
+	'shapeDirectory': '/shapes/'
+};
+
 App.Models.Shape = function(rawShape) {
+	var relativeLinker = function(resource) {
+		return function() {
+			return App.Constants.shapeDirectory + resource;
+		};
+	};
+
 	this.name = ko.observable(rawShape.name);
 	this.tags = ko.observableArray(rawShape.tags);
-	this.image = ko.observable(rawShape.image);
+	this.image = ko.computed(relativeLinker(rawShape.image));
 	this.description = ko.observable(rawShape.description);
-	this.link = ko.observable(rawShape.link);
+	this.link = ko.computed(relativeLinker(rawShape.link));
 };
 
 App.ViewModels.MainViewModel = function(shapes) {

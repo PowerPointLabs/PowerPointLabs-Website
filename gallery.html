@@ -79,11 +79,12 @@ title: Shape Downloads - PowerPointLabs
 
 	<div id="shape-gallery" class="collapsed row col-xs-12">
 		<input type="text" class="search-box" placeholder="Search shapes..." data-bind="textInput: filterText">
-		<div  data-bind="foreach: shapes">
-			<div class="shape-gallery-shape">
+		<div data-bind="foreach: shapes">
+			<a class="shape-gallery-shape" data-bind="attr: { href: link }">
+				<img data-bind="attr: { src: image }">
 				<h4 data-bind="text: name"></h4>
 				<p data-bind="text: description"></p>
-			</div>
+			</a>
 		</div>
 	</div>
 </div>
