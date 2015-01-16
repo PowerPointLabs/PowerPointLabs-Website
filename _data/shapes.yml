@@ -1,5 +1,5 @@
 - {
-	name: "Square",
+	name: "Square 1",
 	description: "A square.",
 	image: "square.png",
 	link: "square.txt",
@@ -7,7 +7,119 @@
 }
 
 - {
-	name: "Circle",
+	name: "Circle 1",
+	description: "A circle.",
+	image: "circle.png",
+	link: "circle.txt",
+	tags: ["shape", "circle", "round"]
+}
+
+- {
+	name: "Square 2",
+	description: "A square.",
+	image: "square.png",
+	link: "square.txt",
+	tags: ["shape", "square"]
+}
+
+- {
+	name: "Circle 2",
+	description: "A circle.",
+	image: "circle.png",
+	link: "circle.txt",
+	tags: ["shape", "circle", "round"]
+}
+
+- {
+	name: "Square 3",
+	description: "A square.",
+	image: "square.png",
+	link: "square.txt",
+	tags: ["shape", "square"]
+}
+
+- {
+	name: "Circle 3",
+	description: "A circle.",
+	image: "circle.png",
+	link: "circle.txt",
+	tags: ["shape", "circle", "round"]
+}
+
+- {
+	name: "Square 4",
+	description: "A square.",
+	image: "square.png",
+	link: "square.txt",
+	tags: ["shape", "square"]
+}
+
+- {
+	name: "Circle 4",
+	description: "A circle.",
+	image: "circle.png",
+	link: "circle.txt",
+	tags: ["shape", "circle", "round"]
+}
+
+- {
+	name: "Square 5",
+	description: "A square.",
+	image: "square.png",
+	link: "square.txt",
+	tags: ["shape", "square"]
+}
+
+- {
+	name: "Circle 5",
+	description: "A circle.",
+	image: "circle.png",
+	link: "circle.txt",
+	tags: ["shape", "circle", "round"]
+}
+
+- {
+	name: "Square 6",
+	description: "A square.",
+	image: "square.png",
+	link: "square.txt",
+	tags: ["shape", "square"]
+}
+
+- {
+	name: "Circle 6",
+	description: "A circle.",
+	image: "circle.png",
+	link: "circle.txt",
+	tags: ["shape", "circle", "round"]
+}
+
+- {
+	name: "Square 7",
+	description: "A square.",
+	image: "square.png",
+	link: "square.txt",
+	tags: ["shape", "square"]
+}
+
+- {
+	name: "Circle 7",
+	description: "A circle.",
+	image: "circle.png",
+	link: "circle.txt",
+	tags: ["shape", "circle", "round"]
+}
+
+- {
+	name: "Square 8",
+	description: "A square.",
+	image: "square.png",
+	link: "square.txt",
+	tags: ["shape", "square"]
+}
+
+- {
+	name: "Circle 8",
 	description: "A circle.",
 	image: "circle.png",
 	link: "circle.txt",
