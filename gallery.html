@@ -66,7 +66,7 @@ title: Shape Downloads - PowerPointLabs
 
 	<div class="row col-xs-12">
 		<h2>Shape Gallery</h2>
-		<p>Here are some shapes that can be downloaded on their own, and imported into the Shapes Lab.</p>
+		<p>Here are some shapes that can be downloaded on their own, and imported into the Shapes Lab. Just click the one you want!</p>
 		<p class="btn btn-default" data-bind="click: toggleShapeGallery, visible: !isGallerySectionOpen()">
 			<i class="glyphicon glyphicon-plus"></i>
 			Show Gallery
@@ -77,13 +77,14 @@ title: Shape Downloads - PowerPointLabs
 		</p>
 	</div>
 
-	<div id="shape-gallery" class="collapsed row col-xs-12">
+	<div id="shape-gallery" class="collapsed row col-xs-12 shape-gallery">
 		<input type="text" class="search-box" placeholder="Search shapes..." data-bind="textInput: filterText">
 		<div data-bind="foreach: shapes">
-			<a class="shape-gallery-shape" data-bind="attr: { href: link }">
+			<a class="shape" data-bind="attr: { href: link }">
 				<img data-bind="attr: { src: image }">
 				<h4 data-bind="text: name"></h4>
 				<p data-bind="text: description"></p>
+				<p>Tags: <span data-bind="text: tags"></span></p>
 			</a>
 		</div>
 	</div>

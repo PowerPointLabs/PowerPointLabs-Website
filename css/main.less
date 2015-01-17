@@ -211,18 +211,31 @@ a, .btn-link, .accent {
   display: none;
 }
 
-.shape-gallery-shape {
-  float: left;
-  width: 120px;
 
-  margin: 3px;
-  padding: 6px;
+.shape-gallery {
+  margin: 0 auto;
 
-  border: 1px solid gray;
+  .shape {
+    float: left;
+    width: 175px;
+    height: 220px;
 
-  img {
-    width: 96px;
-    height: 96px;
+    margin: 3px;
+    padding: 6px;
+
+    border: 1px solid gray;
+
+    img {
+      width: 96px;
+      height: 96px;
+
+      display: block;
+      margin: 0 auto;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
