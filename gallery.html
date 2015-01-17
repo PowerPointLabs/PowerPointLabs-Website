@@ -84,7 +84,7 @@ title: Shape Downloads - PowerPointLabs
 				<img data-bind="attr: { src: image }">
 				<h4 data-bind="text: name"></h4>
 				<p data-bind="text: description"></p>
-				<p>Tags: <span data-bind="text: tags"></span></p>
+				<p><small>Tags: <span data-bind="text: tags().join(', ')"></span></small></p>
 			</a>
 		</div>
 	</div>
