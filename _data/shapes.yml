@@ -1,6 +1,6 @@
 - {
 	name: "Square 1",
-	description: "A square.",
+	description: "A square. This has a unique description.",
 	image: "square.png",
 	link: "square.txt",
 	tags: ["shape", "square"]
