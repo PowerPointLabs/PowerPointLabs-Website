@@ -18,6 +18,8 @@ App.Models.Shape = function(rawShape) {
 	this.image = ko.computed(relativeLinker(rawShape.image));
 	this.description = ko.observable(rawShape.description);
 	this.link = ko.computed(relativeLinker(rawShape.link));
+	this.licenseIcon = ko.observable(rawShape.licenseIcon);
+	this.licenseTerms = ko.observable(rawShape.licenseTerms);
 };
 
 App.ViewModels.MainViewModel = function(shapes) {
@@ -88,4 +90,5 @@ App.ViewModels.MainViewModel = function(shapes) {
 $(function() {
 	var viewModel = new App.ViewModels.MainViewModel(shapes);
 	ko.applyBindings(viewModel);
+	$('[data-toggle="tooltip"]').tooltip();
 });

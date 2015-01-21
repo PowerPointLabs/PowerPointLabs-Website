@@ -82,7 +82,12 @@ title: Shape Downloads - PowerPointLabs
 		<div data-bind="foreach: shapes">
 			<a class="shape" data-bind="attr: { href: link }">
 				<img data-bind="attr: { src: image }">
-				<h4 data-bind="text: name"></h4>
+				<div>
+					<h4 style="display: inline-block" data-bind="text: name"></h4>
+					<div class="pull-right" data-bind="if: licenseIcon" data-toggle="tooltip">
+						<span data-bind="attr: { title: licenseTerms }" data-toggle="tooltip">License</span>
+					</div>
+				</div>
 				<p data-bind="text: description"></p>
 				<p><small>Tags: <span data-bind="text: tags().join(', ')"></span></small></p>
 			</a>
