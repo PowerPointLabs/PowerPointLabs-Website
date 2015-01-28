@@ -83,10 +83,12 @@ title: Shape Downloads - PowerPointLabs
 			<a class="shape" data-bind="attr: { href: link }">
 				<img data-bind="attr: { src: image }">
 				<div>
-					<h4 style="display: inline-block" data-bind="text: name"></h4>
-					<div class="pull-right" data-bind="if: licenseIcon" data-toggle="tooltip">
-						<span data-bind="attr: { title: licenseTerms }" data-toggle="tooltip">License</span>
-					</div>
+					<h4>
+						<span data-bind="text: name"></span>
+						<small data-bind="if: licenseIcon" data-toggle="tooltip">
+							<i class="glyphicon glyphicon-info-sign" data-bind="attr: { title: licenseTerms }" data-toggle="tooltip"></i>
+						</small>
+					</h4>
 				</div>
 				<p data-bind="text: description"></p>
 				<p><small>Tags: <span data-bind="text: tags().join(', ')"></span></small></p>
