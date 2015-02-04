@@ -4,7 +4,8 @@
 	image: "square.png",
 	link: "square.txt",
 	tags: ["shape", "square"],
-	licenseTerms: 'Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0'
+	licenseTerms: 'Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0',
+	submitter: 'Damien'
 }
 
 - {

@@ -19,6 +19,7 @@ App.Models.Shape = function(rawShape) {
 	this.description = ko.observable(rawShape.description);
 	this.link = ko.computed(relativeLinker(rawShape.link));
 	this.licenseTerms = ko.observable(rawShape.licenseTerms);
+	this.submitter = ko.observable(rawShape.submitter);
 };
 
 App.ViewModels.MainViewModel = function(shapes) {

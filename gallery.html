@@ -90,6 +90,10 @@ title: Shape Downloads - PowerPointLabs
 						</small>
 					</h4>
 				</div>
+				<!-- ko if: submitter -->
+					<small data-bind="text: 'Submitted by ' + submitter()"></small>
+				<!-- /ko -->
+					
 				<p data-bind="text: description"></p>
 				<p><small>Tags: <span data-bind="text: tags().join(', ')"></span></small></p>
 			</a>
