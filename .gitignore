@@ -1,2 +1,9 @@
-_site
-Thumbs.db
+# Created by https://www.gitignore.io
+
+### Jekyll ###
+_site/
+.sass-cache/
+
+
+### Vagrant ###
+.vagrant/
