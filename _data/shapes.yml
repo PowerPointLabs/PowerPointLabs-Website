@@ -1,10 +1,9 @@
 - {
 	name: "Square 1",
-	description: "A square. This has a unique description.",
+	description: "A square. This has a unique description and a license.",
 	image: "square.png",
 	link: "square.txt",
 	tags: ["shape", "square"],
-	licenseIcon: "cc.jpg",
 	licenseTerms: 'Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0'
 }
 
