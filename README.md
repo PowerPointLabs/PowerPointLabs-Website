@@ -6,13 +6,17 @@ This is the website and documentation for the [PowerPointLabs](http://www.powerp
 
 The website is generated using [Jekyll](http://www.jekyllrb.com). An easy way to get up and running is to just use [Vagrant](http://www.vagrantup.com) (which requires [VirtualBox](https://www.virtualbox.org)).
 
-With Vagrant installed,
+> This README assumes no existing knowledge of how Vagrant (or Jekyll) works. In a nutshell, Vagrant is a nifty wrapper for a virtual machine (the "guest", running Ubuntu 14.04 in our case) which can be automatically setup with our project's dependencies, while letting us use our own familiar editors/tools on the "host".
+
+> Isn't it overkill to use Vagrant just for a simple Jekyll site? Maybe. It's been tricky to get running on Windows in the past, though, so this is perhaps in a strange way easier.
+
+With Vagrant installed, `cd` into the project's root directory and run:
 
 ```shell
 $ vagrant up
 ```
 
-Once that's done, we just need to install the site's dependencies. (This may end up being automated in the nearish future.)
+Once that's done, we need to install the site's dependencies. (This may end up being automated in the nearish future.)
 
 ```shell
 $ vagrant ssh
@@ -20,11 +24,11 @@ $ cd /vagrant
 $ bundle install
 ```
 
-> Isn't it overkill to use Vagrant just for a simple Jekyll site? Maybe. It's been tricky to get running on Windows in the past, though, so this is perhaps in a strange way easier.
+> `vagrant ssh` gives us an `ssh` session on the guest machine. `/vagrant` is a shared folder which maps to the project root on the host: this lets us modify the website's files in our editor of choice, and still have them accessible within the guest.
 
 ## Development (with local previewing)
 
-To work on the site in the future:
+To work on the site in the future (assuming the Vagrant box is still running - if not, run `vagrant up`):
 
 ```shell
 $ vagrant ssh
@@ -32,13 +36,19 @@ $ cd /vagrant
 $ jekyll s --host 0.0.0.0 --force_polling
 ```
 
-The site should now be accessible on `localhost:4000` on the host, with any changes automatically propagating to the guest. 
+The site should now be accessible on `localhost:4000` on the host, and can be modified with any changes automatically propagating to the guest (and visible after a quick refresh of the browser).
 
-> We need to force polling since Jekyll's normal method of checking for changes doesn't work with VirtualBox's shared folders. We also need to specify the host or the site will be served on the _guest_'s localhost instead.
+> We need to force polling since Jekyll's normal method of checking for changes doesn't work with VirtualBox's shared folders. We also need to specify the host or the site will be served on the _guest_'s localhost instead, and won't be accessible from the host.
 
 ## Building for Deployment
 
 Nothing special here: `jekyll build` will output the site's files to `_site`.
+
+```shell
+$ vagrant ssh
+$ cd /vagrant
+$ jekyll build
+```
 
 # How to...
 
