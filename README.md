@@ -16,15 +16,7 @@ With Vagrant installed, `cd` into the project's root directory and run:
 $ vagrant up
 ```
 
-Once that's done, we need to install the site's dependencies. (This may end up being automated in the nearish future.)
-
-```shell
-$ vagrant ssh
-$ cd /vagrant
-$ bundle install
-```
-
-> `vagrant ssh` gives us an `ssh` session on the guest machine. `/vagrant` is a shared folder which maps to the project root on the host: this lets us modify the website's files in our editor of choice, and still have them accessible within the guest.
+This starts up the virtual machine, installs Jekyll, and also installs the site's dependencies.
 
 ## Development (with local previewing)
 
@@ -35,6 +27,8 @@ $ vagrant ssh
 $ cd /vagrant
 $ jekyll s --host 0.0.0.0 --force_polling
 ```
+
+> `vagrant ssh` gives us an `ssh` session on the guest machine. `/vagrant` is a shared folder which maps to the project root on the host: this lets us modify the website's files in our editor of choice, and still have them accessible within the guest.
 
 The site should now be accessible on `localhost:4000` on the host, and can be modified with any changes automatically propagating to the guest (and visible after a quick refresh of the browser).
 
