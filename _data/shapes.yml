@@ -1,129 +1,17 @@
 - {
-	name: "Square 1",
-	description: "A square. This has a unique description and a license.",
-	image: "square.png",
-	link: "square.txt",
-	tags: ["shape", "square"],
-	licenseTerms: 'Icon made by Freepik from www.flaticon.com is licensed under CC BY 3.0',
-	submitter: 'Damien'
+	name: "Sedan",
+	description: "Side view of a sedan.",
+	image: "sedan-side.png",
+	link: "sedan-side.pptlabsshape",
+	tags: ["car", "sedan", "side", "transport"],
+	licenseTerms: 'Icon made by Icons8 from www.flaticon.com is licensed under CC BY 3.0'
 }
 
 - {
-	name: "Circle 1",
-	description: "A circle.",
-	image: "circle.png",
-	link: "circle.txt",
-	tags: ["shape", "circle", "round"]
-}
-
-- {
-	name: "Square 2",
-	description: "A square.",
-	image: "square.png",
-	link: "square.txt",
-	tags: ["shape", "square"]
-}
-
-- {
-	name: "Circle 2",
-	description: "A circle.",
-	image: "circle.png",
-	link: "circle.txt",
-	tags: ["shape", "circle", "round"]
-}
-
-- {
-	name: "Square 3",
-	description: "A square.",
-	image: "square.png",
-	link: "square.txt",
-	tags: ["shape", "square"]
-}
-
-- {
-	name: "Circle 3",
-	description: "A circle.",
-	image: "circle.png",
-	link: "circle.txt",
-	tags: ["shape", "circle", "round"]
-}
-
-- {
-	name: "Square 4",
-	description: "A square.",
-	image: "square.png",
-	link: "square.txt",
-	tags: ["shape", "square"]
-}
-
-- {
-	name: "Circle 4",
-	description: "A circle.",
-	image: "circle.png",
-	link: "circle.txt",
-	tags: ["shape", "circle", "round"]
-}
-
-- {
-	name: "Square 5",
-	description: "A square.",
-	image: "square.png",
-	link: "square.txt",
-	tags: ["shape", "square"]
-}
-
-- {
-	name: "Circle 5",
-	description: "A circle.",
-	image: "circle.png",
-	link: "circle.txt",
-	tags: ["shape", "circle", "round"]
-}
-
-- {
-	name: "Square 6",
-	description: "A square.",
-	image: "square.png",
-	link: "square.txt",
-	tags: ["shape", "square"]
-}
-
-- {
-	name: "Circle 6",
-	description: "A circle.",
-	image: "circle.png",
-	link: "circle.txt",
-	tags: ["shape", "circle", "round"]
-}
-
-- {
-	name: "Square 7",
-	description: "A square.",
-	image: "square.png",
-	link: "square.txt",
-	tags: ["shape", "square"]
-}
-
-- {
-	name: "Circle 7",
-	description: "A circle.",
-	image: "circle.png",
-	link: "circle.txt",
-	tags: ["shape", "circle", "round"]
-}
-
-- {
-	name: "Square 8",
-	description: "A square.",
-	image: "square.png",
-	link: "square.txt",
-	tags: ["shape", "square"]
-}
-
-- {
-	name: "Circle 8",
-	description: "A circle.",
-	image: "circle.png",
-	link: "circle.txt",
-	tags: ["shape", "circle", "round"]
+	name: "Plane",
+	description: "A black airplane.",
+	image: "plane-top-down.png",
+	link: "plane-top-down.pptlabsshape",
+	tags: ["plane", "airplane", "transport"],
+	licenseTerms: 'Icon made by Google from www.flaticon.com is licensed under CC BY 3.0'
 }
