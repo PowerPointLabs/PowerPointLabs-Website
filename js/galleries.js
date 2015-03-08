@@ -3,7 +3,7 @@ App.ViewModels = {};
 App.Models = {};
 
 App.Constants = {
-	'shapeDirectory': '/shapes/'
+	'shapeDirectory': './shapes/'
 };
 
 App.Models.Shape = function(rawShape) {
