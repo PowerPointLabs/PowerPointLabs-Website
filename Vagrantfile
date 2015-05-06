@@ -4,7 +4,7 @@
 # Provisioning script
 $script = <<SCRIPT
 apt-get install ruby ruby-dev make gcc nodejs g++ -y
-sudo gem install jekyll bundler
+sudo gem install bundler
 su vagrant -c "cd /vagrant; bundle install"
 SCRIPT
 
