@@ -114,7 +114,7 @@ In the Visual Agenda, the displayed section images are taken from the first slid
 
 <img class="box-shadow" src="./img/docs/agenda-lab-15.gif">
 
-As before, click `Synchronise Agenda` to synchronise the visual agenda throughout the presentation to follow the format of the template slide.
+As before, click `Synchronize Agenda` to synchronize the visual agenda throughout the presentation to follow the format of the template slide.
 
 <img class="box-shadow" src="./img/docs/agenda-lab-11.png">
 
@@ -170,6 +170,10 @@ Recall that when you make a change to the template slide and synchronize the age
 However, if you add additional shapes or transitions to the individual slides and not the to template slide, they will be preserved even after synchronization.
 
 
+#### Replacing a Template Slide
+If you have a generated agenda, you can copy over a template slide from another presentation into the current presentation. Place the new template slide as the first slide of the presentation, delete the previous template slide, and press *Synchronize Agenda* to use the new template slide in your agenda.
+
+Note that for this to work, the agenda types for both presentations must be the same.
 
 #### Resetting the Visual Agenda image layout
 When the Visual Agenda is initially generated, the section images are laid out in a grid, which can then be rearranged to your liking.
