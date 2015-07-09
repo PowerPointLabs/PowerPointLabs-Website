@@ -63,6 +63,42 @@ title: Shape Downloads - PowerPointLabs
 		</div>
 		{% endfor %}
 	</div>
+
+	<div class="row col-xs-12">
+		<h2>Shape Gallery</h2>
+		<p>Here are some shapes that can be downloaded on their own, and imported into the Shapes Lab. Just click the one you want!</p>
+		<p class="btn btn-default" data-bind="click: toggleShapeGallery, visible: !isGallerySectionOpen()">
+			<i class="glyphicon glyphicon-plus"></i>
+			Show Gallery
+		</p>
+		<p class="btn btn-default" data-bind="click: toggleShapeGallery, visible: isGallerySectionOpen">
+			<i class="glyphicon glyphicon-minus"></i>
+			Hide Gallery
+		</p>
+	</div>
+
+	<div id="shape-gallery" class="collapsed row col-xs-12 shape-gallery">
+		<input type="text" class="search-box" placeholder="Search shapes..." data-bind="textInput: filterText">
+		<div data-bind="foreach: shapes">
+			<a class="shape" data-bind="attr: { href: link }">
+				<img data-bind="attr: { src: image }">
+				<div>
+					<h4>
+						<span data-bind="text: name"></span>
+						<small data-bind="if: licenseTerms" data-toggle="tooltip">
+							<i class="glyphicon glyphicon-info-sign" data-bind="attr: { title: licenseTerms }" data-toggle="tooltip"></i>
+						</small>
+					</h4>
+				</div>
+				<!-- ko if: submitter -->
+					<small data-bind="text: 'Submitted by ' + submitter()"></small>
+				<!-- /ko -->
+					
+				<p data-bind="text: description"></p>
+				<p><small>Tags: <span data-bind="text: tags().join(', ')"></span></small></p>
+			</a>
+		</div>
+	</div>
 </div>
 
 <script>
