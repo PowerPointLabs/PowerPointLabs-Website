@@ -65,7 +65,7 @@ More details about each agenda type are given in the following sections.
 
 ### Text Agenda
 
-Click `Agenda Slides (text)` from the Agenda Lab dropdown to generate a text agenda.
+Click `Create Text Agenda` from the Agenda Lab dropdown to generate a text agenda.
 
 <img class="box-shadow" src="./img/docs/agenda-lab-8.png">
 
@@ -98,7 +98,7 @@ This causes the agenda slides in the presentation to be updated to match the tem
 
 
 ### Visual Agenda
-To generate the visual agenda, click `Agenda Slides (visual)` under from the Agenda Lab dropdown.
+To generate the visual agenda, click `Create Visual Agenda` under from the Agenda Lab dropdown.
 
 <img class="box-shadow" src="./img/docs/agenda-lab-13.png">
 
@@ -122,7 +122,7 @@ As before, click `Synchronize Agenda` to synchronize the visual agenda throughou
 
 ### Sidebar Agenda
 
-To generate the agenda, click on `Agenda Sidebar` under the Agenda Lab dropdown to generate the agenda on all slides (other than the first section).
+To generate the agenda, click on `Create Sidebar Agenda` under the Agenda Lab dropdown to generate the agenda on all slides (other than the first section).
 
 Alternatively, we can generate the sidebar on only specific slides. To do this, we select the slides we want individually before clicking the `Agenda Sidebar` button.
 
