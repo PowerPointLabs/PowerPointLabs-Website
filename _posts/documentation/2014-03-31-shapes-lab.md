@@ -51,24 +51,36 @@ Once you have more than one category in the Shapes Lab, you can use the Category
 
 Categories can also be renamed or deleted by right-clicking on an empty space in the Shapes Lab and choosing the appropriate option. You can also set a category as the default category where new shapes will be saved to from the same menu.
 
-##### <a name="shapes-lab-import"></a> Importing Shape Libraries
+##### <a name="shapes-lab-import"></a> Importing Shapes
 
-The Shapes Lab can also import shapes from a file - this can be useful if you use multiple computers, or have a collection of shapes you'd like to share with others. To do so, right-click on an empty space in the Shapes Lab, then select Import Library.
+The Shapes Lab can also import shapes from a file - this can be useful if you use multiple computers, or have a collection of shapes you'd like to share with others.
+
+You can import single shapes, or import an entire library. To do so, right-click on an empty space in the Shapes Lab, then select Import Shapes or Import Library.
 
 <img class="box-shadow" src="./img/docs/shapes-lab-7.png">
 
-Select the library file, then click `Open`.
+Select the library or shape you wish to import, and click `Open`.
+Note that individiual shapes have the extension `.pptlabsshape`, while shape libraries have the extension `.pptlabsshapes`.
 
 <img class="box-shadow" src="./img/docs/shapes-lab-8.png">
 
-> **Note**: you can find some Shape Libraries over on our [gallery](./gallery.html) page. Feel free to submit your own, too!
+> **Note**: you can find some Shapes and Shape Libraries over on our [gallery](./gallery.html) page. Feel free to submit your own, too!
 
 ##### Creating Shape Libraries
 
-If you'd like to create your own shape libraries, first create a new empty PowerPoint presentation and insert a blank slide. Each slide in this presentation will correspond to a single category; you can thus save multiple categories of shapes in a single library file. 
+If you'd like to create your own shape libraries, first create a new empty PowerPoint presentation and insert a blank slide. Each slide in this presentation will correspondohohca to a single category; you can thus save multiple categories of shapes in a single library file.
 
 To name each category, create a textbox on the slide containing "Category:" followed by the desired name:
 
 <img class="box-shadow" src="./img/docs/shapes-lab-9.png">
 
-After saving the file, change its file extension from `.pptx` to `.pptlabsshapes` - this doesn't change the file's contents or format, but makes it easier to select when importing into the Shapes Lab. 
+After saving the file, change its file extension from `.pptx` to `.pptlabsshapes` - this doesn't change the file's contents or format, but makes it easier to select when importing into the Shapes Lab.
+
+
+##### Creating Shapes
+
+If you'd like to create your own shapes, first create a new empty PowerPoint presentation and insert a blank slide. Simply create your shape in the middle of the slide and save it.
+
+<img class="box-shadow" src="./img/docs/shapes-lab-10.png">
+
+After saving the file, change its file extension from `.pptx` to `.pptlabsshape`. As before, this does not change the file's contents or format.
