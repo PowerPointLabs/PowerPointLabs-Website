@@ -112,7 +112,7 @@ In the following example, we reposition the images and add additional shapes to 
 
 <img class="box-shadow" src="./img/docs/agenda-lab-14.png">
 
-In the Visual Agenda, the displayed images are taken from the first slide of each section. After the section has passed, the displayed image is the final slide of the section. Thus, you can customize the displayed image for a section by inserting an additional slide at the front or back of your section.
+In the Visual Agenda, the displayed images are taken from the first slide of each section. After the section has passed, the displayed image is the final slide of the section. Thus, you can customize the displayed image for a section by inserting an additional slide at the front and/or back of your section.
 
 <img class="box-shadow" src="./img/docs/agenda-lab-15.gif">
 
