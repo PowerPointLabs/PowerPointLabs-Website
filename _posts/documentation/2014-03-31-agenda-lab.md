@@ -188,11 +188,9 @@ A similar effect can be achieved by regenerating the Visual Agenda. However, thi
 
 
 #### Adding and Removing the Sidebar Agenda from individual slides
-The Sidebar Agenda is slightly different from the other two agendas in a way - instead of generating it for the whole presentation, we can also select individual slides and generate the sidebar on them.
+The Sidebar Agenda is slightly different from the other two agendas in a way - instead of generating it for the whole presentation, you can also select individual slides and generate the sidebar on them.
 
-But what if you had missed out on one of the slides earlier? You would want to "Add" the sidebar to those slides without losing your previous formatting. We can use the `Synchronize Agenda` button for this.
-
-`Synchronize Agenda` can also be used to add the sidebar to slides that do not already have the sidebar. To do this, select the slides you wish to add the sidebar to before clicking `Synchronize Agenda`. If the selected slides do not already have the sidebar, the sidebar will be added to those slides. After which, the rest of the agenda will also be synchronized.
+Agenda Lab also offers a way to add the sidebar agenda to slides you had missed out on before without regenerating the entire agenda. To do this, select the slides you wish to add the sidebar to and click `Synchronize Agenda`. If the selected slides do not already have the sidebar, the sidebar will be added to those slides. After which, the rest of the agenda will also be synchronized.
 
 <img class="box-shadow" src="./img/docs/agenda-lab-20.png">
 
