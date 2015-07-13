@@ -16,7 +16,7 @@ The **Agenda Lab** allows you to automatically generate agenda slides for your p
 
 Currently, there are three types of agenda that PowerPointLabs supports:
 
-The **Text Agenda**, **Visual Agenda**, and **Sidebar Agenda**.
+The <a href="./samples/Agenda%20Lab%20Example%20-%20Text%20Agenda.pptx">**Text Agenda**</a>, <a href="./samples/Agenda%20Lab%20Example%20-%20Visual%20Agenda.pptx">**Visual Agenda**</a>, and <a href="./samples/Agenda%20Lab%20Example%20-%20Agenda%20Sidebar.pptx">**Sidebar Agenda**</a>.
 
 #### Text Agenda <a href="./samples/Agenda%20Lab%20Example%20-%20Text%20Agenda.pptx">[Sample]</a>
 
