@@ -76,7 +76,9 @@ PowerPointLabs will then automatically insert agenda slides into your presentati
 If the initially generated text agenda format is not to your liking, you can configure the format of the generated agenda using the template slide.
 
 
-As seen in the template slide, there are three types of bullet styles - *Unvisited*, *Highlighted* and *Visited*, which correspond to the style of *Unvisited*, *Highlighted* and *Visited* sections in the actual agenda in your presentation. Tweak the styles, and add or delete shapes to your liking.
+As seen in the template slide, there are three types of bullet styles for you to modify - *Unvisited*, *Highlighted* and *Visited*, which correspond to the style of *Unvisited*, *Highlighted* and *Visited* sections in the actual agenda in your presentation.
+
+You can also add items to or remove items from the template slide. These changes will be synchronized to the agenda throughout the presentation.
 
 In the following example, we change the header and bullet points of the template slide.
 
