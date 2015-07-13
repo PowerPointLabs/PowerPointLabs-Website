@@ -110,7 +110,7 @@ In the following example, we reposition the images and add additional shapes to 
 
 <img class="box-shadow" src="./img/docs/agenda-lab-14.png">
 
-In the Visual Agenda, the displayed section images are taken from the first slide of each section. After the section has passed, the displayed image is the final slide of the section. Thus, you can customize the displayed image for a section by inserting an additional slide at the front or back of your section.
+In the Visual Agenda, the displayed images are taken from the first slide of each section. After the section has passed, the displayed image is the final slide of the section. Thus, you can customize the displayed image for a section by inserting an additional slide at the front or back of your section.
 
 <img class="box-shadow" src="./img/docs/agenda-lab-15.gif">
 
@@ -176,9 +176,9 @@ If you have a generated agenda, you can copy over a template slide from another 
 Note that for this to work, the agenda types for both presentations must be the same.
 
 #### Resetting the Visual Agenda image layout
-When the Visual Agenda is initially generated, the section images are laid out in a grid, which can then be rearranged to your liking.
+When the Visual Agenda is initially generated, the images corresponding to each section are laid out in a grid, which can then be rearranged to your liking.
 
-However, if you wish to reset the layout of the images, a simple trick is to delete all the section images in the template slide and clicking `Synchronize Agenda`. This causes the section images to be regenerated in a grid layout.
+However, if you wish to reset the layout of the images, a simple trick is to delete the images corresponding to each section in the template slide and clicking `Synchronize Agenda`. This causes the images to be regenerated in a grid layout.
 
 A similar effect can be achieved by regenerating the Visual Agenda. However, this causes the agenda to lose all of your other previous formatting as well.
 
