@@ -122,7 +122,7 @@ As before, click `Synchronize Agenda` to synchronize the visual agenda throughou
 
 ### Sidebar Agenda
 
-To generate the agenda, click on `Create Sidebar Agenda` under the Agenda Lab dropdown to generate the agenda on all slides (other than the first section).
+To generate the agenda, click on `Create Sidebar Agenda` under the Agenda Lab dropdown. By default, the agenda is generated on all slides other than the first section.
 
 Alternatively, we can generate the sidebar on only specific slides. To do this, we select the slides we want individually before clicking the `Agenda Sidebar` button.
 
