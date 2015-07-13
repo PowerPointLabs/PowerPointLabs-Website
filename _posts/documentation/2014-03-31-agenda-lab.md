@@ -164,12 +164,14 @@ Generating another agenda on top of an existing agenda will remove the previous 
 
 ### Advanced Tips
 
-#### Tweaking Individual Slides Further
+#### Customizing Individual Slides Further
 In addition to modifying the template slide and synchronizing changes throughout the agenda, you can also customize individual slides in the presentation.
 
 Recall that when you make a change to the template slide and synchronize the agenda, all changes to the template slide are passed down to the agenda slides throughout the presentation.
 
-However, if you add additional shapes or transitions to the individual slides and not the to template slide, they will be preserved even after synchronization.
+However, if you add additional shapes or transitions to the individual slides and not the to template slide, they will be preserved even after synchronization. This allows you to further customize the individual slides of the agenda, like shown below:
+
+<img class="box-shadow" src="./img/docs/agenda-lab-20.png">
 
 
 #### Replacing a Template Slide
@@ -192,7 +194,7 @@ The Sidebar Agenda is slightly different from the other two agendas in a way - i
 
 Agenda Lab also offers a way to add the sidebar agenda to slides you had missed out on before without regenerating the entire agenda. To do this, select the slides you wish to add the sidebar to and click `Synchronize Agenda`. If the selected slides do not already have the sidebar, the sidebar will be added to those slides. After which, the rest of the agenda will also be synchronized.
 
-<img class="box-shadow" src="./img/docs/agenda-lab-20.png">
+<img class="box-shadow" src="./img/docs/agenda-lab-21.png">
 
 If you want to remove the sidebar from specific slides, simply delete the sidebar object manually from the slide.
 
