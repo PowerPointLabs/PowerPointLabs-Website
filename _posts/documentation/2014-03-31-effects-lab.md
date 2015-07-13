@@ -57,6 +57,7 @@ PowerPointLabs will then insert a new slide containing the blur effect.
 
 <img class="box-shadow" src="./img/docs/effects-lab-9.png">
 
+
 ### Recolor Remainder
 
 Recolor Remainder works in a similar manner to Blur Remainder, but instead changes the color of the surrounding areas while leaving the focused area unchanged.
@@ -72,3 +73,22 @@ Next, select the shape, select `Recolor Remainder` from the Effects Lab dropdown
 PowerPointLabs will insert a new slide, with the surrounding areas recolored.
 
 <img class="box-shadow" src="./img/docs/effects-lab-11.png">
+
+
+### Blur / Recolor All Except Selected
+
+If you want to draw attention to an individual shapes instead of a section of a slide, you can use **Blur All Except Selected** or **Recolor All Except Selected** instead.
+
+Suppose that your wish to draw attention to the text box in this slide:
+
+<img class="box-shadow" src="./img/docs/effects-lab-13.png">
+
+After selecting the text box, select *Blur All Except Selected* from the Effects Lab dropdown.
+
+<img class="box-shadow" src="./img/docs/effects-lab-12.png">
+
+Notice that everything in the slide will be blurred except for the selected shapes.
+
+<img class="box-shadow" src="./img/docs/effects-lab-14.png">
+
+The procedure and effect are similar for Recolor All Except Selected.
