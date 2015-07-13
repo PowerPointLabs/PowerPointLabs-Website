@@ -147,7 +147,7 @@ Notice that in the sidebar agenda, the current section being displayed in the pr
 
 
 ### Editing and Rearranging Sections
-Even after the agenda has been generated, you can still make changes to the layout of the sections. After adding, removing, renaming or rearranging the sections in the presentation, simply click `Synchronize Agenda` again and the agenda will update itself to the new section layout.
+Even after the agenda has been generated, you can still make changes to the arrangement of the sections. After adding, removing, renaming or rearranging the sections in the presentation, simply click `Synchronize Agenda` again and the agenda will update itself to the new section arrangement.
 
 
 
