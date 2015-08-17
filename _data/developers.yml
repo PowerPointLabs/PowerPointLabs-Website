@@ -30,3 +30,8 @@
   name: "Xie Kai",
   img: "./img/team/kai.png"
 }
+
+- {
+  name: "Oh Shunhao",
+  img: "./img/team/oh.png"
+}
