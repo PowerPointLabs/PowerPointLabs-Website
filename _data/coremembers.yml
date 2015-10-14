@@ -1,12 +1,14 @@
 - {
   name: "Damith C. Rajapakse",
   img: "./img/team/damith.png",
+  position: "Founder, Mentor",
   url: "http://www.comp.nus.edu.sg/~damithch/"
 }
 
 - {
-  name: "Huang Da",
-  img: "./img/team/huangda.jpg"
+  name: "Xie Kai",
+  position: "Project Lead",
+  img: "./img/team/kai.png"
 }
 
 - {
@@ -19,16 +21,6 @@
   name: "Karan Kamath",
   img: "./img/team/karan.jpg",
   url: "http://karankamath.com"
-}
-
-- {
-  name: "Raunak Rajpuria",
-  img: "./img/team/raunak.png",
-}
-
-- {
-  name: "Xie Kai",
-  img: "./img/team/kai.png"
 }
 
 - {

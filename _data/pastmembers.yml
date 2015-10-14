@@ -1,0 +1,9 @@
+- {
+  name: "Huang Da",
+  img: "./img/team/huangda.jpg"
+}
+
+- {
+  name: "Raunak Rajpuria",
+  img: "./img/team/raunak.png",
+}

@@ -8,8 +8,34 @@ hideFooter: true
   <div class="row page-header col-xs-12">
     <h1>The Team</h1>
   </div>
+  
+  <h2>Core Members</h2>
   <div class="row">
-  {% for developer in site.data.developers %}
+  {% for developer in site.data.coremembers %}
+    <div class="developer-details col-xs-2">
+      {% if developer.url %}
+        <a href="{{developer.url}}">
+      {% endif %}
+        <img class="box-shadow" src="{{developer.img}}">
+        <p>{{developer.name}}</p>
+      {% if developer.url %}
+        </a>
+      {% endif %}
+      {% if developer.position %}
+        <p>{{developer.position}}</p>
+      {% endif %}
+      </div>
+      {% capture remainder %}{{ forloop.index | modulo: 6}}{% endcapture %}
+      {% if remainder == '0' %}
+        </div>
+        <div class="row">
+      {% endif %}
+  {% endfor %}
+  </div>
+  
+  <h2>Past Members</h2>
+  <div class="row">
+  {% for developer in site.data.pastmembers %}
     <div class="developer-details col-xs-2">
       {% if developer.url %}
         <a href="{{developer.url}}">
@@ -27,9 +53,21 @@ hideFooter: true
       {% endif %}
   {% endfor %}
   </div>
+  
+  <h2>Contributors</h2>
+  <div class="row">
+    <ul>
+    {% for developer in site.data.contributors %}
+      <li><p>{{developer.name}}</p></li>
+    {% endfor %}
+    </ul>
+  </div>
+  
+  
+  <br><br>
   <div class="row col-xs-12">
     <p>
-      PowerPointLabs was developed at the School of Computing, National University of Singapore, with funding from an NUS Learning Innovation Fund, Technology (LIFT) grant.
+      PowerPointLabs is developed at the School of Computing, National University of Singapore, with funding from an NUS Learning Innovation Fund, Technology (LIFT) grant.
     </p>
   </div>
 
