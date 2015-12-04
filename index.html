@@ -3,7 +3,7 @@ layout: default
 title: PowerPointLabs
 ---
 <style>
-	.testDiv{ width:730px; height:120px} 
+	.testDiv{ width:730px; height:80px} 
 </style>
 <body onload="showTestimonials()">
 <div class="container">
@@ -28,6 +28,19 @@ title: PowerPointLabs
 		<div class="col-xs-4">
 			<iframe width="420" height="315" src="//www.youtube.com/embed/cOmC14DGddU?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
+		
+		<div class="row col-xs-10 col-xs-offset-1 feature-grid">
+		
+		<div class="row col-xs-offset-1">
+			
+			
+			<div class="col-xs-7 testDiv">
+				<p id="testimonialContainer">
+
+				</p>
+			</div>
+		</div>
+		</div>
 	</div>
 
 	<div class="row col-xs-10 col-xs-offset-1">
@@ -44,18 +57,7 @@ title: PowerPointLabs
 	</div>
 
 		<div class="row col-xs-10 col-xs-offset-1 feature-grid">
-		
-		<div class="row col-xs-offset-1">
-			
-			
-			<div class="col-xs-7 testDiv">
-				<h3>Praised by Users:</h3>
-				<p id="testimonialContainer">
 
-				</p>
-			</div>
-		</div>
-		
 		{% for feature in site.data.features %}
 		
 
