@@ -2,7 +2,7 @@ var pptlabs = pptlabs||{};
 
 (function(testimonial) {
 	var currentTestimonial = 0;
-    testimonial.showTestimonials = function() {
+	testimonial.showTestimonials = function() {
     	var TESTIMONIALS = new Array("I downloaded the PowerPoint Labs plugin...this is great! I can see a lot of different ways how I can use this to make better presentations and videos! It really enhances my ability to visually communicate complex topics. &nbsp&nbsp<i>-- Jeff</i>",
  	 	"I will just say that your product is awesome and has helped so much in delivering presentations that would realistically have taken so much longer to produce. &nbsp&nbsp<i>-- Grant Roberts, UK</i>"
  	 	,"As I am a power user of PowerPoint, I truly appreciate those usable and powerful features that are provided with the plugin. &nbsp&nbsp<i>--Simon, Singapore</i>"
