@@ -2,10 +2,7 @@
 layout: default
 title: PowerPointLabs
 ---
-<style>
-	.testDiv{ width:730px; height:80px} 
-</style>
-<body onload="showTestimonials()">
+
 <div class="container">
 	<div class="jumbotron row">
 		<div class="col-xs-6 text-center">
@@ -31,15 +28,14 @@ title: PowerPointLabs
 		
 		<div class="row col-xs-10 col-xs-offset-1 feature-grid">
 		
-		<div class="row col-xs-offset-1">
-			
-			
-			<div class="col-xs-7 testDiv">
-				<p id="testimonialContainer">
+			<div class="row col-xs-offset-1">
 
-				</p>
+				<div id="testimonial-row">
+					<p id="testimonialContainer">
+
+					</p>
+				</div>
 			</div>
-		</div>
 		</div>
 	</div>
 
@@ -56,10 +52,9 @@ title: PowerPointLabs
 		<hr />
 	</div>
 
-		<div class="row col-xs-10 col-xs-offset-1 feature-grid">
+	<div class="row col-xs-10 col-xs-offset-1 feature-grid">
 
 		{% for feature in site.data.features %}
-		
 
 		<div class="row col-xs-offset-1">
 			{% capture remainder %}{{ forloop.index | modulo:2 }}{% endcapture %}
@@ -88,5 +83,4 @@ title: PowerPointLabs
 		{% endfor %}
 	</div>
 </div>
-</body>
 <script src="./js/testimonial.js"></script>
