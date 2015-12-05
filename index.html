@@ -25,6 +25,20 @@ title: PowerPointLabs
 		<div class="col-xs-4">
 			<iframe width="420" height="315" src="//www.youtube.com/embed/cOmC14DGddU?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
+		
+		<div class="row col-xs-10 col-xs-offset-1">
+			<div>
+				<img src="./img/quote-open.png" align="left"/>
+			</div>
+			<div>
+				<img src="./img/quote-close.png" align="right"/>
+			</div>
+			<br />
+			<div>
+				<p  id="testimonial-row">
+				</p>
+			</div>
+		</div>
 	</div>
 
 	<div class="row col-xs-10 col-xs-offset-1">
@@ -41,7 +55,9 @@ title: PowerPointLabs
 	</div>
 
 	<div class="row col-xs-10 col-xs-offset-1 feature-grid">
+
 		{% for feature in site.data.features %}
+
 		<div class="row col-xs-offset-1">
 			{% capture remainder %}{{ forloop.index | modulo:2 }}{% endcapture %}
 			{% if remainder == '1' %}
@@ -69,3 +85,4 @@ title: PowerPointLabs
 		{% endfor %}
 	</div>
 </div>
+<script src="./js/testimonial.js"></script>
