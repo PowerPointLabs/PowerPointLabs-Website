@@ -45,6 +45,48 @@ var pptlabs = pptlabs||{};
     };
 })(pptlabs);
 
+(function(usersCount) {
+	usersCount.usersCounter = function(currentDate, baseDate, newUsersPerHour, baseUser) {
+    	var errorMsg = "Thousands of";
+    	if (!currentDate || !baseDate) {
+        	return errorMsg;
+    	}
+    	var CurrBaseDateDifference = new Date(currentDate - baseDate);
+    	if (CurrBaseDateDifference < 0) {
+        	return errorMsg;
+    	}
+
+    	var dd = CurrBaseDateDifference.getDate();
+    	var mm = CurrBaseDateDifference.getMonth();
+    	var yyyy = CurrBaseDateDifference.getFullYear() - 1970;
+    	var month = mm + yyyy * 12;
+    	var days = dd + month * 30;
+    	var hr = days * 24;
+    	var numberOfUsers = hr * newUsersPerHour;
+    	numberOfUsers += baseUser;
+    	return usersCount.formatNumber(numberOfUsers);
+	};
+
+	usersCount.formatNumber = function(number) {
+    	number += '';
+    	var expression = /(\d+)(\d{3})/;
+    	while (expression.test(number)) {
+        	number = number.replace(expression, '$1' + ',' + '$2');
+    	}
+    	return number;
+	};
+})(pptlabs);
+
 window.onload = function() {
     pptlabs.showTestimonials();
+	
+	// Parameters for the estimation calculation
+    var baseDate = new Date('November 30, 2015 00:00:00');  //The date the parameters were adjusted
+    var baseUsers = 150000;     //The submission count on the above date
+    var newUsersPerHour = 21; //The rate at which the new users is growing
+    
+    //set the submission count in the page
+    var e = document.getElementById("userCountNumbers-row");
+    var currentDate = new Date();
+    e.innerHTML = pptlabs.usersCounter(currentDate, baseDate, newUsersPerHour, baseUsers);
 };
