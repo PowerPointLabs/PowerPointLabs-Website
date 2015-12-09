@@ -4,11 +4,11 @@ var pptlabs = pptlabs||{};
     var currentTestimonial = 0;
     testimonial.showTestimonials = function() {
         var TESTIMONIALS = new Array(
-		"I want to thank you for developing such cool features for PowerPoint productivity. I already contacted a bunch of "
-		  + "friends and encourage them to try it on. Specially, the Shapes Lab utility, it is one the greatest time savers I "
-		  + "could find. &nbsp&nbsp<i>-- Jimmy, Peru</i>"
-	    ,"Awesome plug-in! Thank you so much. This really helps give PPT some of the features that Keynote shined at. (i.e. "
-	      + "Magic Move, etc.) This will be a fantastic timesaver! &nbsp&nbsp<i>-- Joe, Minneapolis</i>"
+        "I want to thank you for developing such cool features for PowerPoint productivity. I already contacted a bunch of "
+          + "friends and encourage them to try it on. Specially, the Shapes Lab utility, it is one the greatest time savers I "
+          + "could find. &nbsp&nbsp<i>-- Jimmy, Peru</i>"
+        ,"Awesome plug-in! Thank you so much. This really helps give PPT some of the features that Keynote shined at. (i.e. "
+          + "Magic Move, etc.) This will be a fantastic timesaver! &nbsp&nbsp<i>-- Joe, Minneapolis</i>"
         ,"I will just say that your product is awesome and has helped so much in delivering presentations that would " 
           + "realistically have taken so much longer to produce. &nbsp&nbsp<i>-- Grant Roberts, UK</i>"
         ,"The magnifying glass alone is priceless. It's spot on as far as meeting a need. &nbsp&nbsp<i>-- Lauren, New Zealand</i>"
