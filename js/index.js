@@ -41,7 +41,7 @@ var pptlabs = pptlabs||{};
         if (currentTestimonial >= size){
             currentTestimonial = 0;
         } 
-        setTimeout("pptlabs.showTestimonials()",5000);
+        setTimeout("pptlabs.showTestimonials()",8500);
     };
 })(pptlabs);
 
@@ -77,7 +77,7 @@ var pptlabs = pptlabs||{};
     };
 })(pptlabs);
 
-window.onload = function() {
+$(function() {
     pptlabs.showTestimonials();
     // Parameters for the estimation calculation
     var baseDate = new Date('November 30, 2015 00:00:00');  //The date the parameters were adjusted
@@ -87,4 +87,4 @@ window.onload = function() {
     var e = document.getElementById("user-count-numbers-row");
     var currentDate = new Date();
     e.innerHTML = pptlabs.usersCounter(currentDate, baseDate, newUsersPerHour, baseUsers);
-};
+});
