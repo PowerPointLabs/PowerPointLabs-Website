@@ -83,4 +83,3 @@ bookmark: spotlight
 | date | We use this to determine the ordering of each section - they appear "chronologically" on the rendered `docs.html` page. |
 | sample | An optional sample file to be linked to in the section's header. |
 | bookmark | This should correspond to the `#` link added in the previous step. |
-
