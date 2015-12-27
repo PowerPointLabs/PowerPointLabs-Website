@@ -74,7 +74,7 @@ For example, notice how we have named the four green circles here `c1`, `c2`, `c
 
 ![](./img/docs/auto-animate-6.png)
 
-To rename a shape, either right-click on it and select `Edit name`, or click on it in the selection pane.
+To rename a shape, either right-click on it and select `Edit name` in the submenu `PowerPointLabs`, or click on it in the selection pane.
 
 >**Note:** if multiple shapes on the same slide share a single name, the wrong shapes may be animated.
   
