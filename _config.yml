@@ -2,4 +2,4 @@ name: PowerPointLabs
 markdown: redcarpet
 highlighter: pygments
 gems: ['jekyll-less']
-exclude: ['Gemfile', 'Gemfile.lock', 'Vagrantfile', 'README.md', '.gitignore', '.vagrant']
+exclude: ['vendor', 'Gemfile', 'Gemfile.lock', 'Vagrantfile', 'README.md', '.gitignore', '.vagrant']

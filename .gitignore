@@ -3,7 +3,7 @@
 ### Jekyll ###
 _site/
 .sass-cache/
-
+Gemfile.lock
 
 ### Vagrant ###
 .vagrant/
