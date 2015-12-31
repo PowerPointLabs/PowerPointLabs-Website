@@ -43,4 +43,4 @@ If you'd like, you can adjust the transparency of the darkened area and the soft
 
 If you're not quite happy with the way things turned out, simply adjust the settings from the dialog (shown above), delete the slide with the spotlight effect, and click `Create Spotlight` again.
 
-**You can download the slides used in this example [here.](./img/docs/spotlight%20sample.pptx)**
+**You can download the slides used in this example [here.](./samples/spotlight%20sample.pptx)**
