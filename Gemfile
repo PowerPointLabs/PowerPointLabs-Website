@@ -1,5 +1,4 @@
 source "https://rubygems.org"
 
-gem "jekyll-less"
-gem "redcarpet"
+gem "jekyll"
 gem "html-proofer"
