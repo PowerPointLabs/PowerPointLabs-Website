@@ -1,6 +1,11 @@
 # PowerPointLabs' Website
 
-This is the website and documentation for the [PowerPointLabs](http://www.powerpointlabs.info) project.
+This is the website and documentation for the [PowerPointLabs](http://www.powerpointlabs.info) project.  
+![travis-ci](https://travis-ci.org/PowerPointLabs/PowerPointLabs-Website.svg?branch=master)
+
+## Contributing To PowerPointLabs-Website
+
+Interested to contribute? Please take a moment to review the [guidelines for contributing](https://github.com/PowerPointLabs/PowerPointLabs-Website/blob/master/CONTRIBUTING.md).
 
 ## Setup
 
