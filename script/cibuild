@@ -4,7 +4,13 @@ set -e # halt script on error
 bundle exec jekyll build
 bundle exec htmlproof ./_site --alt-ignore "/.*/" --check-html --disable-external --file-ignore "/.+\/documentation\/.+/"
 
+echo "Checking VSTO runtime download link..."
 grep -o 'http://www.microsoft.com/[^"]*' ./vsto-redirect.html | xargs curl -s | grep -o -c "Visual Studio 2010 Tools for Office Runtime" || {
-    echo "ERROR: fail to verify the VSTO runtime download link. Please update the link in vsto-redirect.html"
+    echo "ERROR: fail to verify the VSTO runtime download link in vsto-redirect.html. Please correct the link in vsto-redirect.html."
+    exit 2
+}
+
+curl -s 'http://www.comp.nus.edu.sg/~pptlabs/vsto-redirect.html' | grep -o 'http://www.microsoft.com/[^"]*' | xargs curl -s | grep -o -c "Visual Studio 2010 Tools for Office Runtime" || {
+    echo "ERROR: fail to verify the VSTO runtime download link in the server. Please upload the correct version of vsto-redirect.html to the server."
     exit 2
 }
