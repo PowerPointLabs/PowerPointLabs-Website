@@ -47,9 +47,7 @@ That's all there is to it! You can play the slides to see how the animation turn
 
 ###Adjusting Animations
 
-The easiest way to tweak the animations is to adjust the shapes in the start and/or end slides, then select the animation slide and click `Recreate Animation` in the `PowerPointLabs` tab in the Office Ribbon.
-
-![](./img/docs/auto-animate-5.png)
+The easiest way to tweak the animations is to adjust the shapes in the start and/or end slides, then remove the animation slide, select the start slide and click `Add Animation Slide` in the `PowerPointLabs` tab in the Office Ribbon.
 
 You can also adjust the length of the animation, or enable a smoother (but slightly more resource-intensive) animation method from the settings dialog:
 
