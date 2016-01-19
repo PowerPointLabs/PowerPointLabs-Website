@@ -34,6 +34,8 @@ var pptlabs = pptlabs||{};
           + "communicate complex topics. &nbsp&nbsp<i>-- Jeff</i>"
         ,"Thanks guys for this awesome add-in. I´m looking forward to create awesome presentations with this features that "
           + "you just gave me. &nbsp&nbsp<i>--Jarami</i>"
+        ,"Your plugin is BRILLIANT!... Thank You very much for it! &nbsp&nbsp<i>--Maciej, Poland</i>"
+        ,"Your plug-in is pretty amazing. Well done and thank you for sharing. &nbsp&nbsp<i>-- Michael, USA</i>"
          );
         document.getElementById("testimonial-row").innerHTML = TESTIMONIALS[currentTestimonial];
         var size = TESTIMONIALS.length;
