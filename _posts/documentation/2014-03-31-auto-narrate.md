@@ -9,7 +9,11 @@ bookmark: auto-narrate
   <img class="box-shadow" src="./img/docs/auto-narrate-1.png">
 </p>
 
-**Auto Narrate** creates synthesized audio from your speaker notes, and embeds it on each slide. It's great for figuring out exactly what your speech will sound like, or creating pre-packaged presentations that can play automatically. If you'd like, you can go one step further and easily record your own replacements for the generated audio.
+**Auto Narrate** creates synthesized audio from your speaker notes, and embeds it on each slide. It's great for figuring out exactly what your speech will sound like, or creating pre-packaged presentations that can play automatically. If you'd like, you can go one step further and easily record your own replacements for the generated audio. In the following video, the animation was created by using Auto Narrate.
+
+<iframe style="display: block; margin-left: auto; margin-right: auto;" width="420" height="315" src="https://www.youtube.com/embed/v40b3ExbM0c" frameborder="0" allowfullscreen></iframe>
+
+<br/>
 
 ### Synthesizing Audio
 Auto Narrate uses the text entered in the Speaker Notes pane below each slide to generate audio:
