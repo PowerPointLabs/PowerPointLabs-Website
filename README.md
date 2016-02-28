@@ -49,12 +49,12 @@ The site should now be accessible on `localhost:4000` on the host, and can be mo
 
 ### Building for Deployment
 
-Nothing special here: `jekyll build` will output the site's files to `_site`.
+Nothing special here: `jekyll build` will output the site's files to `_site` and `rake` runs `Rakefile` default task which compresses all images in `_site/img`. 
 
 ```shell
 $ vagrant ssh
 $ cd /vagrant
-$ jekyll build
+$ jekyll build; rake
 ```
 
 ## How to...
