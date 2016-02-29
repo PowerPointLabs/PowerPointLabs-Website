@@ -99,6 +99,6 @@ bookmark: spotlight
 
 #### 3. Write the doc
 
-Write the document using Google Docs, and share it with project mentor for document review. When document review is passed, [this script](https://github.com/mangini/gdocs2md) can be used to generate the Markdown form of Google Docs document.
+Write the document using Google Docs, and share it with project mentor for document review. When document review is passed, [this script](https://github.com/mangini/gdocs2md) can be used to generate the Markdown from Google Docs document.
 
 Then use the generated Markdown to construct the web page. Modification of styles and image links may be required.
