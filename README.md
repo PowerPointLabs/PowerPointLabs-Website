@@ -96,3 +96,9 @@ bookmark: spotlight
 | date | We use this to determine the ordering of each section - they appear "chronologically" on the rendered `docs.html` page. |
 | sample | An optional sample file to be linked to in the section's header. |
 | bookmark | This should correspond to the `#` link added in the previous step. |
+
+#### 3. Write the doc
+
+Write the document using Google Docs, and share it with project mentor for document review. When document review is passed, [this script](https://github.com/mangini/gdocs2md) can be used to generate the Markdown form of Google Docs document.
+
+Then use the generated Markdown to construct the web page. Modification of styles and image links may be required.
