@@ -2,7 +2,7 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproof ./_site --alt-ignore "/.*/" --check-html --disable-external --file-ignore "/.+\/documentation\/.+/"
+bundle exec htmlproofer ./_site --alt-ignore "/.*/" --check-html --disable-external --file-ignore "/.+\/documentation\/.+/"
 
 echo "Checking VSTO runtime download link..."
 grep -o 'http://www.microsoft.com/[^"]*' ./vsto-redirect.html | xargs curl -s | grep -o -c "Visual Studio 2010 Tools for Office Runtime" || {
