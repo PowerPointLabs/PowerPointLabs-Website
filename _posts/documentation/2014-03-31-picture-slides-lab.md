@@ -127,7 +127,7 @@ And here is the effect:
 
 ![](./img/docs/picture-slides-lab/image_24.png)
 
-You can use the **`Add Source Slide`** to insert a slide containing a list of picture sources.
+You can use the **`Add Source Slide`** to insert a slide containing a list of picture sources:
 
 ![](./img/docs/picture-slides-lab/image_25.png)
 
