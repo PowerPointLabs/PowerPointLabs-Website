@@ -36,6 +36,9 @@ var pptlabs = pptlabs||{};
           + "you just gave me. &nbsp&nbsp<i>--Jarami</i>"
         ,"Your plugin is BRILLIANT!... Thank You very much for it! &nbsp&nbsp<i>--Maciej, Poland</i>"
         ,"Your plug-in is pretty amazing. Well done and thank you for sharing. &nbsp&nbsp<i>-- Michael, USA</i>"
+        ,"Wonderful add-in! &nbsp&nbsp<i>--Gabriel, Nicaragua</i>"
+        ,"Your software is pretty amazing. Kudos to your team. &nbsp&nbsp<i>--Lakshitha, Sri Lanka</i>"
+        ,"Love your work! &nbsp&nbsp<i>--Michael J, California</i>"
          );
         document.getElementById("testimonial-row").innerHTML = TESTIMONIALS[currentTestimonial];
         var size = TESTIMONIALS.length;
