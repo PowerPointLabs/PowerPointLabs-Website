@@ -18,20 +18,24 @@
 
 - {
   name: "Chan Ao Wei Oswell",
-  url: "https://github.com/oswellchan"
+  url: "https://github.com/oswellchan",
+  img: "./img/team/oswell.jpg"
 }
 
 - {
   name: "Wu Yu Ting",
-  url: "https://github.com/youthinkk"
+  url: "https://github.com/youthinkk",
+  img: "./img/team/yuting.png"
 }
 
 - {
   name: "Yan Chan Min Oo",
-  url: "http://github.com/yancmo"
+  url: "http://github.com/yancmo",
+  img: "./img/team/minoo.jpg"
 }
 
 - {
   name: "Victor Hazali",
-  url: "https://github.com/vhazali"
+  url: "https://github.com/vhazali",
+  img: "./img/team/victor.png"
 }
