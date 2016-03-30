@@ -6,6 +6,13 @@
 }
 
 - {
+  img: "./img/PictureSlidesLab.gif",
+  tagline: "Create Picture Slides the easy way.",
+  description: "No more long hours of tweaking <strong>picture slides</strong>. Compare pictures, compare styles, choose the one you like, and that’s it!",
+  url: "./docs.html#picture-slides-lab"
+}
+
+- {
   img: "./img/spotlight.gif",
   tagline: "Light up your slides.",
   description: "Draw a region of any shape, and use <strong>spotlight</strong> to attract your audience's attention to it.",
