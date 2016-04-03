@@ -17,7 +17,7 @@ task :imageOptimize do
 end
 
 desc "Merge all css and js into one app html file"
-task :combine do |t, args|
+task :inline do |t, args|
   Dir.chdir(Rake.original_dir)
   Dir.chdir('_site')
   app_files = FileList['gallery.html']
@@ -63,6 +63,6 @@ task :combine do |t, args|
 end
 
 task :build do
-  Rake::Task['rake:combine'].invoke
+  Rake::Task['rake:inline'].invoke
   Rake::Task['rake:imageOptimize'].invoke
 end

@@ -57,7 +57,7 @@ $ cd /vagrant
 $ jekyll build; rake
 ```
 
-If want to run the inline task only, do `rake combine`.
+If want to run the inline task only, do `rake inline`.
 
 ## How to...
 
