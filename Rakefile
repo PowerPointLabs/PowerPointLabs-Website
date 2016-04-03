@@ -20,7 +20,7 @@ desc "Merge all css and js into one app html file"
 task :inline do |t, args|
   Dir.chdir(Rake.original_dir)
   Dir.chdir('_site')
-  app_files = FileList['gallery.html']
+  app_files = FileList['*.html']
   app_files.each do |app_file|
     new_html = ""
     local_file_link_found = false
