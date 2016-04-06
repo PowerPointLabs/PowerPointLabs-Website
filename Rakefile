@@ -26,7 +26,7 @@ task :inline do |t, args|
     local_file_link_found = false
     puts("\nProcessing #{app_file}...")
     IO.foreach(app_file) do |line|
-      # If the line refers to script content contained in a local file, concatenate
+      # If the line refers to script content contained in a local file, concatenate. Regex below finds for local script tag that does not with src starting with http,//, *.*
       if !(line =~ /<script.*src="http*:/) && !(line =~ /<script.*src="\/\/*/) && line =~ /<script.*src="(.*)"/
         script_file = $1
 	    puts "\tConcatenating #{script_file}..."
@@ -38,7 +38,7 @@ task :inline do |t, args|
 	    end
         new_html << "\n</script>\n"
         local_file_link_found = true
-        # or if the line pulls in a CSS stylesheet from a local file, concatenate
+        # or if the line pulls in a CSS stylesheet from a local file, concatenate. Regex below find for local link tag that does not start with href starting with http,//, *.css
       elsif (line !~ /<link.*href="http?:\/\//) && !(line =~ /<link.*href="\/\/*/) && (line =~ /<link.*href="(.*\.css)"/)
         stylesheet_name = $1
         puts "\tConcatenating #{stylesheet_name}..."
