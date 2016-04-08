@@ -49,13 +49,24 @@ The site should now be accessible on `localhost:4000` on the host, and can be mo
 
 ### Building for Deployment
 
-Nothing special here: `jekyll build` will output the site's files to `_site` and `rake` runs `Rakefile` default task which compresses all images in `_site/img`. 
+Nothing special here: `jekyll build` will output the site's files to `_site`. `rake` inlines JS & CSS and compresses all images in `_site`. 
 
 ```shell
 $ vagrant ssh
 $ cd /vagrant
 $ jekyll build; rake
 ```
+
+If want to run the inline task only, do `rake inline`.
+
+For new dependencies that could benefit from the inlining/concatenation into a large HTML file:
+1) Make sure that the dependencies themselves do not depend on some other dynamic dependency.
+2) Download local copies of the JS/CSS file.
+3) Link them in the HTML files as per normal (files can be placed in any directory).
+```<script src="./js/index.js"></script>```
+```<link rel="stylesheet" href="./css/main.css">```
+
+Rake inline will automatically find the files and replace the script or link tag with the file.
 
 ## How to...
 
