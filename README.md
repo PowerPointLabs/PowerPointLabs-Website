@@ -59,6 +59,15 @@ $ jekyll build; rake
 
 If want to run the inline task only, do `rake inline`.
 
+For new dependencies that could benefit from the inlining/concatenation into a large HTML file:
+1) Make sure that the dependencies themselves do not depend on some other dynamic dependency.
+2) Download local copies of the JS/CSS file.
+3) Link them in the HTML files as per normal (files can be placed in any directory).
+```<script src="./js/index.js"></script>```
+```<link rel="stylesheet" href="./css/main.css">```
+
+Rake inline will automatically find the files and replace the script or link tag with the file.
+
 ## How to...
 
 ### Add a new Team Member
