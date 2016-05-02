@@ -11,8 +11,9 @@ For content-heavy and long presentations, you can use agenda slides to mark impo
 
 However, the process of creating agenda slides and updating it when there are changes is often long and tedious.
 
-The **Agenda Lab** allows you to automatically generate agenda slides for your presentation. You can also easily customize the agenda and synchronize its format throughout the presentation in the click of a button.
+The **Agenda Lab** allows you to automatically generate agenda slides for your presentation. You can also easily customize the agenda and synchronize its format throughout the presentation in the click of a button. The following video demonstrates how Agenda Lab works.
 
+<iframe style="display:block;margin-left:auto;margin-right:auto;" width="420" height="315" src="https://www.youtube.com/embed/VgLUU3q0ZGk" frameborder="0" allowfullscreen></iframe>
 
 Currently, there are three types of agenda that PowerPointLabs supports:
 
