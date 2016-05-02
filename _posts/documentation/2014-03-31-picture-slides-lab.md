@@ -6,7 +6,11 @@ sample: "./samples/psl%20sample.pptx"
 bookmark: picture-slides-lab
 ---
 
-**Picture Slides Lab (PSL)** helps you create better `Picture Slides` (Slides with a big picture and a bit of text) with much less effort. Here is a sample deck of Picture Slides created using PSL.
+**Picture Slides Lab (PSL)** helps you create better `Picture Slides` (Slides with a big picture and a bit of text) with much less effort. The following video demonstrates how PSL works.
+
+<iframe style="display:block;margin-left:auto;margin-right:auto;" width="420" height="315" src="https://www.youtube.com/embed/vyBUandCKZo" frameborder="0" allowfullscreen></iframe>
+
+Here is a sample deck of Picture Slides created using PSL.
 
 ![](./img/docs/picture-slides-lab/image_0.png)
 
@@ -36,7 +40,7 @@ If this is the first time PSL being used, you’ll have the two default pictures
 
 1. Click **`+`** and choose more pictures from your computer hard disk.<br />![](./img/docs/picture-slides-lab/image_5.png)<br />
 2. Use a Browser to search in [Google Image Search](https://images.google.com/) (this method will not work with other search engines), and **`drag-and-drop`** the search result **thumbnails** (one at a time) onto PSL window or the **quick drop icon**.<br />
-![](./img/docs/picture-slides-lab/image_6.png)<br />The quick drop icon looks like this appears when the PSL window is not in focus.<br />![](./img/docs/picture-slides-lab/image_7.png)<br />
+![](./img/docs/picture-slides-lab/psl-dnd.gif)<br />The quick drop icon looks like this appears when the PSL window is not in focus.<br />![](./img/docs/picture-slides-lab/image_7.png)<br />
 3. Use a Browser to navigate to a Web page containing the picture you want to use, and **`drag-and-drop (or copy-paste)`** the picture onto PSL window or the quick drop icon.<br />![](./img/docs/picture-slides-lab/image_8.png)<br />
 Switch back to PSL window to see how the images you selected compare with each other if used in the slide.<br />
 ![](./img/docs/picture-slides-lab/image_9.png)<br />
