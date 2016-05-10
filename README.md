@@ -49,7 +49,7 @@ The site should now be accessible on `localhost:4000` on the host, and can be mo
 
 ### Building for Deployment
 
-Nothing special here: `jekyll build` will output the site's files to `_site`. `rake` inlines JS & CSS and compresses all images in `_site`. 
+Nothing special here: `jekyll build` will output the site's files to `_site`. `rake` does two things; inlines JS & CSS and compresses all images in `_site`. 
 
 ```shell
 $ vagrant ssh
@@ -58,15 +58,6 @@ $ jekyll build; rake
 ```
 
 If want to run the inline task only, do `rake inline`.
-
-For new dependencies that could benefit from the inlining/concatenation into a large HTML file:
-1) Make sure that the dependencies themselves do not depend on some other dynamic dependency.
-2) Download local copies of the JS/CSS file.
-3) Link them in the HTML files as per normal (files can be placed in any directory).
-```<script src="./js/index.js"></script>```
-```<link rel="stylesheet" href="./css/main.css">```
-
-Rake inline will automatically find the files and replace the script or link tag with the file.
 
 ## How to...
 
@@ -113,3 +104,11 @@ bookmark: spotlight
 Write the document using Google Docs, and share it with project mentor for document review. When document review is passed, [this script](https://github.com/mangini/gdocs2md) can be used to generate the Markdown from Google Docs document.
 
 Then use the generated Markdown to construct the web page. Modification of styles and image links may be required.
+
+#### 4. Add new HTML dependencies utilizing inlining/concatenation of JS & CSS
+
+1. Make sure that the dependencies themselves do not depend on some other dynamic dependency (if dynamic dependency, it is advised to link it with external link).
+2. Download local copies of the JS/CSS file and store them anywhere in the project directory.
+3. Link them in the HTML files as per normal (look at existing dependencies for example).
+
+`rake inline` will automatically find and replace the script or link tag with the respective file contents.
