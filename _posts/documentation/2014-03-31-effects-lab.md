@@ -41,6 +41,22 @@ This magnifies the area covered by the shape:
 
 <img class="box-shadow" src="./img/docs/effects-lab-6.png">
 
+
+### Blur Selected
+
+Blur Selected can be used to create a frosted glass effect. To use it, first draw a shape over the area to be blurred.
+
+<img class="box-shadow" src="./img/docs/effects-lab-15.png">
+
+Select the shape, then click `Blur Selected` from the Effects Lab dropdown.
+
+[insert img]
+
+This blurs the area covered by the shape:
+
+<img class="box-shadow" src="./img/docs/effects-lab-17.png">
+
+
 ### Blur Remainder
 
 Blur Remainder is best used to draw attention to a particular part of the slide by adding a blur effect to the surrounding areas - similar to adjusting the focus on a camera.
