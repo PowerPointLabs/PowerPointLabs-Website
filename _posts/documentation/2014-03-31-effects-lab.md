@@ -50,7 +50,7 @@ Blur Selected can be used to create a frosted glass effect. To use it, first dra
 
 Select the shape, then click `Blur Selected` from the Effects Lab dropdown.
 
-[insert img]
+<img class="box-shadow" src="./img/docs/effects-lab-16.png">
 
 This blurs the area covered by the shape:
 
