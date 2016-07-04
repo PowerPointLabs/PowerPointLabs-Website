@@ -9,14 +9,14 @@ bookmark: auto-narrate
   <img class="box-shadow" src="./img/docs/auto-narrate-1.png">
 </p>
 
-**Auto Narrate** creates synthesized audio from your speaker notes, and embeds it on each slide. It's great for figuring out exactly what your speech will sound like, or creating pre-packaged presentations that can play automatically. If you'd like, you can go one step further and easily record your own replacements for the generated audio. In the following video, the audio narration was created by Auto Narrate.
+**Narrations Lab** creates synthesized audio from your speaker notes, and embeds it on each slide. It's great for figuring out exactly what your speech will sound like, or creating pre-packaged presentations that can play automatically. If you'd like, you can go one step further and easily record your own replacements for the generated audio. In the following video, the audio narration was created by Narrations Lab.
 
 <iframe style="display: block; margin-left: auto; margin-right: auto;" width="420" height="315" src="https://www.youtube.com/embed/v40b3ExbM0c" frameborder="0" allowfullscreen></iframe>
 
 <br/>
 
 ### Synthesizing Audio
-Auto Narrate uses the text entered in the Speaker Notes pane below each slide to generate audio:
+Narrations Lab uses the text entered in the Speaker Notes pane below each slide to generate audio:
 
 <p>
   <img class="slide" src="./img/docs/auto-narrate-2.png">
@@ -136,7 +136,7 @@ Simply click the record button to begin recording, then click stop once you have
 > Double-clicking on anything within the `Audio` or `Scripts` panes will also play the corresponding piece of audio if it has been generated.
 
 #### Recording from a Script
-Even if you haven't used Auto Narrate to create synthesized narration, you can still record your own narration easily using the same process. Simply enter your speech into the speaker notes pane as if you were going to use Auto Narrate (including `AfterClick` tags to separate speech for animations), then bring up the recording pane.
+Even if you haven't used Narrations Lab to create synthesized narration, you can still record your own narration easily using the same process. Simply enter your speech into the speaker notes pane as if you were going to use Auto Narrate (including `AfterClick` tags to separate speech for animations), then bring up the recording pane.
 
 <img class="box-shadow" src="./img/docs/auto-narrate-12.png">
 
@@ -149,7 +149,7 @@ Clicking `Record During Slide Show` will launch the slide show, with two buttons
 
 This allows you to record narration for the slide or presentation in sequence, viewing animations and transitions in the process. Think of the presentation as being made of many segments, each separated by an animation or transition triggered by a mouse click; you can record narration for each of these segments.
 
-> **Tip:** try using Auto Captions to add captions before recording. You can then use them in the same way as a teleprompter, and remove them after you're done.
+> **Tip:** try using Narrations Lab to add captions before recording. You can then use them in the same way as a teleprompter, and remove them after you're done.
 
 To record, just hit the `Start Recording` button.
 
