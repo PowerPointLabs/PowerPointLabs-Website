@@ -1,9 +1,13 @@
 ---
-title: Frequently Asked Questions
-category: documentation
-date: 2014-03-31 13:45:00
-bookmark: faq
+layout: docs
+hideLayoutTitle: true
+title: Documentation
+permalink: /docs/
 ---
+
+You can find detailed instructions on how to use all of PowerPointLabs' features here. If you'd like to jump right in and learn on the go, though, you can also download our <a href="http://www.comp.nus.edu.sg/~pptlabs/download-78563/Tutorial.pptx">Quick Start Tutorial</a> and follow the steps there.
+
+## Frequently Asked Questions
 
 **What versions of PowerPoint does PowerPointLabs work with?**
 <br />PowerPointLabs supports PowerPoint 2010, 2013 and 2016 on Windows.

@@ -1,0 +1,32 @@
+---
+title: Documentation
+---
+
+<!DOCTYPE html>
+<html>
+    {% include header.html %}
+    <body data-spy="scroll" data-target=".right-navbar">
+      {% include navbar.html %}
+      
+      <div class="container">
+        <div class="row page-header col-xs-12">
+          <h1>{{ page.title }}</h1>
+        </div>
+        <div class="row">
+          <div class="col-xs-10">
+            <div class="documentation-body">
+              {{ content }}
+            </div>
+          </div>
+          
+          {% if page.hasRightNavbar %}
+            {% include right-navbar.html %}
+          {% endif %}
+        </div>
+      </div>
+
+      {% unless page.hideFooter %}
+        {% include footer.html %}
+      {% endunless %}
+    </body>
+</html>

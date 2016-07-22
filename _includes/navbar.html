@@ -1,15 +1,26 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="navbar-header pull-left">
-      <a class="navbar-brand" href="./">
-        <img src="./img/Logo.png">
-      </a>
-    </div>
-    <div class="navbar-header">
-      <a class="btn btn-link navbar-btn" href="./download.html">Getting Started</a>
-      <a class="btn btn-link navbar-btn" href="./docs.html">Documentation</a>
-      <a class="btn btn-link navbar-btn" href="./gallery.html">Shape Libraries</a>
-      <a class="btn btn-link navbar-btn" href="./terms-of-use.html">Terms of Use</a>
-      <a class="btn btn-link navbar-btn" href="./review.html">Reviews</a>
-      <a class="btn btn-link navbar-btn" href="./contact.html">About Us</a>
-    </div>
-  </nav>
+  <div class="navbar-header pull-left">
+    <a class="navbar-brand" href="/">
+      <img src="/img/Logo.png">
+    </a>
+  </div>
+  <ul class="navbar-header">
+    <li><a class="btn btn-link navbar-btn" href="/download.html">Getting Started</a></li>
+    <li class="dropdown">
+      <a class="btn btn-link navbar-btn dropdown-toggle" data-toggle="dropdown" href="/docs/">Documentation</a>
+      <ul id="doc-dropdown" class="dropdown-menu">
+        {% for sectionTitle in site.data.docs %}
+          {% assign section = site.docs | where: "title", sectionTitle | first %}
+          <li>
+            <a href="{% if sectionTitle == 'Frequently Asked Questions' %}/docs/{% else %}{{ section.url }}{% endif %}">{{ sectionTitle }}</a>
+          </li>
+        {% endfor%}
+      </ul>
+    </li>
+    <li><a class="btn btn-link navbar-btn" href="/gallery.html">Shape Libraries</a></li>
+    <li><a class="btn btn-link navbar-btn" href="/terms-of-use.html">Terms of Use</a></li>
+    <li><a class="btn btn-link navbar-btn" href="/review.html">Reviews</a></li>
+    <li><a class="btn btn-link navbar-btn" href="/contact.html">About Us</a></li>
+  </ul>
+</nav>
+<script src="/js/nav.js"></script>
