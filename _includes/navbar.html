@@ -5,14 +5,14 @@
     </a>
   </div>
   <ul class="navbar-header">
-    <li><a class="btn btn-link navbar-btn" href="/download.html">Getting Started</a></li>
+    <li><a class="btn btn-link navbar-btn {% if page.url == '/download.html' %} current {% endif %}" href="/download.html">Getting Started</a></li>
     <li class="dropdown">
-      <a class="btn btn-link navbar-btn dropdown-toggle" data-toggle="dropdown" href="/docs/">Documentation</a>
+      <a class="btn btn-link navbar-btn dropdown-toggle {% if page.url contains '/docs/' %} current {% endif %}" data-toggle="dropdown" href="/docs/">Documentation</a>
       <ul id="doc-dropdown" class="dropdown-menu">
         {% for sectionTitle in site.data.docs %}
           {% assign section = site.docs | where: "title", sectionTitle | first %}
           <li>
-            <a href="{% if sectionTitle == 'Frequently Asked Questions' %}/docs/{% else %}{{ section.url }}{% endif %}">{{ sectionTitle }}</a>
+            <a class="{% if page.url == section.url or (sectionTitle == 'Frequently Asked Questions' and page.url == '/docs/') %}dropdown-current{% endif %}" href="{% if sectionTitle == 'Frequently Asked Questions' %}/docs/{% else %}{{ section.url }}{% endif %}">{{ sectionTitle }}</a>
           </li>
         {% endfor%}
       </ul>

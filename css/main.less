@@ -141,9 +141,74 @@ footer {
   background: #eee;
 }
 
+.current, .current:hover, .current:focus {
+  background: @belize-hole !important;
+}
+
+.dropdown-current, .dropdown-current:hover, .dropdown-current:focus {
+  color: white !important;
+  background: @peter-river !important;
+}
+
+.right-navbar > ul {
+  overflow-y: auto;
+}
+
 .right-navbar .affix {
   top: 60px;
-  width: 165px;
+  width: 262.5px;
+}
+
+.docs-nav {
+  padding-top: 15px;
+  text-align: center;
+
+  div {
+    width: 48%;
+  }
+
+  a {
+    font-size: 13pt;
+    color: @wet-asphalt;
+    background: #eee;
+    padding: 5px 12px 7px;
+
+    &:before, &:after {
+      color: @gray;
+      font-size: 20pt;
+      font-weight: 900;
+      vertical-align: -1px;
+    }
+
+    &:hover, &:focus {
+      background: #ddd;
+      text-decoration: none;
+
+      &:before, &:after {
+        color: @primary-brand;
+      }
+    }
+  }
+}
+
+.prev {
+  float: left;
+  text-align: right;
+
+  a:before {
+    content: '\2039';
+    padding-right: 10px;
+  }
+}
+
+.next {
+  float: right;
+  text-align: left;
+
+  a:after {
+    content: '\203A';
+    padding-left: 10px;
+  }
 }
 
 .nav-pills > li > a {
@@ -181,7 +246,8 @@ a, .btn-link, .accent {
     color: @clouds;
 
     &:hover {
-      color: @silver;
+      color: @clouds;
+      background: @peter-river;
       text-decoration: none;
     }
   }
@@ -198,6 +264,7 @@ a, .btn-link, .accent {
 .navbar-header {
   margin-bottom: 0px;
   padding-left: 0px;
+  padding-right: 5px;
 }
 
 .navbar-header > li {
@@ -221,6 +288,11 @@ a, .btn-link, .accent {
   display: inline;
   float: left;
   width: 33.333%;
+
+  a {
+      padding-top: 5px;
+      padding-bottom: 5px;
+  }
 }
 
 .fit {

@@ -1,0 +1,31 @@
+{% assign docs = site.data.docs %}
+{% for sectionTitle in docs %}
+  {% assign section = site.docs | where: "title", sectionTitle | first %}
+  {% if section.url == page.url %}
+    <div class="docs-nav">
+      {% unless forloop.first %}
+        <div class="prev">
+          {% assign previous = forloop.index0 | minus: 1 %}
+          {% assign previousPage = site.docs | where: "title", docs[previous] | first %}
+          <a href="{% if previous == 0 %}/docs/{% else %}{{ previousPage.url }}{% endif %}">{% if previous == 0 %}Frequently Asked Questions{% else %}{{ previousPage.title }}{% endif %}</a>
+        </div>
+      {% endunless %}
+      {% unless forloop.last %}
+        <div class="next">
+          {% assign next = forloop.index0 | plus: 1 %}
+          {% assign nextPage = site.docs | where: "title", docs[next] | first %}
+          <a href="{{ nextPage.url }}">{{ nextPage.title }}</a>
+        </div>
+      {% endunless %}
+    </div>
+    {% break %}
+  {% endif %}
+{% endfor%}
+{% if page.url == "/docs/" %}
+  {% assign nextPage = site.docs | where: "title", site.data.docs[1] | first %}
+  <div class="docs-nav">
+    <div class="next">
+        <a href="{{ nextPage.url }}">{{ nextPage.title }}</a>
+    </div>
+  </div>
+{% endif %}

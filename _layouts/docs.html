@@ -9,11 +9,12 @@ title: Documentation
       {% include navbar.html %}
       
       <div class="container">
+        {% include docs-nav.html %}
         <div class="row page-header col-xs-12">
           <h1>{{ page.title }}</h1>
         </div>
         <div class="row">
-          <div class="col-xs-10">
+          <div class="col-xs-9">
             <div class="documentation-body">
               {{ content }}
             </div>
@@ -23,6 +24,7 @@ title: Documentation
             {% include right-navbar.html %}
           {% endif %}
         </div>
+        {% include docs-nav.html %}
       </div>
 
       {% unless page.hideFooter %}
