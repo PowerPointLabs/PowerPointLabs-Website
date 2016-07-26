@@ -1,19 +1,19 @@
 ---
-title: Spotlight
+title: Spotlight Lab
 category: documentation
 date: 2014-03-31 13:45:01
 sample: "./samples/spotlight%20sample.pptx"
-bookmark: spotlight
+bookmark: spotlight-lab
 ---
 
-**Spotlight** darkens all but a specified region on the slide, allowing you to easily focus your audience's attention on a particular aspect.
+**Spotlight Lab** darkens all but a specified region on the slide, allowing you to easily focus your audience's attention on a particular aspect.
 
 <p>
 <img class="box-shadow" src="./img/docs/spotlight-1.png" />
 </p>
 <small>(Original Image Credit: Wikipedia)</small>
 
-Using Spotlight is easy. First, draw a shape to indicate the area which should be lit up - you can use any of PowerPoint's included shapes, or even draw a freeform shape.
+Using Spotlight Lab is easy. First, draw a shape to indicate the area which should be lit up - you can use any of PowerPoint's included shapes, or even draw a freeform shape.
 
 ![](./img/docs/spotlight-2.png)
 

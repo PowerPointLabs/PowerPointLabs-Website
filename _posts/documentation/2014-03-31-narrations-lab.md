@@ -1,8 +1,8 @@
 ---
-title: Auto Narrate
+title: Narrations Lab
 category: documentation
 date: 2014-03-31 13:45:03
-bookmark: auto-narrate
+bookmark: narrations-lab
 ---
 
 <p>

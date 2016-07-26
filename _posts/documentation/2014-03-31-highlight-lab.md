@@ -1,11 +1,11 @@
 ---
-title: Highlight Bullets
+title: Highlight Bullets Lab
 category: documentation
 date: 2014-03-31 13:45:00
-bookmark: highlight
+bookmark: highlight-lab
 ---
 
-**Highlight Bullets** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in three different ways: **Highlight Points**, **Highlight Background**, and **Highlight Text**,
+**Highlight Bullets Lab** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in three different ways: **Highlight Points**, **Highlight Background**, and **Highlight Text**,
 
 ###Highlight Points
 **Highlight Points** can be used when a more subtle approach is desired, and adjusts only the color of each bullet point.
@@ -61,7 +61,7 @@ To apply this effect, select the text to highlight, then click `Highlight Text` 
 During the presentation, each text fragment will be highlighted after a corresponding click.
 
 ###Custom Colors
-The colors used by Highlight Bullets can be customized by opening the settings dialog from the ribbon:
+The colors used by Highlight Bullets Lab can be customized by opening the settings dialog from the ribbon:
 
 <p>
 	<img class="box-shadow" src="./img/docs/highlight-bullets-1.png">

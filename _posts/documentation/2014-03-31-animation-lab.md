@@ -1,12 +1,12 @@
 ---
-title: Auto Animate
+title: Animation Lab
 category: documentation
 date: 2014-03-31 13:45:02
 sample: "./samples/auto-animate%20sample.pptx"
-bookmark: auto-animate
+bookmark: animation-lab
 ---
 
-**Auto Animate** makes creating slick animations as easy as specifying the start and end positions. The animation in the following video was created using Auto Animate.
+**Animation Lab** makes creating slick animations as easy as specifying the start and end positions. The animation in the following video was created using Animation Lab.
 
 <iframe style="display: block; margin-left: auto; margin-right: auto;" width="420" height="315" src="//www.youtube-nocookie.com/embed/tX381vX8D6M?rel=0" frameborder="0" allowfullscreen></iframe>
 

@@ -1,8 +1,8 @@
 ---
-title: Auto Captions
+title: Captions Lab
 category: documentation
 date: 2014-03-31 13:45:04
-bookmark: auto-captions
+bookmark: captions-lab
 ---
 
 <p>

@@ -1,8 +1,8 @@
 ---
-title: Shortcuts
+title: Shortcuts Lab
 category: documentation
 date: 2014-03-31 13:45:11
-bookmark: shortcuts
+bookmark: shortcuts-lab
 ---
 
 PowerPointLabs also introduces several useful shortcuts to make tasks easier. Here's an overview of what these are, and how to use them.
