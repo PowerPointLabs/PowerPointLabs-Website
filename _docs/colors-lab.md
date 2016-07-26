@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Colors Lab
+hasRightNavbar: true
 ---
 
 <img class="box-shadow" src="/img/docs/colors-lab-1.png">
@@ -23,7 +24,7 @@ Alternatively, you can click and drag from the colored square to the color you w
 
 > **Note:** colors from outside the PowerPoint window itself can be chosen using this method as well. This can be used to copy a color from websites or other files.
 
-## Applying Colors
+## <a class="anchor-bookmark" id="apply-colors"></a> Applying Colors
 The Colors Lab allows you to apply colors to text and shapes on any of your slides. To do so, first select the element to change by clicking on it within the slide.
 
 The Colors Lab can change the color of text, as well as the border outline color and background fill color of shapes. This can be done by clicking and dragging from the appropriate button to the color you wish to use:
@@ -32,7 +33,7 @@ The Colors Lab can change the color of text, as well as the border outline color
 
 Alternatively, clicking on the button will bring up the color picker to choose a different color.
 
-## Matching Colors
+## <a class="anchor-bookmark" id="matching-colors"></a> Matching Colors
 
 You can use the Colors Lab to create entire color schemes from just a single color. Five different schemes are generated and shown in the `Matching Colors` section.
 
@@ -40,7 +41,7 @@ You can use the Colors Lab to create entire color schemes from just a single col
 
 You can drag and drop the colors you like to the Favorites palette, which can then be saved for later use.
 
-### Saving and Loading Favorite Colors
+### <a class="anchor-bookmark" id="save-load-fav-colors"></a> Saving and Loading Favorite Colors
 
 <img class="box-shadow" src="/img/docs/colors-lab-7.png">
 

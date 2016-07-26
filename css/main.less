@@ -5,6 +5,10 @@
 @nephritis: #27ae60;
 @peter-river: #3498db;
 @belize-hole: #2980b9;
+@belize-hole-dark: #206592;
+@belize-hole-slightly-light: #2e90d1;
+@belize-hole-light: #82bce3;
+@belize-hole-very-light: #c0def1;
 @amethyst: #9b59b6;
 @wisteria: #8e44ad;
 @wet-asphalt: #34495e;
@@ -141,92 +145,6 @@ footer {
   background: #eee;
 }
 
-.current, .current:hover, .current:focus {
-  background: @belize-hole !important;
-}
-
-.dropdown-current, .dropdown-current:hover, .dropdown-current:focus {
-  color: white !important;
-  background: @peter-river !important;
-}
-
-.right-navbar > ul {
-  overflow-y: auto;
-}
-
-.right-navbar .affix {
-  top: 60px;
-  width: 262.5px;
-}
-
-.docs-nav {
-  padding-top: 15px;
-  text-align: center;
-
-  div {
-    width: 48%;
-  }
-
-  a {
-    font-size: 13pt;
-    color: @wet-asphalt;
-    background: #eee;
-    padding: 5px 12px 7px;
-
-    &:before, &:after {
-      color: @gray;
-      font-size: 20pt;
-      font-weight: 900;
-      vertical-align: -1px;
-    }
-
-    &:hover, &:focus {
-      background: #ddd;
-      text-decoration: none;
-
-      &:before, &:after {
-        color: @primary-brand;
-      }
-    }
-  }
-}
-
-.prev {
-  float: left;
-  text-align: right;
-
-  a:before {
-    content: '\2039';
-    padding-right: 10px;
-  }
-}
-
-.next {
-  float: right;
-  text-align: left;
-
-  a:after {
-    content: '\203A';
-    padding-left: 10px;
-  }
-}
-
-.nav-pills > li > a {
-  border-radius: 0;
-  background: @wet-asphalt;
-  color: @clouds;
-}
-
-.nav-pills > li > a:hover {
-  background: @peter-river;
-}
-
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  background: @belize-hole;
-}
-
 .slide {
   width: 270px;
 }
@@ -282,16 +200,152 @@ a, .btn-link, .accent {
   width: 680px;
   overflow: hidden;
   margin-top: 0px;
+  border-top: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 #doc-dropdown > li {
   display: inline;
   float: left;
   width: 33.333%;
+}
 
-  a {
-      padding-top: 5px;
-      padding-bottom: 5px;
+#doc-dropdown > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.current, .current:hover, .current:focus {
+  background: @belize-hole !important;
+}
+
+.dropdown-current, .dropdown-current:hover, .dropdown-current:focus {
+  color: white !important;
+  background: @peter-river !important;
+}
+
+.right-navbar > ul {
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+.right-navbar .affix {
+  top: 60px;
+  width: 262.5px;
+}
+
+.right-navbar a {
+  border-radius: 0;
+  color: @belize-hole;
+}
+
+.nav-pills > li > a,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  border-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: 12pt;
+  color: @clouds;
+  background: @belize-hole-dark;
+}
+
+.nav-pills > li li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  font-size: 11pt;
+}
+
+.nav-pills > li li li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  font-size: 10pt;
+}
+
+.nav-pills > li li li li > a {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 40px;
+  font-size: 9pt;
+}
+
+.nav-pills > li.active li.active > a,
+.nav-pills > li.active li.active > a:hover,
+.nav-pills > li.active li.active > a:focus {
+  background: @belize-hole-slightly-light;
+  color: @clouds;
+}
+
+.nav-pills > li.active li.active li.active > a,
+.nav-pills > li.active li.active li.active > a:hover,
+.nav-pills > li.active li.active li.active > a:focus {
+  background: @belize-hole-light;
+  color: @clouds;
+}
+
+.nav-pills > li.active li.active li.active li.active > a,
+.nav-pills > li.active li.active li.active li.active > a:hover,
+.nav-pills > li.active li.active li.active li.active > a:focus {
+  background: @belize-hole-very-light;
+  color: @belize-hole;
+}
+
+.docs-nav {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.docs-nav div {
+  width: 48%;
+}
+
+.docs-nav a {
+  font-size: 13pt;
+  color: @wet-asphalt;
+  background: #eee;
+  padding: 5px 12px 7px;
+}
+
+.docs-nav a:before,
+.docs-nav a:after {
+  color: @gray;
+  font-size: 20pt;
+  font-weight: 900;
+  vertical-align: -1px;
+}
+
+.docs-nav a:hover,
+.docs-nav a:focus {
+  background: #ddd;
+  text-decoration: none;
+
+  &:before, &:after {
+    color: @primary-brand;
+  }
+}
+
+.prev {
+  float: left;
+  text-align: right;
+
+  a:before {
+    content: '\2039';
+    padding-right: 10px;
+  }
+}
+
+.next {
+  float: right;
+  text-align: left;
+
+  a:after {
+    content: '\203A';
+    padding-left: 10px;
   }
 }
 

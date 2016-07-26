@@ -1,11 +1,12 @@
 ---
 layout: docs
 title: Effects Lab
+hasRightNavbar: true
 ---
 
 The **Effects Lab** makes it easy to draw attention to portions of the slide through blur, color, or magnification effects, and also provides a convenient way to access several of PowerPoint's built-in image effects.
 
-## Make Transparent
+## <a class="anchor-bookmark" id="make-transparent"></a> Make Transparent
 
 As its name implies, Make Transparent turns the selected image or shape slightly transparent. This can be used to fade an image for use in the background of a slide - something which can't ordinarily be easily done in PowerPoint itself - or to use a shape as an overlay to draw attention to a part of the slide.
 
@@ -23,7 +24,7 @@ This turns the image slightly transparent, increasing the contrast between it an
 
 > **Note:** the transparency of the image or shape can be adjusted afterwards by right-clicking the image/shape and selecting `Format Shape`.
 
-## Magnifying Glass
+## <a class="anchor-bookmark" id="magnifying-glass"></a> Magnifying Glass
 
 The Magnifying Glass effect can be used to enlarge a small detail on the slide. To use it, first draw a shape over the area to be magnified.
 
@@ -39,7 +40,7 @@ This magnifies the area covered by the shape:
 
 <img class="box-shadow" src="/img/docs/effects-lab-6.png">
 
-## Blur Remainder
+## <a class="anchor-bookmark" id="blur-remainder"></a> Blur Remainder
 
 Blur Remainder is best used to draw attention to a particular part of the slide by adding a blur effect to the surrounding areas - similar to adjusting the focus on a camera.
 
@@ -56,7 +57,7 @@ PowerPointLabs will then insert a new slide containing the blur effect.
 <img class="box-shadow" src="/img/docs/effects-lab-9.png">
 
 
-## Recolor Remainder
+## <a class="anchor-bookmark" id="recolor-remainder"></a> Recolor Remainder
 
 Recolor Remainder works in a similar manner to Blur Remainder, but instead changes the color of the surrounding areas while leaving the focused area unchanged.
 
@@ -73,7 +74,7 @@ PowerPointLabs will insert a new slide, with the surrounding areas recolored.
 <img class="box-shadow" src="/img/docs/effects-lab-11.png">
 
 
-## Blur / Recolor All Except Selected
+## <a class="anchor-bookmark" id="blur-recolor-all-except-selected"></a> Blur / Recolor All Except Selected
 
 If you want to draw attention to an individual shapes instead of a section of a slide, you can use **Blur All Except Selected** or **Recolor All Except Selected** instead.
 

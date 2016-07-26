@@ -1,11 +1,12 @@
 ---
 layout: docs
 title: Auto Zoom
+hasRightNavbar: true
 ---
 
 **Auto Zoom** includes two features to help you emphasise important details: **Zoom to Area**, and **Drill Down**.
 
-##<a class="anchor-bookmark" id="zoom-to-area"></a>Zoom to Area
+## <a class="anchor-bookmark" id="zoom-to-area"></a> Zoom to Area
 **Zoom to Area** allows you to draw the audience's attention to a particular section of the slide by zooming in on it.
 
 To use Zoom to Area, draw a rectangular shape to show the area you'd like to zoom in on. The larger the rectangle (relative to the entire slide),
@@ -27,7 +28,7 @@ Next, select the rectangle, and click the `Zoom to Area` button. A single animat
 > <img class="box-shadow" src="/img/docs/zoom-to-area-7.png">
 
 
-###Zoom and Pan
+### <a class="anchor-bookmark" id="zoom-and-pan"></a> Zoom and Pan
 <p>
   <img class="box-shadow slide" src="/img/docs/zoom-to-area-5.gif">
 </p>
@@ -47,7 +48,7 @@ Next, click the `Zoom to Area` button. PowerPointLabs will create an animation s
 > **Note:** if `Put all zoom effects on separate slides` in the Auto Zoom settings dialog is checked, these animations will be inserted on separate slides as well.
 
 
-##<a class="anchor-bookmark" id="drill-down"></a>Drill Down
+## <a class="anchor-bookmark" id="drill-down"></a> Drill Down
 
 <p>
   <img class="box-shadow slide" src="/img/docs/drill-down-1.gif" />

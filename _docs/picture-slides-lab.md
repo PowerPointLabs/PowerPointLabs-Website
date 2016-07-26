@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Picture Slides Lab
+hasRightNavbar: true
 sample: "/samples/psl%20sample.pptx"
 ---
 
@@ -86,7 +87,7 @@ It is possible to switch to a completely different style too. Just click on the 
 Repeat the above steps until you are done with all slides. 
 
 
-## To tweak/redesign a slide previously designed by PSL
+## <a class="anchor-bookmark" id="tweak-redesign-slide-by-psl"></a> To tweak/redesign a slide previously designed by PSL
 
 Select the slide you want to tweak/redesign in PowerPoint, and open PSL. PSL will load a preview of the previous design. You can tweak/redesign the slide using the features explained above. 
 
@@ -95,7 +96,7 @@ Select the slide you want to tweak/redesign in PowerPoint, and open PSL. PSL wil
 >**Tip**: If PSL is already open, you can use the Go To Slide’ button to select a different slide to design. 
 
 
-## To copy the style/picture from one slide to another
+## <a class="anchor-bookmark" id="copy-style-picture-from-slide"></a> To copy the style/picture from one slide to another
 
 Use the **`Go To Slide`** to load the destination slide.
 
@@ -104,7 +105,7 @@ Click the **`Load...`** button. In the next dialog (example shown below) choose 
 ![](/img/docs/picture-slides-lab/image_18.png)
 
 
-## To adjust which part of the picture is shown on the slide
+## <a class="anchor-bookmark" id="adjust-picture-area-shown"></a> To adjust which part of the picture is shown on the slide
 
 Right-click on a slide preview and choose **`Adjust Picture Dimensions`**.
 
@@ -115,7 +116,7 @@ In the next window, use the buttons or the corner handles to adjust which part o
 ![](/img/docs/picture-slides-lab/image_20.png)
 
 
-## To cite the source of pictures
+## <a class="anchor-bookmark" id="cite-picture-source"></a> To cite the source of pictures
 
 PSL automatically inserts the picture source (i.e. where the picture came from) into the slide notes. For pictures copied from a Web Browser, PSL records the source automatically: 
 

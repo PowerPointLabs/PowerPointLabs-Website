@@ -1,6 +1,7 @@
 ---
 layout: docs
 title: Auto Animate
+hasRightNavbar: true
 sample: "/samples/auto-animate%20sample.pptx"
 ---
 
@@ -43,7 +44,7 @@ That's all there is to it! You can play the slides to see how the animation turn
 
 **You can download the slides used in this example [here.](./samples/auto-animate%20sample.pptx)**
 
-##Adjusting Animations
+## <a class="anchor-bookmark" id="adjust-animations"></a> Adjusting Animations
 
 The easiest way to tweak the animations is to adjust the shapes in the start and/or end slides, then remove the animation slide, select the start slide and click `Add Animation Slide` in the `PowerPointLabs` tab in the Office Ribbon.
 
@@ -60,9 +61,9 @@ You can also adjust the length of the animation, or enable a smoother (but sligh
 If you'd like a more hands-on approach, you can manually tweak the animations using the [PowerPoint animations pane.](http://presentationsoft.about.com/od/powerpointanimations/ss/120711-change-speed-powerpoint-animation_2.htm)
 
 
-##Animation Tips and Tricks
+## <a class="anchor-bookmark" id="animation-tips-tricks"></a> Animation Tips and Tricks
 
-###Wrong Shapes being Animated?
+### <a class="anchor-bookmark" id="wrong-shapes-animated"></a> Wrong Shapes being Animated?
 
 This can happen when PowerPointLabs can't figure out which shapes in the end slide correspond to those in the start slide. You can fix this by ensuring matching shapes have the same name on both slides, using the [selection pane.](http://www.ellenfinkelstein.com/pptblog/the-wonderful-selection-pane-lets-you-easily-hide-objects-select-them-and-even-rename-them/)
 
@@ -74,11 +75,11 @@ To rename a shape, either right-click on it and select `Edit name` in the submen
 
 >**Note:** if multiple shapes on the same slide share a single name, the wrong shapes may be animated.
   
-###Moving Shapes Together
+### <a class="anchor-bookmark" id="move-shapes-together"></a> Moving Shapes Together
 
 The easiest way to have many shapes moving together as one is to group them first. This can be done by selecting the shapes (either through the selection pane or by `Ctrl+click`ing them), right-clicking, and selecting `Group`.
 
-## <a class="anchor-bookmark" id="animate-in-slide"></a>Animate In Slide
+## <a class="anchor-bookmark" id="animate-in-slide"></a> Animate In Slide
 ![](/img/docs/auto-animate-9.png)
 
 **Animate In Slide** can be used to create slick animations within a slide, just like those shown below:

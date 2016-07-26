@@ -1,11 +1,12 @@
 ---
 layout: docs
 title: Highlight Bullets
+hasRightNavbar: true
 ---
 
 **Highlight Bullets** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in three different ways: **Highlight Points**, **Highlight Background**, and **Highlight Text**,
 
-##Highlight Points
+## <a class="anchor-bookmark" id="highlight-points"></a> Highlight Points
 **Highlight Points** can be used when a more subtle approach is desired, and adjusts only the color of each bullet point.
 
 <p>
@@ -24,7 +25,7 @@ During the presentation, each bullet point will then be highlighted after a corr
 
 >If you'd like to specify a different ordering, simply `Ctrl+click` the text boxes in the desired order, then click `Highlight Text`.
 
-##Highlight Background
+## <a class="anchor-bookmark" id="highlight-background"></a> Highlight Background
 **Highlight Background** can be used when you want a flashier way of emphasis, and provides an effect similar to that of a real highlighter on paper.
 
 <p>
@@ -43,7 +44,7 @@ When the presentation is running, each bullet point will be highlighted after a 
 
 > To override this ordering, just `Ctrl+click` the text boxes in the order they should be highlighted in, then click `Highlight Background`.
 
-##Highlight Text
+## <a class="anchor-bookmark" id="highlight-text"></a> Highlight Text
 **Highlight Text** can be used if you'd like to emphasize a smaller section of text anywhere on the slide.
 
 <p>
@@ -58,7 +59,7 @@ To apply this effect, select the text to highlight, then click `Highlight Text` 
 
 During the presentation, each text fragment will be highlighted after a corresponding click.
 
-##Custom Colors
+## <a class="anchor-bookmark" id="custom-colors"></a> Custom Colors
 The colors used by Highlight Bullets can be customized by opening the settings dialog from the ribbon:
 
 <p>

@@ -18,19 +18,19 @@ Currently, there are three types of agenda that PowerPointLabs supports:
 
 The <a href="/samples/Agenda%20Lab%20Example%20-%20Text%20Agenda.pptx">**Text Agenda**</a>, <a href="/samples/Agenda%20Lab%20Example%20-%20Visual%20Agenda.pptx">**Visual Agenda**</a>, and <a href="/samples/Agenda%20Lab%20Example%20-%20Agenda%20Sidebar.pptx">**Sidebar Agenda**</a>, which we will describe below.
 
-### Text Agenda <a href="./samples/Agenda%20Lab%20Example%20-%20Text%20Agenda.pptx">[Sample]</a>
+### <a class="anchor-bookmark" id="text-agenda-sample"></a> Text Agenda <a href="/samples/Agenda%20Lab%20Example%20-%20Text%20Agenda.pptx">[Sample]</a>
 
 A text agenda lists the topics of your presentation using bullet points. The current section of your presentation is highlighted in the text agenda slides.
 
 <img class="box-shadow" src="/img/docs/agenda-lab-2.gif">
 
-### Visual Agenda <a href="./samples/Agenda%20Lab%20Example%20-%20Visual%20Agenda.pptx">[Sample]</a>
+### <a class="anchor-bookmark" id="visual-agenda-sample"></a> Visual Agenda <a href="/samples/Agenda%20Lab%20Example%20-%20Visual%20Agenda.pptx">[Sample]</a>
 
 A visual agenda is a visual road map of the presentation rather than a list of textual agenda items.
 
 <img class="box-shadow" src="/img/docs/agenda-lab-3.gif">
 
-### Sidebar Agenda <a href="/samples/Agenda%20Lab%20Example%20-%20Agenda%20Sidebar.pptx">[Sample]</a>
+### <a class="anchor-bookmark" id="sidebar-agenda-sample"></a> Sidebar Agenda <a href="/samples/Agenda%20Lab%20Example%20-%20Agenda%20Sidebar.pptx">[Sample]</a>
 
 
 Instead of displaying the agenda in between topics, we can display the agenda on the slides themselves. A sidebar is placed at the top of the each slide, which displays the topics which comprise the presentation, with the current section highlighted.
@@ -146,13 +146,13 @@ Notice that in the sidebar agenda, the current section being displayed in the pr
 
 
 
-## <a class="anchor-bookmark" id="edit-sections"></a> Editing and Rearranging Sections
+## <a class="anchor-bookmark" id="edit-rearrange-sections"></a> Editing and Rearranging Sections
 Even after the agenda has been generated, you can still make changes to the arrangement of the sections. After adding, removing, renaming or rearranging the sections in the presentation, simply click `Synchronize Agenda` again and the agenda will update itself to the new section arrangement.
 
 
 
 
-## <a class="anchor-bookmark" id="remove-agenda"></a> Removing and Regenerating Agendas
+## <a class="anchor-bookmark" id="remove-regenerate-agenda"></a> Removing and Regenerating Agendas
 
 To remove all traces of an existing agenda, click `Remove Agenda` in the Agenda Lab dropdown. Removing the agenda will not affect your other slides. 
 
@@ -162,9 +162,9 @@ Generating another agenda on top of an existing agenda will remove the previous 
 
 
 
-## <a class="anchor-bookmark" id="tips"></a> Advanced Tips
+## <a class="anchor-bookmark" id="advanced-tips"></a> Advanced Tips
 
-### <a class="anchor-bookmark" id="customize-individual"></a> Customizing Individual Slides Further
+### <a class="anchor-bookmark" id="customize-individual-slides"></a> Customizing Individual Slides Further
 In addition to modifying the template slide and synchronizing changes throughout the agenda, you can also customize individual slides in the presentation.
 
 Recall that when you make a change to the template slide and synchronize the agenda, all changes to the template slide are passed down to the agenda slides throughout the presentation.
@@ -174,12 +174,12 @@ However, if you add additional shapes or transitions to the individual slides an
 <img class="box-shadow" src="/img/docs/agenda-lab-20.png">
 
 
-### Replacing a Template Slide
+### <a class="anchor-bookmark" id="replace-template-slide"></a> Replacing a Template Slide
 If you have a generated agenda, you can copy over a template slide from another presentation into the current presentation. Place the new template slide as the first slide of the presentation, delete the previous template slide, and press *Synchronize Agenda* to use the new template slide in your agenda.
 
 Note that for this to work, the agenda types for both presentations must be the same.
 
-### Resetting the Visual Agenda image layout
+### <a class="anchor-bookmark" id="reset-image-layout"></a> Resetting the Visual Agenda image layout
 When the Visual Agenda is initially generated, the images corresponding to each section are laid out in a grid, which can then be rearranged to your liking.
 
 However, if you wish to reset the layout of the images, a simple trick is to delete the images corresponding to each section in the template slide and clicking `Synchronize Agenda`. This causes the images to be regenerated in a grid layout.
@@ -189,7 +189,7 @@ A similar effect can be achieved by regenerating the Visual Agenda. However, thi
 
 
 
-### Adding and Removing the Sidebar Agenda from individual slides
+### <a class="anchor-bookmark" id="individual-slides-add-remove-sidebar"></a> Adding and Removing the Sidebar Agenda from individual slides
 The Sidebar Agenda is slightly different from the other two agendas in a way - instead of generating it for the whole presentation, you can also select individual slides and generate the sidebar on them.
 
 Agenda Lab also offers a way to add the sidebar agenda to slides you had missed out on before without regenerating the entire agenda. To do this, select the slides you wish to add the sidebar to and click `Synchronize Agenda`. If the selected slides do not already have the sidebar, the sidebar will be added to those slides. After which, the rest of the agenda will also be synchronized.
