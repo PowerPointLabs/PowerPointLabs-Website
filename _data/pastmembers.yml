@@ -1,21 +1,21 @@
 - {
   name: "Huang Da",
-  img: "./img/team/huangda.jpg"
+  img: "/img/team/huangda.jpg"
 }
 
 - {
   name: "Raunak Rajpuria",
-  img: "./img/team/raunak.png",
+  img: "/img/team/raunak.png",
 }
 
 - {
   name: "Jerome Cheng",
-  img: "./img/team/jerome.png",
+  img: "/img/team/jerome.png",
   url: "http://ayulin.net"
 }
 
 - {
   name: "Karan Kamath",
-  img: "./img/team/karan.jpg",
+  img: "/img/team/karan.jpg",
   url: "http://karankamath.com"
 }

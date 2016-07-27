@@ -6,21 +6,10 @@
   </div>
   <ul class="navbar-header">
     <li><a class="btn btn-link navbar-btn {% if page.url == '/download.html' %} current {% endif %}" href="/download.html">Getting Started</a></li>
-    <li class="dropdown">
-      <a class="btn btn-link navbar-btn dropdown-toggle {% if page.url contains '/docs/' %} current {% endif %}" data-toggle="dropdown" href="/docs/">Documentation</a>
-      <ul id="doc-dropdown" class="dropdown-menu">
-        {% for sectionTitle in site.data.docs %}
-          {% assign section = site.docs | where: "title", sectionTitle | first %}
-          <li>
-            <a class="{% if page.url == section.url or (sectionTitle == 'Frequently Asked Questions' and page.url == '/docs/') %}dropdown-current{% endif %}" href="{% if sectionTitle == 'Frequently Asked Questions' %}/docs/{% else %}{{ section.url }}{% endif %}">{{ sectionTitle }}</a>
-          </li>
-        {% endfor%}
-      </ul>
-    </li>
-    <li><a class="btn btn-link navbar-btn" href="/gallery.html">Shape Libraries</a></li>
-    <li><a class="btn btn-link navbar-btn" href="/terms-of-use.html">Terms of Use</a></li>
-    <li><a class="btn btn-link navbar-btn" href="/review.html">Reviews</a></li>
-    <li><a class="btn btn-link navbar-btn" href="/contact.html">About Us</a></li>
+    <li><a class="btn btn-link navbar-btn {% if page.url contains '/docs/' %} current {% endif %}" href="/docs/">Documentation</a></li>
+    <li><a class="btn btn-link navbar-btn {% if page.url == '/gallery.html' %} current {% endif %}" href="/gallery.html">Shape Libraries</a></li>
+    <li><a class="btn btn-link navbar-btn {% if page.url == '/terms-of-use.html' %} current {% endif %}" href="/terms-of-use.html">Terms of Use</a></li>
+    <li><a class="btn btn-link navbar-btn {% if page.url == '/review.html' %} current {% endif %}" href="/review.html">Reviews</a></li>
+    <li><a class="btn btn-link navbar-btn {% if page.url == '/contact.html' %} current {% endif %}" href="/contact.html">About Us</a></li>
   </ul>
 </nav>
-<script src="/js/nav.js"></script>

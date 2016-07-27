@@ -5,10 +5,12 @@
 @nephritis: #27ae60;
 @peter-river: #3498db;
 @belize-hole: #2980b9;
+@belize-hole-very-dark: #174869;
 @belize-hole-dark: #206592;
 @belize-hole-slightly-light: #2e90d1;
-@belize-hole-light: #82bce3;
-@belize-hole-very-light: #c0def1;
+@belize-hole-light: #6db1df;
+@belize-hole-very-light: #abd3ed;
+@belize-hole-extreme-light: #d5e9f6;
 @amethyst: #9b59b6;
 @wisteria: #8e44ad;
 @wet-asphalt: #34495e;
@@ -119,7 +121,7 @@ body {
 }
 
 .anchor-bookmark {
-  padding-top: 50px;
+  padding-top: 55px;
 }
 
 footer {
@@ -163,7 +165,8 @@ a, .btn-link, .accent {
   a {
     color: @clouds;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: @clouds;
       background: @peter-river;
       text-decoration: none;
@@ -196,26 +199,6 @@ a, .btn-link, .accent {
   padding-bottom: 18px;
 }
 
-#doc-dropdown {
-  width: 680px;
-  overflow: hidden;
-  margin-top: 0px;
-  border-top: 0px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-}
-
-#doc-dropdown > li {
-  display: inline;
-  float: left;
-  width: 33.333%;
-}
-
-#doc-dropdown > li > a {
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
 .current, .current:hover, .current:focus {
   background: @belize-hole !important;
 }
@@ -241,62 +224,81 @@ a, .btn-link, .accent {
 }
 
 .nav-pills > li > a,
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
   border-radius: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
+  font-size: 13pt;
+  font-weight: 900;
+  color: @clouds;
+  background: @belize-hole-very-dark;
+}
+
+.nav-pills .nav-1 > li > a {
+  margin-top: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
   font-size: 12pt;
   color: @clouds;
   background: @belize-hole-dark;
 }
 
-.nav-pills > li li > a {
+.nav-pills .nav-1 > li > a:hover,
+.nav-pills .nav-1 > li > a:focus {
+  background: @peter-river;
+}
+
+.nav-pills .nav-1 > li.active > a,
+.nav-pills .nav-1 > li.active > a:hover,
+.nav-pills .nav-1 > li.active > a:focus {
+  background: @belize-hole-slightly-light;
+}
+
+.nav-pills .nav-2 > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-left: 20px;
+  padding-left: 30px;
   font-size: 11pt;
 }
 
-.nav-pills > li li li > a {
+.nav-pills .nav-3 > li > a {
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 30px;
+  padding-left: 40px;
   font-size: 10pt;
 }
 
-.nav-pills > li li li li > a {
+.nav-pills .nav-4 > li > a {
   padding-top: 3px;
   padding-bottom: 3px;
-  padding-left: 40px;
+  padding-left: 50px;
   font-size: 9pt;
 }
 
-.nav-pills > li.active li.active > a,
-.nav-pills > li.active li.active > a:hover,
-.nav-pills > li.active li.active > a:focus {
-  background: @belize-hole-slightly-light;
-  color: @clouds;
-}
-
-.nav-pills > li.active li.active li.active > a,
-.nav-pills > li.active li.active li.active > a:hover,
-.nav-pills > li.active li.active li.active > a:focus {
+.nav-pills .nav-2 > li.active > a,
+.nav-pills .nav-2 > li.active > a:hover,
+.nav-pills .nav-2 > li.active > a:focus {
   background: @belize-hole-light;
   color: @clouds;
 }
 
-.nav-pills > li.active li.active li.active li.active > a,
-.nav-pills > li.active li.active li.active li.active > a:hover,
-.nav-pills > li.active li.active li.active li.active > a:focus {
+.nav-pills .nav-3 > li.active > a,
+.nav-pills .nav-3 > li.active > a:hover,
+.nav-pills .nav-3 > li.active > a:focus {
   background: @belize-hole-very-light;
-  color: @belize-hole;
+}
+
+.nav-pills .nav-4 > li.active > a,
+.nav-pills .nav-4 > li.active > a:hover,
+.nav-pills .nav-4 > li.active > a:focus {
+  background: @belize-hole-extreme-light;
 }
 
 .docs-nav {
-  padding-top: 15px;
+  padding-top: 35px;
   text-align: center;
 }
 

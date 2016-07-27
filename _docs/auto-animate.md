@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Auto Animate
-hasRightNavbar: true
 sample: "/samples/auto-animate%20sample.pptx"
 ---
 

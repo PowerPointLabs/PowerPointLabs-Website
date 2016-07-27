@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Colors Lab
-hasRightNavbar: true
 ---
 
 <img class="box-shadow" src="/img/docs/colors-lab-1.png">

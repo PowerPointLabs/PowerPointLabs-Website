@@ -9,24 +9,24 @@ title: Documentation
       {% include navbar.html %}
       
       <div class="container">
-        {% include docs-nav.html %}
         <div class="row page-header col-xs-12">
           {% assign urlSplit = page.url | split: "/" %}
           {% assign id = urlSplit.last | replace:".html" %}
-          <h1><a class="anchor-bookmark" id="{{ id }}"></a>{{ page.title }}</h1>
+          <h1>
+            <a class="anchor-bookmark" id="{{ id }}"></a>{{ page.title }}{% if page.sample %} <small><a href="{{ page.sample }}">[Sample Slides]</a></small>{% endif %}
+          </h1>
         </div>
         <div class="row">
           <div class="col-xs-9">
             <div class="documentation-body">
               {{ content }}
             </div>
+
+            {% include docs-nav.html %}
           </div>
           
-          {% if page.hasRightNavbar %}
-            {% include right-navbar.html %}
-          {% endif %}
+          {% include right-navbar.html %}
         </div>
-        {% include docs-nav.html %}
       </div>
 
       {% unless page.hideFooter %}

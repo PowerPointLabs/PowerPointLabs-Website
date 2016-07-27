@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Agenda Lab
-hasRightNavbar: true
 ---
 
 For content-heavy and long presentations, you can use agenda slides to mark important points in our presentation. You might do this by creating an **Agenda**, which you periodically return to to keep your audience aware of where you are in the presentation.

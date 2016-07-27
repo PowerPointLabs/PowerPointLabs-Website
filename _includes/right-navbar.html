@@ -1,5 +1,16 @@
 <div class="col-xs-3 right-navbar affix-top">
-  <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="125">
+  <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="100" style="height: 0px;">
+    <li>
+      <a href="/docs/">Documentation</a>
+      <ul class="nav nav-1">
+        {% assign urlSplit = page.url | split: "/" %}
+        {% assign id = urlSplit.last | replace:".html" %}
+        {% for docs in site.data.docs %}
+          {% assign section = site.docs | where: "title", docs | first %}
+          <li{% if section.url == page.url %} class="active"{% endif %}><a href="{% if section.url == page.url %}#{{ id }}{% else %}{{ section.url }}{% endif %}">{{ section.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
   </ul>
 </div>
 <script src="/js/right-navbar.js"></script>

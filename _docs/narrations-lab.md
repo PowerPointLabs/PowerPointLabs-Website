@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Narrations Lab
-hasRightNavbar: true
 ---
 
 <p>

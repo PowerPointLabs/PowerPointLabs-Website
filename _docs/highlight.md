@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Highlight Bullets
-hasRightNavbar: true
 ---
 
 **Highlight Bullets** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in three different ways: **Highlight Points**, **Highlight Background**, and **Highlight Text**,

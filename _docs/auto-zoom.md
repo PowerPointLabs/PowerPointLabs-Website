@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Auto Zoom
-hasRightNavbar: true
 ---
 
 **Auto Zoom** includes two features to help you emphasise important details: **Zoom to Area**, and **Drill Down**.

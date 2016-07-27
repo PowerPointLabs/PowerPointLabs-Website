@@ -1,7 +1,6 @@
 ---
+layout: docs
 title: Frequently Asked Questions
-category: documentation
-published: false
 ---
 
 **What versions of PowerPoint does PowerPointLabs work with?**

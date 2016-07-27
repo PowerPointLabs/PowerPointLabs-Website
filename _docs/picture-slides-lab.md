@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Picture Slides Lab
-hasRightNavbar: true
 sample: "/samples/psl%20sample.pptx"
 ---
 

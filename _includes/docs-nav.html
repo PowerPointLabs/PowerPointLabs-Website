@@ -1,4 +1,4 @@
-{% assign docs = site.data.docs | shift | unshift: "Documentation" %}
+{% assign docs = site.data.docs | unshift: "Documentation" %}
 {% for sectionTitle in docs %}
   {% assign section = site.docs | where: "title", sectionTitle | first %}
   {% if section.url == page.url %}
@@ -7,7 +7,7 @@
         <div class="prev">
           {% assign previous = forloop.index0 | minus: 1 %}
           {% assign previousPage = site.docs | where: "title", docs[previous] | first %}
-          <a href="{{ previousPage.url }}">{% if previous == 0 %}Frequently Asked Questions{% else %}{{ previousPage.title }}{% endif %}</a>
+          <a href="{{ previousPage.url }}">{{ previousPage.title }}</a>
         </div>
       {% endunless %}
       {% unless forloop.last %}

@@ -1,7 +1,6 @@
 ---
 layout: docs
 title: Effects Lab
-hasRightNavbar: true
 ---
 
 The **Effects Lab** makes it easy to draw attention to portions of the slide through blur, color, or magnification effects, and also provides a convenient way to access several of PowerPoint's built-in image effects.
