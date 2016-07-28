@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "therubyracer", "0.12.2"
+gem "jekyll", "3.1.6"
 gem "jekyll-less", "0.0.4"
 gem "redcarpet", "3.3.4"
 gem "html-proofer", "3.0.4"
