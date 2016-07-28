@@ -2,7 +2,7 @@
   img: "./img/highlightpoints.gif",
   tagline: "Point-by-point highlights.",
   description: "<strong>Highlight</strong> individual bullet points to show what you're describing.",
-  url: "./docs.html#highlight"
+  url: "./docs.html#highlight-lab"
 }
 
 - {
@@ -16,14 +16,14 @@
   img: "./img/spotlight.gif",
   tagline: "Light up your slides.",
   description: "Draw a region of any shape, and use <strong>spotlight</strong> to attract your audience's attention to it.",
-  url: "./docs.html#spotlight"
+  url: "./docs.html#spotlight-lab"
 }
 
 - {
   img: "./img/auto-animate.gif",
   tagline: "Easily transition from A to B.",
   description: "Show where objects start, and where they should go. <strong>Auto animate</strong> takes care of the rest.",
-  url: "./docs.html#auto-animate"
+  url: "./docs.html#animation-lab"
 }
 
 - {
@@ -37,14 +37,14 @@
   img: "./img/notestoaudio.gif",
   tagline: "Create narration without effort.",
   description: "<strong>Auto Narrate</strong> creates audio explanations from your speaker notes - perfect for self-learning materials.",
-  url: "./docs.html#auto-narrate"
+  url: "./docs.html#narrations-lab"
 }
 
 - {
   img: "./img/autocaptions.gif",
   tagline: "Caption with a click.",
   description: "Want subtitles with your narration? <strong>Auto Captions</strong> makes it a one-click process.",
-  url: "./docs.html#auto-captions"
+  url: "./docs.html#captions-lab"
 }
 
 - {
@@ -66,7 +66,7 @@
   img: "./img/auto-crop.gif",
   tagline: "Cut it out.",
   description: "Need just part of an image? <strong>Auto Crop</strong> lets you cut it, no image editor necessary.",
-  url: "./docs.html#auto-crop"
+  url: "./docs.html#crop-lab"
 }
 
 - {
