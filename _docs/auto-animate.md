@@ -41,7 +41,7 @@ These slides contain the actual animation effects, and can be identified by the 
 
 That's all there is to it! You can play the slides to see how the animation turned out.
 
-**You can download the slides used in this example [here.](./samples/auto-animate%20sample.pptx)**
+**You can download the slides used in this example [here.](/samples/auto-animate%20sample.pptx)**
 
 ## <a class="anchor-bookmark" id="adjust-animations"></a> Adjusting Animations
 
