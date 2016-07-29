@@ -38,10 +38,14 @@ Click **`Customize`**. It will show you how the slide will look like with the va
 
 If this is the first time PSL being used, you’ll have the two default pictures only. To add more, do one of the following.
 
-1. Click **`+`** and choose more pictures from your computer hard disk.<br />![](./img/docs/picture-slides-lab/image_5.png)<br />
+1. Click **`+`** and choose more pictures from your computer hard disk.<br />
+![](./img/docs/picture-slides-lab/image_5.png)<br />
 2. Use a Browser to search in [Google Image Search](https://images.google.com/) (this method will not work with other search engines), and **`drag-and-drop`** the search result **thumbnails** (one at a time) onto PSL window or the **quick drop icon**.<br />
-![](./img/docs/picture-slides-lab/psl-dnd.gif)<br />The quick drop icon looks like this appears when the PSL window is not in focus.<br />![](./img/docs/picture-slides-lab/image_7.png)<br />
-3. Use a Browser to navigate to a Web page containing the picture you want to use, and **`drag-and-drop (or copy-paste)`** the picture onto PSL window or the quick drop icon.<br />![](./img/docs/picture-slides-lab/image_8.png)<br />
+![](./img/docs/picture-slides-lab/psl-dnd.gif)<br />
+The quick drop icon looks like this appears when the PSL window is not in focus.<br />
+![](./img/docs/picture-slides-lab/image_7.png)<br />
+3. Use a Browser to navigate to a Web page containing the picture you want to use, and **`drag-and-drop (or copy-paste)`** the picture onto PSL window or the quick drop icon.<br />
+![](./img/docs/picture-slides-lab/image_8.png)<br />
 Switch back to PSL window to see how the images you selected compare with each other if used in the slide.<br />
 ![](./img/docs/picture-slides-lab/image_9.png)<br />
 
@@ -97,9 +101,24 @@ Select the slide you want to tweak/redesign in PowerPoint, and open PSL. PSL wil
 
 Use the **`Go To Slide`** to load the destination slide.
 
-Click the **`Load...`** button. In the next dialog (example shown below) choose which slide to copy from and click `Load Picture` or `Load Style` button to load the picture or the style. PSL will show a preview of the current slide with the loaded picture. You can tweak the design further if necessary, before applying it to the current slide.
+Click the **`Load From Slide`** button. In the next dialog (example shown below) choose which slide to copy from and click `Load Picture` or `Load Style` button to load the picture or the style. PSL will show a preview of the current slide with the loaded picture. You can tweak the design further if necessary, before applying it to the current slide.
 
 ![](./img/docs/picture-slides-lab/image_18.png)
+
+
+### To save and load a custom style for another presentation
+
+To save a style, right-click on a slide preview after customizing a style and choose **`Save Custom Style`**.
+
+![](./img/docs/picture-slides-lab/image_26.png)
+
+In the next dialog, enter a name for the custom style.
+
+![](./img/docs/picture-slides-lab/image_27.png)
+
+To load or delete a style, click the **`Load Custom Style`** button. In the next dialog, choose a custom style that was previously saved and click the `Load` or `Delete` button. PSL will show a preview of the current slide with the loaded style. As before, you can tweak the style further before applying it to the current slide.
+
+![](./img/docs/picture-slides-lab/image_28.png)
 
 
 ### To adjust which part of the picture is shown on the slide
