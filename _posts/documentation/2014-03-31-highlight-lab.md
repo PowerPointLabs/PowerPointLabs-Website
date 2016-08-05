@@ -7,7 +7,7 @@ bookmark: highlight-lab
 
 **Highlight Lab** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in Four different ways: **Spotlight**, **Highlight Points**, **Highlight Background**, and **Highlight Text**.
 
-###Spotlight [[Sample Slides]](./samples/spotlight%20sample.pptx)
+###<a class="anchor-bookmark" id="spotlight-lab"></a> Spotlight <small> [[Sample Slides]](./samples/spotlight%20sample.pptx) </small>
 
 **Spotlight** darkens all but a specified region on the slide, allowing you to easily focus your audience's attention on a particular aspect.
 
@@ -48,7 +48,7 @@ If you're not quite happy with the way things turned out, simply adjust the sett
 
 **You can download the slides used in this example [here.](./samples/spotlight%20sample.pptx)**
 
-###Highlight Points
+###<a class="anchor-bookmark" id="highlight-point"></a> Highlight Points
 **Highlight Points** can be used when a more subtle approach is desired, and adjusts only the color of each bullet point.
 
 <p>

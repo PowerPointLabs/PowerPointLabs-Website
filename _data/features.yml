@@ -2,7 +2,7 @@
   img: "./img/highlightpoints.gif",
   tagline: "Point-by-point highlights.",
   description: "<strong>Highlight</strong> individual bullet points to show what you're describing.",
-  url: "./docs.html#highlight-lab"
+  url: "./docs.html#highlight-point"
 }
 
 - {
