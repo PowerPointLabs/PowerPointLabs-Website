@@ -26,6 +26,29 @@ function styleRightNavbar() {
   }
 
   navbarList.style.height = (listHeight > height) ? height + "px" : listHeight + "px";
+
+  var activeSections = navbarList.getElementsByClassName("active");
+
+  if (activeSections.length == 0) {
+    return;
+  }
+
+  var currentSection = activeSections[activeSections.length-1].firstElementChild;
+  var parentSection = currentSection.offsetParent;
+  var offsetTop = currentSection.offsetTop;
+
+  while (parentSection !== navbarList.firstElementChild) {
+    offsetTop += parentSection.offsetTop;
+    parentSection = parentSection.offsetParent;
+  }
+
+  if (navbarList.scrollTop + navbarList.clientHeight < offsetTop + currentSection.clientHeight) {
+    navbarList.scrollTop = offsetTop + currentSection.clientHeight - navbarList.clientHeight;
+  }
+
+  if (navbarList.scrollTop > offsetTop) {
+    navbarList.scrollTop = offsetTop;
+  }
 }
 
 window.onload = function() {
