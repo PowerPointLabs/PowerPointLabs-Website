@@ -49,7 +49,7 @@ The site should now be accessible on `localhost:4000` on the host, and can be mo
 
 ### Building for Deployment
 
-Change the base url in `_config.yml` to `/~pptlabs` for the public release or `/~pptlabs/dev` for the dev release of the website.
+Change the base url in `_config.yml` to `/~pptlabs` for the public release or `/~pptlabs/dev` for the dev release of the website and uncomment the line.
 
 ```yml
 baseurl: /~pptlabs/dev
