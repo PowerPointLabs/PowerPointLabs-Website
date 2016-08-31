@@ -16,7 +16,7 @@ hideFooter: true
       {% if developer.url %}
         <a href="{{developer.url}}">
       {% endif %}
-        <img class="box-shadow" src="{{developer.img}}">
+        <img class="box-shadow" src="{{ site.baseurl }}{{developer.img}}">
         <p>{{developer.name}}</p>
       {% if developer.url %}
         </a>
@@ -40,7 +40,7 @@ hideFooter: true
       {% if developer.url %}
         <a href="{{developer.url}}">
       {% endif %}
-        <img class="box-shadow" src="{{developer.img}}">
+        <img class="box-shadow" src="{{ site.baseurl }}{{developer.img}}">
         <p>{{developer.name}}</p>
       {% if developer.url %}
         </a>

@@ -49,6 +49,12 @@ The site should now be accessible on `localhost:4000` on the host, and can be mo
 
 ### Building for Deployment
 
+Change the base url in `_config.yml` to `/~pptlabs` for the public release or `/~pptlabs/dev` for the dev release of the website.
+
+```yml
+baseurl: /~pptlabs/dev
+```
+
 Nothing special here: `jekyll build` will output the site's files to `_site`. `rake` does two things; inlines JS & CSS and compresses all images in `_site`. 
 
 ```shell
@@ -100,7 +106,7 @@ sample: "/samples/spotlight%20sample.pptx"
 To add new subsections to the right navigation sidebar, add a new `a` with `class="anchor-bookmark"` and an `id` attribute in the subsection's heading just before the text. Using the Shortcuts documentation as an example:
 
 ```yml
-## ![](/img/docs/misc-1.png) <a class="anchor-bookmark" id="edit-name"></a> Edit Name
+## ![]({{ site.baseurl }}/img/docs/misc-1.png) <a class="anchor-bookmark" id="edit-name"></a> Edit Name
 ```
 
 #### 4. Write the doc

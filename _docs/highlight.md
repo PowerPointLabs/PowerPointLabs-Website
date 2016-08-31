@@ -9,13 +9,13 @@ title: Highlight Bullets
 **Highlight Points** can be used when a more subtle approach is desired, and adjusts only the color of each bullet point.
 
 <p>
-	<img class="box-shadow slide" src="/img/docs/highlight-points-1.gif">
+	<img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/highlight-points-1.gif">
 </p>
 
 To apply the effect to a slide, select the points to be highlighted, then click the `Highlight Points` button on the PowerPointLabs ribbon.
 
 <p>
-	<img class="box-shadow" src="/img/docs/highlight-points-2.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-points-2.png">
 </p>
 
 During the presentation, each bullet point will then be highlighted after a corresponding click, allowing you to go through them point-by-point.
@@ -28,13 +28,13 @@ During the presentation, each bullet point will then be highlighted after a corr
 **Highlight Background** can be used when you want a flashier way of emphasis, and provides an effect similar to that of a real highlighter on paper.
 
 <p>
-	<img class="box-shadow slide" src="/img/docs/highlight-background-1.gif">
+	<img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/highlight-background-1.gif">
 </p>
 
 To apply this effect to a slide with bullet points on it, select the points to be highlighted, then click `Highlight Background` on the PowerPointLabs ribbon.
 
 <p>
-	<img class="box-shadow" src="/img/docs/highlight-background-2.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-background-2.png">
 </p>
 
 When the presentation is running, each bullet point will be highlighted after a corresponding click.
@@ -47,13 +47,13 @@ When the presentation is running, each bullet point will be highlighted after a 
 **Highlight Text** can be used if you'd like to emphasize a smaller section of text anywhere on the slide.
 
 <p>
-	 <img class="box-shadow slide" src="/img/docs/highlight-text-1.gif">
+	 <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/highlight-text-1.gif">
 </p>
 
 To apply this effect, select the text to highlight, then click `Highlight Text` on the PowerPointLabs ribbon.
 
 <p>
-	<img class="box-shadow" src="/img/docs/highlight-text-2.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-text-2.png">
 </p>
 
 During the presentation, each text fragment will be highlighted after a corresponding click.
@@ -62,11 +62,11 @@ During the presentation, each text fragment will be highlighted after a correspo
 The colors used by Highlight Bullets can be customized by opening the settings dialog from the ribbon:
 
 <p>
-	<img class="box-shadow" src="/img/docs/highlight-bullets-1.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-bullets-1.png">
 </p>
 
 <p>
-	<img class="box-shadow" src="/img/docs/highlight-bullets-2.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-bullets-2.png">
 </p>
 
 The `Text Highlight Color` is the color used by Highlight Text to emphasise the current point. After the highlight moves on to the next point, the `Text Default Color` is applied to the previously-highlighted point.

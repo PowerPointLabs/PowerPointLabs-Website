@@ -1,6 +1,7 @@
 name: PowerPointLabs
 markdown: redcarpet
 highlighter: pygments
+baseurl: /~pptlabs/dev
 collections:
   docs:
     output: true

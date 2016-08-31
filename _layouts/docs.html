@@ -13,7 +13,7 @@ title: Documentation
           {% assign urlSplit = page.url | split: "/" %}
           {% assign id = urlSplit.last | replace:".html" %}
           <h1>
-            <a class="anchor-bookmark" id="{{ id }}"></a>{{ page.title }}{% if page.sample %} <small><a href="{{ page.sample }}">[Sample Slides]</a></small>{% endif %}
+            <a class="anchor-bookmark" id="{{ id }}"></a>{{ page.title }}{% if page.sample %} <small><a href="{{ site.baseurl }}{{ page.sample }}">[Sample Slides]</a></small>{% endif %}
           </h1>
         </div>
         <div class="row">
