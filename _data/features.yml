@@ -2,11 +2,7 @@
   img: "/img/highlightpoints.gif",
   tagline: "Point-by-point highlights.",
   description: "<strong>Highlight</strong> individual bullet points to show what you're describing.",
-<<<<<<< HEAD
-  url: "./docs.html#highlight-point"
-=======
   url: "/docs/highlight.html"
->>>>>>> refs/remotes/PowerPointLabs/master
 }
 
 - {
@@ -17,19 +13,6 @@
 }
 
 - {
-<<<<<<< HEAD
-  img: "./img/spotlightlab.gif",
-  tagline: "Light up your slides.",
-  description: "Draw a region of any shape, and use <strong>spotlight</strong> to attract your audience's attention to it.",
-  url: "./docs.html#spotlight-lab"
-}
-
-- {
-  img: "./img/animationlab.gif",
-  tagline: "Easily transition from A to B.",
-  description: "Show where objects start, and where they should go. <strong>Animation Lab</strong> takes care of the rest.",
-  url: "./docs.html#animation-lab"
-=======
   img: "/img/spotlight.gif",
   tagline: "Light up your slides.",
   description: "Draw a region of any shape, and use <strong>spotlight</strong> to attract your audience's attention to it.",
@@ -41,7 +24,6 @@
   tagline: "Easily transition from A to B.",
   description: "Show where objects start, and where they should go. <strong>Auto animate</strong> takes care of the rest.",
   url: "/docs/auto-animate.html"
->>>>>>> refs/remotes/PowerPointLabs/master
 }
 
 - {
@@ -55,16 +37,6 @@
   img: "/img/notestoaudio.gif",
   tagline: "Create narration without effort.",
   description: "<strong>Narrations Lab</strong> creates audio explanations from your speaker notes - perfect for self-learning materials.",
-<<<<<<< HEAD
-  url: "./docs.html#narrations-lab"
-}
-
-- {
-  img: "./img/captionslab.gif",
-  tagline: "Caption with a click.",
-  description: "Want subtitles with your narration? <strong>Captions Lab</strong> makes it a one-click process.",
-  url: "./docs.html#captions-lab"
-=======
   url: "/docs/narrations-lab.html"
 }
 
@@ -73,7 +45,6 @@
   tagline: "Caption with a click.",
   description: "Want subtitles with your narration? <strong>Captions Lab</strong> makes it a one-click process.",
   url: "/docs/captions-lab.html"
->>>>>>> refs/remotes/PowerPointLabs/master
 }
 
 - {
@@ -84,11 +55,7 @@
 }
 
 - {
-<<<<<<< HEAD
-  img: "./img/zoomlab.gif",
-=======
   img: "/img/auto-zoom.gif",
->>>>>>> refs/remotes/PowerPointLabs/master
   tagline: "Drill down. Step back.",
   description: "Use <strong>Drill Down</strong> to effortlessly drill down to the details, then step back out to see the whole picture.",
   url: "/docs/auto-zoom.html#drill-down"
@@ -96,17 +63,10 @@
 
 
 - {
-<<<<<<< HEAD
-  img: "./img/croplab.gif",
-  tagline: "Cut it out.",
-  description: "Need just part of an image? <strong>Crop Lab</strong> lets you cut it, no image editor necessary.",
-  url: "./docs.html#crop-lab"
-=======
   img: "/img/auto-crop.gif",
   tagline: "Cut it out.",
   description: "Need just part of an image? <strong>Auto Crop</strong> lets you cut it, no image editor necessary.",
   url: "/docs/auto-crop.html"
->>>>>>> refs/remotes/PowerPointLabs/master
 }
 
 - {
