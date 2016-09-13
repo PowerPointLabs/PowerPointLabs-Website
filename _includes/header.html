@@ -2,25 +2,25 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>
-    {{ page.title }}
+    {{ page.title }}{% unless page.overview %}{% unless page.hideLayoutTitle %} {{ layout.title }}{% endunless %} - PowerPointLabs{% endunless %}
   </title>
   <!-- Standard Description Meta tag -->
   <meta name="description" content="PowerPoint, supercharged. A plugin for Microsoft PowerPoint that makes creating impressive presentations easy." />
   <!-- Facebook Open Graph -->
   <meta property="og:title" content="PowerPointLabs" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="./img/install.png" />
+  <meta property="og:image" content="http://www.powerpointlabs.info/img/install.png" />
   <meta property="og:url" content="http://www.powerpointlabs.info" />
   <meta property="og:description" content="PowerPoint, supercharged. A plugin for Microsoft PowerPoint that makes creating impressive presentations easy." />
 
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:700,400,300">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="shortcut icon" type="image/png" href="./img/logo-small.png"/>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/img/logo-small.png"/>
 
-  <script src="./js/jquery-1.11.2.min.js"></script>
-  <script src="./js/bootstrap-3.0.3.min.js"></script>
+  <script src="{{ site.baseurl }}/js/jquery-1.11.2.min.js"></script>
+  <script src="{{ site.baseurl }}/js/bootstrap-3.0.3.min.js"></script>
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

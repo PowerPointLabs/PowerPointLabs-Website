@@ -1,6 +1,6 @@
 - {
   name: "Damith C. Rajapakse",
-  img: "./img/team/damith.png",
+  img: "/img/team/damith.png",
   position: "Founder, Mentor",
   url: "http://www.comp.nus.edu.sg/~damithch/"
 }
@@ -8,34 +8,34 @@
 - {
   name: "Xie Kai",
   position: "Project Lead",
-  img: "./img/team/kai.png"
+  img: "/img/team/kai.png"
 }
 
 - {
   name: "Oh Shunhao",
-  img: "./img/team/oh.png"
+  img: "/img/team/oh.png"
 }
 
 - {
   name: "Chan Ao Wei Oswell",
   url: "https://github.com/oswellchan",
-  img: "./img/team/oswell.jpg"
+  img: "/img/team/oswell.jpg"
 }
 
 - {
   name: "Wu Yu Ting",
   url: "https://github.com/youthinkk",
-  img: "./img/team/yuting.png"
+  img: "/img/team/yuting.png"
 }
 
 - {
   name: "Yan Chan Min Oo",
   url: "http://github.com/yancmo",
-  img: "./img/team/minoo.jpg"
+  img: "/img/team/minoo.jpg"
 }
 
 - {
   name: "Victor Hazali",
   url: "https://github.com/vhazali",
-  img: "./img/team/victor.png"
+  img: "/img/team/victor.png"
 }
