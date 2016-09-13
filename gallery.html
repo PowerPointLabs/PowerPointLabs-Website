@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Shape Downloads - PowerPointLabs
+title: Shape Downloads
 ---
 
 <div class="container">
@@ -20,7 +20,7 @@ title: Shape Downloads - PowerPointLabs
 		<div class="col-xs-12">
 			<h2>Shape Libraries</h2>
 			<p>
-				Here are some libraries you can import into the <a href="./docs.html#shapes-lab">Shapes Lab</a> and use - just download the libraries you want and follow the steps <a href="./docs.html#shapes-lab-import">here</a>.
+				Here are some libraries you can import into the <a href="{{ site.baseurl }}/docs/shapes-lab.html">Shapes Lab</a> and use - just download the libraries you want and follow the steps <a href="{{ site.baseurl }}/docs/shapes-lab.html#shapes-lab-import">here</a>.
 			</p>
 			<p>
 				If you've created a library that you'd like to share, email it to us at <a href="mailto:pptlabs@comp.nus.edu.sg">pptlabs@comp.nus.edu.sg</a>!
@@ -43,11 +43,11 @@ title: Shape Downloads - PowerPointLabs
 		{% for library in site.data.libraries %}
 		<div class="row">
 			<div class="col-xs-12 gallery-header">
-				<h3>{{library.name}} <small><a href="./gallery/{{library.file}}">[Download]</a></small></h3>
+				<h3>{{library.name}} <small><a href="{{ site.baseurl }}/gallery/{{library.file}}">[Download]</a></small></h3>
 			</div>
 
 			<div class="col-xs-6">
-				<img class="box-shadow fit" src="./gallery/{{library.images.example}}">
+				<img class="box-shadow fit" src="{{ site.baseurl }}/gallery/{{library.images.example}}">
 			</div>
 
 			<div class="col-xs-6">
@@ -58,7 +58,7 @@ title: Shape Downloads - PowerPointLabs
 					Contains <span class="accent">{{library.numberIncluded}}</span> shapes.
 					Submitted by <strong>{{library.submitter}}</strong>.
 				</p>
-				<img src="./gallery/{{library.images.contents}}">
+				<img src="{{ site.baseurl }}/gallery/{{library.images.contents}}">
 			</div>
 		</div>
 		{% endfor %}
@@ -104,5 +104,5 @@ title: Shape Downloads - PowerPointLabs
 <script>
 	var shapes = {{ site.data.shapes | jsonify }};
 </script>
-<script src="./js/knockout-3.2.0.js"></script>
-<script src="./js/galleries.js"></script>
+<script src="{{ site.baseurl }}/js/knockout-3.2.0.js"></script>
+<script src="{{ site.baseurl }}/js/galleries.js"></script>

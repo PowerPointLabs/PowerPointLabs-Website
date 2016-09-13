@@ -49,6 +49,12 @@ The site should now be accessible on `localhost:4000` on the host, and can be mo
 
 ### Building for Deployment
 
+Change the base url in `_config.yml` to `/~pptlabs` for the public release or `/~pptlabs/dev` for the dev release of the website and uncomment the line.
+
+```yml
+baseurl: /~pptlabs/dev
+```
+
 Nothing special here: `jekyll build` will output the site's files to `_site`. `rake` does two things; inlines JS & CSS and compresses all images in `_site`. 
 
 ```shell
@@ -63,7 +69,7 @@ If want to run the inline task only, do `rake inline`.
 
 ### Add a new Team Member
 
-Adding a new team member to the About Us page is fairly simple: save their picture to `img/team`, open `_data/developers.yml`, and add a new object there containing their name, the relative path to the picture, and an optional URL.
+Adding a new team member to the About Us page is fairly simple: save their picture to `img/team`, open `_data/developers.yml`, and add a new object there containing their name, the absolute path to the picture, and an optional URL.
 
 ### Add a new Shape
 
@@ -73,39 +79,43 @@ Similar to adding team members, add the shape's picture and file to `shapes`, op
 
 There are two steps to add a new documentation section.
 
-#### 1. Modify the Table of Contents Sidebar.
+#### 1. Add a new section in the right navigation sidebar.
 
-This is in `docs.html` - add a new `li` containing an `a` to link to the new section.
+This is in `_data/docs.yml` - add a new object containing the title of the new section. The order will affect the sequence of the sections.
 
 #### 2. Add the new section.
 
-We're (ab)using Jekyll's blog generation to do this - create a new Markdown file in `_posts\documentation`, and add the following fields to its front-matter at the top (using the Spotlight documentation as an example):
+We're (ab)using Jekyll's blog generation to do this - create a new Markdown file in `_docs/`, and add the following fields to its front-matter at the top (using the Spotlight as an example):
 
 ```yml
 ---
+layout: docs
 title: Spotlight
-category: documentation
-date: 2014-03-31 13:45:01
-sample: "./samples/spotlight%20sample.pptx"
-bookmark: spotlight
+sample: "/samples/spotlight%20sample.pptx"
 ---
 ```
 
 | Field | Purpose |
 | ----- | ------- |
+| layout| This is just kept as "docs" |
 | title | The name of the new section. This is usually the feature being documented. |
-| category | This is just kept as "documentation" |
-| date | We use this to determine the ordering of each section - they appear "chronologically" on the rendered `docs.html` page. |
 | sample | An optional sample file to be linked to in the section's header. |
-| bookmark | This should correspond to the `#` link added in the previous step. |
 
-#### 3. Write the doc
+#### 3. Add new subsections in the right navigation sidebar.
+
+To add new subsections to the right navigation sidebar, add a new `a` with `class="anchor-bookmark"` and an `id` attribute in the subsection's heading just before the text. Using the Shortcuts documentation as an example:
+
+```yml
+## ![]({{ site.baseurl }}/img/docs/misc-1.png) <a class="anchor-bookmark" id="edit-name"></a> Edit Name
+```
+
+#### 4. Write the doc
 
 Write the document using Google Docs, and share it with project mentor for document review. When document review is passed, [this script](https://github.com/mangini/gdocs2md) can be used to generate the Markdown from Google Docs document.
 
 Then use the generated Markdown to construct the web page. Modification of styles and image links may be required.
 
-#### 4. Add new HTML dependencies utilizing inlining/concatenation of JS & CSS
+#### 5. Add new HTML dependencies utilizing inlining/concatenation of JS & CSS
 
 1. Make sure that the dependencies themselves do not depend on some other dynamic dependency (if dynamic dependency, it is advised to link it with external link).
 2. Download local copies of the JS/CSS file and store them anywhere in the project directory.
