@@ -1,10 +1,10 @@
 ---
 layout: docs
 title: Animation Lab
-sample: "/samples/auto-animate%20sample.pptx"
+sample: "/samples/animation-lab%20sample.pptx"
 ---
 
-**Animation Lab** makes creating slick animations as easy as specifying the start and end positions. The animation in the following video was created using Auto Animate.
+**Animation Lab** makes creating slick animations as easy as specifying the start and end positions. The animation in the following video was created using Animation Lab.
 
 <iframe style="display: block; margin-left: auto; margin-right: auto;" width="420" height="315" src="//www.youtube-nocookie.com/embed/tX381vX8D6M?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ These slides contain the actual animation effects, and can be identified by the 
 
 That's all there is to it! You can play the slides to see how the animation turned out.
 
-**You can download the slides used in this example [here.]({{ site.baseurl }}/samples/auto-animate%20sample.pptx)**
+**You can download the slides used in this example [here.]({{ site.baseurl }}/samples/animation-lab%20sample.pptx)**
 
 ## <a class="anchor-bookmark" id="adjust-animations"></a> Adjusting Animations
 
