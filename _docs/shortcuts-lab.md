@@ -1,12 +1,12 @@
 ---
 layout: docs
-title: Shortcuts
+title: Shortcuts Lab
 ---
 
 PowerPointLabs also introduces several useful shortcuts to make tasks easier. Here's an overview of what these are, and how to use them.
 
 ## ![]({{ site.baseurl }}/img/docs/misc-1.png) <a class="anchor-bookmark" id="edit-name"></a> Edit Name
-Right-click on any shape, and choose this option in the submenu `PowerPointLabs` to change its name easily. This is especially useful for giving shapes unique names for use with Auto Animate.
+Right-click on any shape, and choose this option in the submenu `PowerPointLabs` to change its name easily. This is especially useful for giving shapes unique names for use with Animation Lab.
 
 ## ![]({{ site.baseurl }}/img/docs/misc-2.png) <a class="anchor-bookmark" id="fit-to-height"></a> Fit to Height
 Right-click on an image or a shape, and choose this option in the submenu `PowerPointLabs` to automatically resize it so it fits the height of the slide. This is great for using high-resolution images which are much larger than the slide.
