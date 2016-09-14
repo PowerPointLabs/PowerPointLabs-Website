@@ -1,9 +1,9 @@
 ---
 layout: docs
-title: Auto Zoom
+title: Zoom Lab
 ---
 
-**Auto Zoom** includes two features to help you emphasise important details: **Zoom to Area**, and **Drill Down**.
+**Zoom Lab** includes two features to help you emphasise important details: **Zoom to Area**, and **Drill Down**.
 
 ## <a class="anchor-bookmark" id="zoom-to-area"></a> Zoom to Area
 **Zoom to Area** allows you to draw the audience's attention to a particular section of the slide by zooming in on it.
@@ -21,7 +21,7 @@ Next, select the rectangle, and click the `Zoom to Area` button. A single animat
   <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/zoom-to-area-2.png">
 </p>
 
-> **Note:** if you'd like, you can have the animations be inserted on separate slides instead. Just open the Auto Zoom settings dialog, and check the `Put all zoom effects on separate slides` option.
+> **Note:** if you'd like, you can have the animations be inserted on separate slides instead. Just open the Zoom Lab settings dialog, and check the `Put all zoom effects on separate slides` option.
 > 
 > <img class="box-shadow" src="{{ site.baseurl }}/img/docs/zoom-to-area-6.png">  
 > <img class="box-shadow" src="{{ site.baseurl }}/img/docs/zoom-to-area-7.png">
@@ -44,7 +44,7 @@ Next, click the `Zoom to Area` button. PowerPointLabs will create an animation s
   <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/zoom-to-area-4.png">
 </p>
 
-> **Note:** if `Put all zoom effects on separate slides` in the Auto Zoom settings dialog is checked, these animations will be inserted on separate slides as well.
+> **Note:** if `Put all zoom effects on separate slides` in the Zoom Lab settings dialog is checked, these animations will be inserted on separate slides as well.
 
 
 ## <a class="anchor-bookmark" id="drill-down"></a> Drill Down
