@@ -5,7 +5,8 @@ title: Highlight Lab
 
 **Highlight Lab** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in Four different ways: **Spotlight**, **Highlight Points**, **Highlight Background**, and **Highlight Text**.
 
-## <a class="anchor-bookmark" id="spotlight"></a> Spotlight <small>[[Sample Slides]]({{ site.baseurl }}/samples/spotlight%20sample.pptx)</small>
+## <a class="anchor-bookmark" id="spotlight"></a> Spotlight 
+<small>[[Sample Slides]]({{ site.baseurl }}/samples/spotlight%20sample.pptx)</small>
 
 **Spotlight** darkens all but a specified region on the slide, allowing you to easily focus your audience's attention on a particular aspect.
 
