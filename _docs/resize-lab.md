@@ -99,3 +99,75 @@ Similarly, you can match either height or width of objects, using the respective
 
 ## <a class="anchor-bookmark" id="fit-to-slide"></a> Fit To Slide
 <br/>
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/fit-to-slide-1.png"/>
+</p>
+
+Suppose you want to resize the square in the example below,
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/fit-to-slide-2.png"/>
+</p>
+
+so that it fills up the width of the slide.
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/fit-to-slide-3.png"/>
+</p>
+
+To do that, select the square, and click the `Width` button.
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/fit-to-slide-4.png"/>
+</p>
+
+You can also resize multiple objects by selecting them before clicking on the button.
+
+Similarly, you can resize objects’ height or both height and width, using the respective buttons, and the results will be as shown below.
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/fit-to-slide-5.png" onload='this.width = 700'/>
+</p>
+
+## <a class="anchor-bookmark" id="adjust-slightly"></a> Adjust Slightly
+<br/>
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/adjust-slightly-1.png"/>
+</p>
+
+Suppose you want to resize the green bar in the example below, so that its height increases precisely by an amount.
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/adjust-slightly-2.png"/>
+</p>
+
+To do that, select the green bar, and click the `Increase Height` button.
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/adjust-slightly-3.png"/>
+</p>
+
+To set the amount by which the size increase/decrease, click on the settings   icon on the `ADJUST SLIGHTLY` panel, which opens up the dialog given below.
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/adjust-slightly-4.png"/>
+</p>
+
+When you increase the value (to 4 in this example), and increase the height of the green bar again, the result will be as below.
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/adjust-slightly-5.png"/>
+</p>
+
+You can also resize multiple objects by selecting them before clicking on the button.
+
+Similarly, you can increase or decrease objects’ height and width using the respective buttons, and the results will be as shown below.
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/resize-lab/adjust-slightly-6.png"/>
+</p>
+
+## <a class="anchor-bookmark" id="match"></a> Match
+<br/>
