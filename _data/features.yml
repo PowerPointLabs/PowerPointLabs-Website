@@ -1,98 +1,98 @@
 - {
-  img: "./img/highlightpoints.gif",
+  img: "/img/highlightpoints.gif",
   tagline: "Point-by-point highlights.",
   description: "<strong>Highlight</strong> individual bullet points to show what you're describing.",
-  url: "./docs.html#highlight"
+  url: "/docs/highlight.html"
 }
 
 - {
-  img: "./img/PictureSlidesLab.gif",
+  img: "/img/PictureSlidesLab.gif",
   tagline: "Create Picture Slides the easy way.",
   description: "No more long hours of tweaking <strong>picture slides</strong>. Compare pictures, compare styles, choose the one you like, and that’s it!",
-  url: "./docs.html#picture-slides-lab"
+  url: "/docs/picture-slides-lab.html"
 }
 
 - {
-  img: "./img/spotlight.gif",
+  img: "/img/spotlight.gif",
   tagline: "Light up your slides.",
   description: "Draw a region of any shape, and use <strong>spotlight</strong> to attract your audience's attention to it.",
-  url: "./docs.html#spotlight"
+  url: "/docs/spotlight.html"
 }
 
 - {
-  img: "./img/auto-animate.gif",
+  img: "/img/auto-animate.gif",
   tagline: "Easily transition from A to B.",
   description: "Show where objects start, and where they should go. <strong>Auto animate</strong> takes care of the rest.",
-  url: "./docs.html#auto-animate"
+  url: "/docs/auto-animate.html"
 }
 
 - {
-  img: "./img/animate-in-slide.gif",
+  img: "/img/animate-in-slide.gif",
   tagline: "In-slide animations, simplified.",
   description: "<strong>Animate In Slide</strong> makes custom animations a breeze.",
-  url: "./docs.html#animate-in-slide"
+  url: "/docs/auto-animate.html#animate-in-slide"
 }
 
 - {
-  img: "./img/notestoaudio.gif",
+  img: "/img/notestoaudio.gif",
   tagline: "Create narration without effort.",
-  description: "<strong>Auto Narrate</strong> creates audio explanations from your speaker notes - perfect for self-learning materials.",
-  url: "./docs.html#auto-narrate"
+  description: "<strong>Narrations Lab</strong> creates audio explanations from your speaker notes - perfect for self-learning materials.",
+  url: "/docs/narrations-lab.html"
 }
 
 - {
-  img: "./img/autocaptions.gif",
+  img: "/img/autocaptions.gif",
   tagline: "Caption with a click.",
-  description: "Want subtitles with your narration? <strong>Auto Captions</strong> makes it a one-click process.",
-  url: "./docs.html#auto-captions"
+  description: "Want subtitles with your narration? <strong>Captions Lab</strong> makes it a one-click process.",
+  url: "/docs/captions-lab.html"
 }
 
 - {
-  img: "./img/zoom-to-area.gif",
+  img: "/img/zoom-to-area.gif",
   tagline: "Zoom and Pan.",
   description: "Easily zoom in on and pan between parts of the slide with <strong>Zoom to Area</strong>.",
-  url: "./docs.html#zoom-to-area"
+  url: "/docs/auto-zoom.html#zoom-to-area"
 }
 
 - {
-  img: "./img/auto-zoom.gif",
+  img: "/img/auto-zoom.gif",
   tagline: "Drill down. Step back.",
   description: "Use <strong>Drill Down</strong> to effortlessly drill down to the details, then step back out to see the whole picture.",
-  url: "./docs.html#drill-down"
+  url: "/docs/auto-zoom.html#drill-down"
 }
 
 
 - {
-  img: "./img/auto-crop.gif",
+  img: "/img/auto-crop.gif",
   tagline: "Cut it out.",
   description: "Need just part of an image? <strong>Auto Crop</strong> lets you cut it, no image editor necessary.",
-  url: "./docs.html#auto-crop"
+  url: "/docs/auto-crop.html"
 }
 
 - {
-  img: "./img/colorslab.gif",
+  img: "/img/colorslab.gif",
   tagline: "Add a splash of color.",
   description: "The <strong>Colors Lab</strong> makes picking colors a snap, even from outside PowerPoint.",
-  url: "./docs.html#colors-lab"
+  url: "/docs/colors-lab.html"
 }
 
 - {
-  img: "./img/shapeslab.gif",
+  img: "/img/shapeslab.gif",
   tagline: "Save the shapes, and your effort.",
   description: "Add shapes or other elements to the <strong>Shapes Lab</strong>, and reuse them easily in any presentation.",
-  url: "./docs.html#shapes-lab"
+  url: "/docs/shapes-lab.html"
 }
 
 - {
-  img: "./img/effectsLab.gif",
+  img: "/img/effectsLab.gif",
   tagline: "Special effects without special software.",
   description: "Magnify a part of the slide. Blur out the rest, or change its color. <strong>Effects Lab</strong> has you covered.",
-  url: "./docs.html#effects-lab"
+  url: "/docs/effects-lab.html"
 }
 
 - {
-  img: "./img/agendalab.gif",
+  img: "/img/agendalab.gif",
   tagline: "Create roadmaps for long presentations.",
   description: "Need a roadmap for your presentation? <strong>Agenda Lab</strong> builds or updates one with a single click.",
-  url: "./docs.html#agenda-lab"
+  url: "/docs/agenda-lab.html"
 }
