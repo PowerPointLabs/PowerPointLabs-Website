@@ -1,0 +1,23 @@
+{% assign docs = site.data.docs | unshift: "Documentation" %}
+{% for sectionTitle in docs %}
+  {% assign section = site.docs | where: "title", sectionTitle | first %}
+  {% if section.url == page.url %}
+    <div class="docs-nav">
+      {% unless forloop.first %}
+        <div class="prev">
+          {% assign previous = forloop.index0 | minus: 1 %}
+          {% assign previousPage = site.docs | where: "title", docs[previous] | first %}
+          <a href="{{ site.baseurl }}{{ previousPage.url }}">{{ previousPage.title }}</a>
+        </div>
+      {% endunless %}
+      {% unless forloop.last %}
+        <div class="next">
+          {% assign next = forloop.index0 | plus: 1 %}
+          {% assign nextPage = site.docs | where: "title", docs[next] | first %}
+          <a href="{{ site.baseurl }}{{ nextPage.url }}">{{ nextPage.title }}</a>
+        </div>
+      {% endunless %}
+    </div>
+    {% break %}
+  {% endif %}
+{% endfor%}
