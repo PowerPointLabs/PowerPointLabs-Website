@@ -2,7 +2,7 @@
   img: "/img/highlightpoints.gif",
   tagline: "Point-by-point highlights.",
   description: "<strong>Highlight</strong> individual bullet points to show what you're describing.",
-  url: "/docs/highlight.html"
+  url: "/docs/highlight-lab.html#highlight-points"
 }
 
 - {
@@ -13,24 +13,24 @@
 }
 
 - {
-  img: "/img/spotlight.gif",
+  img: "/img/spotlightlab.gif",
   tagline: "Light up your slides.",
-  description: "Draw a region of any shape, and use <strong>spotlight</strong> to attract your audience's attention to it.",
-  url: "/docs/spotlight.html"
+  description: "Draw a region of any shape, and use <strong>Spotlight</strong> to attract your audience's attention to it.",
+  url: "/docs/highlight-lab.html#spotlight"
 }
 
 - {
-  img: "/img/auto-animate.gif",
+  img: "/img/animationlab.gif",
   tagline: "Easily transition from A to B.",
-  description: "Show where objects start, and where they should go. <strong>Auto animate</strong> takes care of the rest.",
-  url: "/docs/auto-animate.html"
+  description: "Show where objects start, and where they should go. <strong>Animation Lab</strong> takes care of the rest.",
+  url: "/docs/animation-lab.html"
 }
 
 - {
   img: "/img/animate-in-slide.gif",
   tagline: "In-slide animations, simplified.",
   description: "<strong>Animate In Slide</strong> makes custom animations a breeze.",
-  url: "/docs/auto-animate.html#animate-in-slide"
+  url: "/docs/animation-lab.html#animate-in-slide"
 }
 
 - {
@@ -41,7 +41,7 @@
 }
 
 - {
-  img: "/img/autocaptions.gif",
+  img: "/img/captionslab.gif",
   tagline: "Caption with a click.",
   description: "Want subtitles with your narration? <strong>Captions Lab</strong> makes it a one-click process.",
   url: "/docs/captions-lab.html"
@@ -51,22 +51,22 @@
   img: "/img/zoom-to-area.gif",
   tagline: "Zoom and Pan.",
   description: "Easily zoom in on and pan between parts of the slide with <strong>Zoom to Area</strong>.",
-  url: "/docs/auto-zoom.html#zoom-to-area"
+  url: "/docs/zoom-lab.html#zoom-to-area"
 }
 
 - {
-  img: "/img/auto-zoom.gif",
+  img: "/img/zoomlab.gif",
   tagline: "Drill down. Step back.",
   description: "Use <strong>Drill Down</strong> to effortlessly drill down to the details, then step back out to see the whole picture.",
-  url: "/docs/auto-zoom.html#drill-down"
+  url: "/docs/zoom-lab.html#drill-down"
 }
 
 
 - {
-  img: "/img/auto-crop.gif",
+  img: "/img/croplab.gif",
   tagline: "Cut it out.",
-  description: "Need just part of an image? <strong>Auto Crop</strong> lets you cut it, no image editor necessary.",
-  url: "/docs/auto-crop.html"
+  description: "Need just part of an image? <strong>Crop Lab</strong> lets you cut it, no image editor necessary.",
+  url: "/docs/crop-lab.html"
 }
 
 - {

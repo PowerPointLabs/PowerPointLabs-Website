@@ -1,21 +1,63 @@
 ---
 layout: docs
-title: Highlight Bullets
+title: Highlight Lab
 ---
 
-**Highlight Bullets** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in three different ways: **Highlight Points**, **Highlight Background**, and **Highlight Text**,
+**Highlight Lab** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in Four different ways: **Spotlight**, **Highlight Points**, **Highlight Background**, and **Highlight Text**.
+
+## <a class="anchor-bookmark" id="spotlight"></a> Spotlight 
+<small>[[Sample Slides]]({{ site.baseurl }}/samples/spotlight%20sample.pptx)</small>
+
+**Spotlight** darkens all but a specified region on the slide, allowing you to easily focus your audience's attention on a particular aspect.
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-1.png" />
+</p>
+<small>(Original Image Credit: Wikipedia)</small>
+
+Using Spotlight is easy. First, draw a shape to indicate the area which should be lit up - you can use any of PowerPoint's included shapes, or even draw a freeform shape.
+
+![]({{ site.baseurl }}/img/docs/spotlight-lab-2.png)
+
+To produce the example shown above, we drew a shape like so:
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-3.png" />
+</p>
+
+With the shape selected (by clicking once on it), go to the <code>PowerPointLabs</code> tab on the Office Ribbon and click <code>Create Spotlight</code>. 
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-4.png" />
+</p>
+
+And that's it! PowerPointLabs will create a new slide with the spotlight effect on it.
+
+If you'd like, you can adjust the transparency of the darkened area and the softness of the spotlight's edges from the same tab. Just click the options button here:
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-5.png" />
+</p>
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-6.png" />
+</p>
+
+If you're not quite happy with the way things turned out, simply adjust the settings from the dialog (shown above), delete the slide with the spotlight effect, and click `Create Spotlight` again.
+
+**You can download the slides used in this example [here.]({{ site.baseurl }}/samples/spotlight%20sample.pptx)**
 
 ## <a class="anchor-bookmark" id="highlight-points"></a> Highlight Points
 **Highlight Points** can be used when a more subtle approach is desired, and adjusts only the color of each bullet point.
 
 <p>
-	<img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/highlight-points-1.gif">
+	<img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/highlight-lab-points-1.gif">
 </p>
 
 To apply the effect to a slide, select the points to be highlighted, then click the `Highlight Points` button on the PowerPointLabs ribbon.
 
 <p>
-	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-points-2.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-lab-points-2.png">
 </p>
 
 During the presentation, each bullet point will then be highlighted after a corresponding click, allowing you to go through them point-by-point.
@@ -28,13 +70,13 @@ During the presentation, each bullet point will then be highlighted after a corr
 **Highlight Background** can be used when you want a flashier way of emphasis, and provides an effect similar to that of a real highlighter on paper.
 
 <p>
-	<img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/highlight-background-1.gif">
+	<img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/highlight-lab-background-1.gif">
 </p>
 
 To apply this effect to a slide with bullet points on it, select the points to be highlighted, then click `Highlight Background` on the PowerPointLabs ribbon.
 
 <p>
-	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-background-2.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-lab-background-2.png">
 </p>
 
 When the presentation is running, each bullet point will be highlighted after a corresponding click.
@@ -47,13 +89,13 @@ When the presentation is running, each bullet point will be highlighted after a 
 **Highlight Text** can be used if you'd like to emphasize a smaller section of text anywhere on the slide.
 
 <p>
-	 <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/highlight-text-1.gif">
+	 <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/highlight-lab-text-1.gif">
 </p>
 
 To apply this effect, select the text to highlight, then click `Highlight Text` on the PowerPointLabs ribbon.
 
 <p>
-	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-text-2.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-lab-text-2.png">
 </p>
 
 During the presentation, each text fragment will be highlighted after a corresponding click.
@@ -62,11 +104,11 @@ During the presentation, each text fragment will be highlighted after a correspo
 The colors used by Highlight Bullets can be customized by opening the settings dialog from the ribbon:
 
 <p>
-	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-bullets-1.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-lab-bullets-1.png">
 </p>
 
 <p>
-	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-bullets-2.png">
+	<img class="box-shadow" src="{{ site.baseurl }}/img/docs/highlight-lab-bullets-2.png">
 </p>
 
 The `Text Highlight Color` is the color used by Highlight Text to emphasise the current point. After the highlight moves on to the next point, the `Text Default Color` is applied to the previously-highlighted point.
