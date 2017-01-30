@@ -132,4 +132,8 @@ Notice that everything in the slide will be blurred except for the selected shap
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-14.png">
 
+Here's another example where the text box does not have a background color.
+
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-22.png">
+
 The procedure and effect are similar for Recolor All Except Selected.
