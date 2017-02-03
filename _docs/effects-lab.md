@@ -124,16 +124,12 @@ Suppose that your wish to draw attention to the text box in this slide:
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-13.png">
 
-After selecting the text box, select `Blur All Except Selected` from the Effects Lab dropdown and choose the blurriness level to use - in our example here, we chose 70% Blurriness.
+After selecting the text box, select `Blur All Except Selected` from the Effects Lab dropdown and choose the blurriness level to use - in our example here, we chose 90% Blurriness.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-12.png">
 
 Notice that everything in the slide will be blurred except for the selected shapes.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-14.png">
-
-Here's another example where the text box does not have a background color.
-
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-22.png">
 
 The procedure and effect are similar for Recolor All Except Selected.
