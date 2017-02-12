@@ -1,7 +1,7 @@
 ---
 layout: docs
 hideLayoutTitle: true
-title: Documentation
+title: User Guide
 permalink: /docs/
 ---
 
