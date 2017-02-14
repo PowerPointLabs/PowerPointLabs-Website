@@ -1,4 +1,4 @@
-{% assign docs = site.data.docs | unshift: "Documentation" %}
+{% assign docs = site.data.docs | unshift: "User Guide" %}
 {% for sectionTitle in docs %}
   {% assign section = site.docs | where: "title", sectionTitle | first %}
   {% if section.url == page.url %}
