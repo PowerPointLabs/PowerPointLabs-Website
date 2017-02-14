@@ -1,11 +1,12 @@
 - {
-  name: "Huang Da",
-  img: "/img/team/huangda.jpg"
+  name: "Chan Ao Wei Oswell",
+  url: "https://github.com/oswellchan",
+  img: "/img/team/oswell.jpg"
 }
 
 - {
-  name: "Raunak Rajpuria",
-  img: "/img/team/raunak.png",
+  name: "Huang Da",
+  img: "/img/team/huangda.jpg"
 }
 
 - {
@@ -18,4 +19,9 @@
   name: "Karan Kamath",
   img: "/img/team/karan.jpg",
   url: "http://karankamath.com"
+}
+
+- {
+  name: "Raunak Rajpuria",
+  img: "/img/team/raunak.png",
 }
