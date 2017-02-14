@@ -3,7 +3,9 @@
 
 # Provisioning script
 $script = <<SCRIPT
-sudo apt-get install make gcc nodejs g++ -y
+sudo apt-get update -y
+sudo apt-get install make gcc nodejs -y
+sudo apt-get install build-essential g++ -y
 sudo apt-get install python-software-properties -y
 sudo apt-add-repository ppa:brightbox/ruby-ng
 sudo apt-get update -y
