@@ -7,25 +7,32 @@
 
 - {
   name: "Xie Kai",
-  position: "Project Lead",
+  position: "Mentor",
   img: "/img/team/kai.png"
+}
+
+- {
+  name: "Yan Chan Min Oo",
+  position: "Project Lead",
+  url: "http://github.com/yancmo",
+  img: "/img/team/minoo.jpg"
+}
+
+- {
+  name: "Wu Yu Ting",
+  position: "Co-Lead",
+  img: "/img/team/yuting.png",
+  url: "https://github.com/youthinkk"
+}
+
+- {
+  name: "Liu Hanyang",
+  img: "/img/team/hanyang.png"
 }
 
 - {
   name: "Oh Shunhao",
   img: "/img/team/oh.png"
-}
-
-- {
-  name: "Wu Yu Ting",
-  url: "https://github.com/youthinkk",
-  img: "/img/team/yuting.png"
-}
-
-- {
-  name: "Yan Chan Min Oo",
-  url: "http://github.com/yancmo",
-  img: "/img/team/minoo.jpg"
 }
 
 - {
