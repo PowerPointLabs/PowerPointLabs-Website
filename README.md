@@ -75,9 +75,9 @@ Adding a new team member to the About Us page is fairly simple: save their pictu
 
 Similar to adding team members, add the shape's picture and file to `shapes`, open `_data/shapes.yml`, and add a new object containing the shape's details. An optional license (`licenseTerms`) and submitter (`submitter`) field can be included as well.
 
-### Adding Documentation Sections
+### Adding User Guide Sections
 
-There are two steps to add a new documentation section.
+There are two steps to add a new User Guide section.
 
 #### 1. Add a new section in the right navigation sidebar.
 
