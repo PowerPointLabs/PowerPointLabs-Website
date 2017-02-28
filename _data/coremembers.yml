@@ -26,6 +26,30 @@
 }
 
 - {
+  name: "Ang Shi Ya",
+  url: "https://github.com/AngShiYa",
+  img: "/img/team/shiya.png"
+}
+
+- {
+  name: "Ian Teo",
+  url: "https://github.com/IanTeo",
+  img: "/img/team/ian.png"
+}
+
+- {
+  name: "Jamos Tay",
+  url: "https://github.com/jamos-tay",
+  img: "/img/team/jamos.png"
+}
+
+- {
+  name: "Kenneth Loh",
+  url: "https://github.com/Kenneth-LJS",
+  img: "/img/team/kennethloh.png"
+}
+
+- {
   name: "Liu Hanyang",
   img: "/img/team/hanyang.png"
 }
@@ -33,6 +57,18 @@
 - {
   name: "Oh Shunhao",
   img: "/img/team/oh.png"
+}
+
+- {
+  name: "Ong Heng Le",
+  url: "https://github.com/initialshl",
+  img: "/img/team/hengle.png"
+}
+
+- {
+  name: "Syed Abdullah",
+  url: "http://syedabdullah.net",
+  img: "/img/team/syed.png"
 }
 
 - {
