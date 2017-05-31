@@ -5,7 +5,6 @@ title: Resize Lab
 
 **Resize Lab** helps you to resize objects on a slide in various ways.
 
-<br>
 ## <a class="anchor-bookmark" id="stretch-and-shrink"></a> Stretching and Shrinking
 
 <p>
@@ -65,7 +64,6 @@ Similarly, you can stretch objects to the right, top, and bottom, using the resp
 <img src="{{ site.baseurl }}/img/docs/resize-lab/streth-and-shrink-10.png" onload='this.width = 700'/>
 </p>
 
-<br>   
 ## <a class="anchor-bookmark" id="equalize"></a> Equalizing Dimensions
 
 <p>
@@ -98,7 +96,6 @@ Similarly, you can match either height or width of objects, using the respective
 <img src="{{ site.baseurl }}/img/docs/resize-lab/equalize-5.png" onload='this.width = 700'/>
 </p>
 
-<br>
 ## <a class="anchor-bookmark" id="fit-to-slide"></a> Fitting an Object to Slide Area
 
 <p>
@@ -131,7 +128,6 @@ Similarly, you can resize objects’ height or both height and width, using the 
 <img src="{{ site.baseurl }}/img/docs/resize-lab/fit-to-slide-5.png" onload='this.width = 700'/>
 </p>
 
-<br>
 ## <a class="anchor-bookmark" id="adjust-slightly"></a> Adjusting an Object Size Slightly
 
 <p>
@@ -170,7 +166,6 @@ Similarly, you can increase or decrease objects’ height and width using the re
 <img src="{{ site.baseurl }}/img/docs/resize-lab/adjust-slightly-6.png"/>
 </p>
 
-<br>
 ## <a class="anchor-bookmark" id="match"></a> Matching One Dimension to the Other
 
 <p>

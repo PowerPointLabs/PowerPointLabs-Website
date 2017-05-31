@@ -58,7 +58,6 @@ The **width** and **height** of the timer can be set by typing in the values or 
 <img src="{{ site.baseurl }}/img/docs/timer-lab/image_7.png" onload='this.width = 350'/>
 </p>
 
-<br>
 ##<a class="anchor-bookmark" id="changing-the-formatting-of-a-timer"></a> Changing the Formatting of a Timer
 
 You can change the colors of the timer components using PowerPoint’s *Drawing Tools*. 
@@ -87,7 +86,6 @@ You can select the entire line marker group, and change its color using *Shape O
 
 You can select the group of line marker text, and change its color using *Font Color*. 
 
-<br>
 ##<a class="anchor-bookmark" id="timer-animations"></a> Timer Animations
 
 You can add animations for other objects that starts after the timer’s duration. Here is an example: 
