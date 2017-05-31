@@ -106,7 +106,7 @@ Next, create your object (e.g. a text box object containing text "Time’s Up!")
 <img src="{{ site.baseurl }}/img/docs/timer-lab/image_14.png" onload='this.width = 700'/>
 </p>
 
-> You can also add an audio and make it play at the end of the timer animations.
+> **Note:** You can also add an audio and make it play at the end of the timer animations.
 
 Finally, set the new animation to start automatically after the the timer animation ends. 
 

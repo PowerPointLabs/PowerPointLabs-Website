@@ -234,19 +234,19 @@ Distribute Grid uses settings from both the `Distribute Settings` window and `Di
 
 `Within First Selected Object` option takes the first selected object as reference object and builds the grid with that reference object as the top left corner of the grid. `Within objects selected First and Second` chooses the first selected object as the top left corner of the grid and the second selected object as the bottom right corner of the grid. The grid built will be contained within the boundaries of the first and second objects.
 
-<img src="{{ site.baseurl }}/img/docs/positions-lab/image_49.png">
+<img src="{{ site.baseurl }}/img/docs/positions-lab/image_49.png" width="500">
 
 #### Equalise Space Between
 
 `Shape edges` and `Shape centers` options determine how the rows and columns are created. `Shape edges` will keep the rows (and columns if applicable) to be of the same length. `Shape centers`, on the other hand, align the objects in the columns by their centers.
 
-<img src="{{ site.baseurl }}/img/docs/positions-lab/image_50.png">
+<img src="{{ site.baseurl }}/img/docs/positions-lab/image_50.png" width="500">
 
 #### Grid Margins
 
 Grid Margins specify the distance between each objects. 
 
-<img src="{{ site.baseurl }}/img/docs/positions-lab/image_51.png">
+<img src="{{ site.baseurl }}/img/docs/positions-lab/image_51.png" width="350">
 
 #### Grid Alignment
 
@@ -258,84 +258,51 @@ Sometimes, the grid that is generated will have empty spaces on the last row or 
 
 The table below summarises the result of the interaction of the grid settings with each other. 
 
-<table>
+<table border="1px solid #000000" width="800">
   <tr>
-    <td>Original Shape</td>
-    <td>Distribute</td>
-    <td>Equalise Space Between</td>
-    <td>Result</td>
+    <th width="150">Original Shape</td>
+    <th width="150">Distribute</td>
+    <th>Equalise Space Between</td>
+    <th>Result</td>
   </tr>
   <tr>
-    <td></td>
-    <td>Within First Selected Object</td>
-    <td>Shape edges</td>
-    <td></td>
+    <td rowspan="10" align="center"><img src="{{ site.baseurl }}/img/docs/positions-lab/table_image_0.png" width="130"></td>
+    <td rowspan="4">Within First Selected Object</td>
+    <td rowspan="2">Shape edges</td>
+    <td align="center"><img src="{{ site.baseurl }}/img/docs/positions-lab/table_image_1.png" width="130"></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
     <td>Alignment does not affect result</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td>Shape centers</td>
-    <td></td>
+    <td rowspan="2">Shape centers</td>
+    <td align="center"><img src="{{ site.baseurl }}/img/docs/positions-lab/table_image_2.png" width="130"></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
     <td>Alignment and Margin affect result</td>
   </tr>
   <tr>
-    <td></td>
-    <td>Within objects selected First and Second</td>
-    <td>Shape edges</td>
-    <td></td>
+    <td rowspan="4">Within objects selected First and Second</td>
+    <td rowspan="2">Shape edges</td>
+    <td align="center"><img src="{{ site.baseurl }}/img/docs/positions-lab/table_image_3.png" width="130"></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
     <td>Alignment and Margin does not affect result</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td>Shape centers</td>
-    <td></td>
+    <td rowspan="2">Shape centers</td>
+    <td align="center"><img src="{{ site.baseurl }}/img/docs/positions-lab/table_image_4.png" width="130"></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
     <td>Alignment and Margin does not affect result</td>
   </tr>
   <tr>
-    <td></td>
     <td>Within Slide Edge</td>
-    <td>Does not work for `Distribute Grid`</td>
-    <td></td>
+    <td colspan="2">Does not work for `Distribute Grid`</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
     <td>Within corner most objects</td>
-    <td>Does not work for `Distribute Grid`</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td colspan="2">Does not work for `Distribute Grid`</td>
   </tr>
 </table>
 
