@@ -32,7 +32,7 @@ PowerPoint's *shadow and soft edges* effects can be used to enhance the look of 
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/crop-lab/image_8.png" width="300">
 
-Alternatively, you can draw multiple shapes to cover the area you want to crop out, use `ctrl+click` to select all of them, and then click `Crop To Shape`.
+Alternatively, you can draw multiple shapes to cover the area you want to crop out, use `ctrl-click` to select all of them, and then click `Crop To Shape`.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/crop-lab/image_9.png" width="350">
 
@@ -46,7 +46,7 @@ The result of the above crop, with the *shadow* effect applied:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_11.png" width="700">
 
-Use `ctrl+click` (or click and drag) to select every shape or picture you want to crop:
+Use `ctrl-click` (or click and drag) to select every shape or picture you want to crop:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_12.png" width="700">
 
@@ -68,7 +68,7 @@ First, click on the picture with the desired width and height, which is our refe
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_16.png" width="700">
 
-Then, use `ctrl+click` to select all other picture(s) you want to crop:
+Then, use `ctrl-click` to select all other picture(s) you want to crop:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_17.png" width="700">
 
@@ -94,7 +94,7 @@ You can select any of the nine points to anchor the resulting cropped picture to
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_22.png" width="700">
 
-To do so, select all the pictures which you would like to crop using `ctrl+click`.
+To do so, select all the pictures which you would like to crop using `ctrl-click`.
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_23.png" width="700">
 
