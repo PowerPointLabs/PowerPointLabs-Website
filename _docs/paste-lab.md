@@ -7,18 +7,13 @@ title: Paste Lab
 
 **Paste To Fill Slide** helps you paste your copied objects to fill the entire slide.
 
-<img src="{{ site.baseurl }}/img/docs/paste-lab/image_0.png" width="350">
-<img src="{{ site.baseurl }}/img/docs/paste-lab/image_1.png" width="350">
+<img src="{{ site.baseurl }}/img/docs/paste-lab/image_0.png" width="800">
 
-To do so, select the objects which you would like to fill the slide with.
-
-<img src="{{ site.baseurl }}/img/docs/paste-lab/image_2.png" width="700">
-
-Then, copy them using `Copy` under the right-click context menu or the `ctrl+c` keyboard shortcut.
+First, copy a picture using `Copy` under the right-click context menu or the `ctrl-c` keyboard shortcut.
 
 > **Note:** All Paste Lab features requires a copied object. You can also copy pictures from other applications on your computer.
 
-Finally, `right-click` on an empty area of the slide, and select `Paste To Fill Slide` under PowerPointLabs.
+Then, `right-click` on the slide, and select `Paste To Fill Slide` under PowerPointLabs.
 
 <img src="{{ site.baseurl }}/img/docs/paste-lab/image_3.png" width="350">
 
