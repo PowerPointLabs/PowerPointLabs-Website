@@ -5,7 +5,7 @@ title: Crop Lab
 
 ## <a class="anchor-bookmark" id="crop-to-shape"></a> Crop To Shape
 
-**Crop To Shape** allows you to easily cut out a section of the slide into a picture. It provides more flexibility than using PowerPoint’s built-in [Crop To Shape](https://support.office.com/en-us/article/Crop-a-picture-to-fit-a-shape-d9ed38c2-1006-4245-9eec-9dd4f722986d) feature. For example, using PowerPoint’s crop feature to crop a picture to the shape of a cloud gives you the result show below.
+**Crop To Shape** allows you to easily cut out a section of the slide into a picture. It provides more flexibility than using PowerPoint’s built-in <a href="https://support.office.com/en-us/article/Crop-a-picture-to-fit-a-shape-d9ed38c2-1006-4245-9eec-9dd4f722986d" target="_blank">Crop To Shape</a> feature. For example, using PowerPoint’s crop feature to crop a picture to the shape of a cloud gives you the result show below.
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_0.png" width="350">
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_1.png" width="350">
