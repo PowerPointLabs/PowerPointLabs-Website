@@ -33,13 +33,13 @@ With a text, shape or picture copied, `right-click` the desired position on the 
 
 <img src="{{ site.baseurl }}/img/docs/paste-lab/image_5.png" width="700">
 
-Your copied objects are now pasted on the slide, where their top-left corners are aligned to the position of your right-click.
+Your copied objects are now pasted on the slide, with their top-left corners aligned to the position of your right-click.
 
 <img src="{{ site.baseurl }}/img/docs/paste-lab/image_6.png" width="700">
 
 ## <a class="anchor-bookmark" id="paste-at-original-position"></a> Paste At Original Position
 
-When you paste an object on the slide, its position may be slightly shifted if the original object is at the same position on the slide. **Paste At Original Position** pastes objects at their positions on the slide exactly when they were copied.
+When you paste an object on the slide, its position may be slightly shifted if the original object is at the same position on the slide. **Paste At Original Position** pastes objects at their positions on the slide exactly where they were copied.
 
 <img src="{{ site.baseurl }}/img/docs/paste-lab/image_7.png" width="700">
 

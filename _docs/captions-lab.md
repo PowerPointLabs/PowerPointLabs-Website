@@ -18,4 +18,4 @@ button. To remove captions from all slides, click on the `Remove Captions` label
 
 > **Note:** as with Narrations Lab, it isn't necessary to remove captions when you update the text in the Speaker Notes - just hit `Add Captions` again, and PowerPointLabs will update everything for you.
 
-> Similarly, to add or remove captions from multiple slides at once, simply select them by `Ctrl+Click`ing in the lefthand slide selection pane.
+> Similarly, to add or remove captions from multiple slides at once, simply select them by `ctrl-click`ing in the lefthand slide selection pane.

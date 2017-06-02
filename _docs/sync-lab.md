@@ -9,7 +9,7 @@ The example below shows how the fill transparency and line style has been applie
 
 <img src="{{ site.baseurl }}/img/docs/sync-lab/image_0.png" width="700">
 
-> **Note:** PowerPoint’s built-in formatting feature allows you to select multiple objects on a slide and change their properties together, but you cannot do that if the objects are in different slides. Also, PowerPoint’s ‘format painter’ feature allows you to sync styles from one object to another across slides, but it cannot select which properties to sync and which ones to keep intact. 
+> **Note:** PowerPoint’s built-in formatting feature allows you to select multiple objects on a slide and change their properties together, but you cannot do that if the objects are in different slides. Also, PowerPoint’s *Format Painter* feature allows you to sync styles from one object to another across slides, but it cannot select which properties to sync and which ones to keep intact. 
 
 ## <a class="anchor-bookmark" id="syncing-formats"></a> Syncing Formats
 
@@ -37,13 +37,13 @@ To sync this style change to other circles, you must first copy these three attr
 
 <img src="{{ site.baseurl }}/img/docs/sync-lab/image_3.png" width="300">
 
-A new pop-up window will appear. Select the formats you would like to copy in the pop-up window and click `OK`. For this example, let’s check `Fill Transparency`, `Line Width` and `Line Dash Type`.
+A new pop-up window will appear. Select the formats you would like to copy in the pop-up window and click `OK`. For this example, let’s check `Transparency` property under the `Fill` category and `Width` and `Dash Type` properties under the `Line` category.
 
 <img src="{{ site.baseurl }}/img/docs/sync-lab/image_4.png" width="700">
 
-Optionally, you can name the format to keep track of the different formats you have. For example, you can change the name to `Circle Style`. Once you click `OK`, you should see this on the Sync Lab pane.
+Optionally, you can name the format to keep track of the different formats you have. For example, you can change the name to "Circle Style". Once you click `OK`, you should see this on the Sync Lab pane.
 
-To apply the copied properties to other circles, select those circles on the slide and click the `Sync Format` button of the copied format.
+To apply the copied properties to other circles, use `ctrl-click` to select those circles on the slide and click the `Sync Format` button of the copied format.
 
 <img src="{{ site.baseurl }}/img/docs/sync-lab/image_5.png" width="350">
 
@@ -67,7 +67,7 @@ For example, you can edit the format we copied in the previous section and tick 
 
 <img src="{{ site.baseurl }}/img/docs/sync-lab/image_9.png" width="700">
 
-> **Tip:** When editing a copied format, the properties shown in the pop-up window are the properties of the object the style was originally copied from, as at the point of copying. You can select these properties even when the original object is deleted from the slide.
+> **Note:** When editing a copied format, the properties shown in the pop-up window are the properties of the object the style was originally copied from, as at the point of copying. You can select these properties even when the original object is deleted from the slide.
 
 ## <a class="anchor-bookmark" id="deleting-a-copied-format"></a> Deleting a Copied Format
 

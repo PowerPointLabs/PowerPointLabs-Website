@@ -32,7 +32,7 @@ Next, select the rectangle, and click the `Zoom to Area` button. A single animat
   <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/zoom-to-area-5.gif">
 </p>
 
-Zoom to Area can also be used to emphasise multiple areas on the same slide. Simply draw a rectangular shape on each of the areas to zoom in on, then `Ctrl+click` on each of the shapes in the order they should be displayed in:
+Zoom to Area can also be used to emphasise multiple areas on the same slide. Simply draw a rectangular shape on each of the areas to zoom in on, then `ctrl-click` on each of the shapes in the order they should be displayed in:
 
 <p>
   <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/zoom-to-area-3.png">

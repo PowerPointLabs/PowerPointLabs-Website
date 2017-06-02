@@ -17,7 +17,7 @@ For the animation above, our start slide looks like this. Each of the items here
 </p>
 
 <br/>Next, create the slide that will serve as the ending position of the animation - our **end slide** - by duplicating the start slide. This can be done either by right-clicking the slide in the slide list and selecting
-`Duplicate Slide`, or by clicking on it and pressing `Ctrl+D` on the keyboard.
+`Duplicate Slide`, or by clicking on it and pressing `ctrl-d` on the keyboard.
 
 Once the end slide has been created, modify the shapes on it so they resemble the state they should be in at the end of the animation.
 
@@ -76,7 +76,7 @@ To rename a shape, either right-click on it and select `Edit name` in the submen
   
 ### <a class="anchor-bookmark" id="move-shapes-together"></a> Moving Shapes Together
 
-The easiest way to have many shapes moving together as one is to group them first. This can be done by selecting the shapes (either through the selection pane or by `Ctrl+click`ing them), right-clicking, and selecting `Group`.
+The easiest way to have many shapes moving together as one is to group them first. This can be done by selecting the shapes (either through the selection pane or by `ctrl-click`ing them), right-clicking, and selecting `Group`.
 
 ## <a class="anchor-bookmark" id="animate-in-slide"></a> Animate In Slide
 ![]({{ site.baseurl }}/img/docs/animation-lab-9.png)
@@ -87,7 +87,7 @@ The easiest way to have many shapes moving together as one is to group them firs
   <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/animation-lab-7.gif" />
 </p>
 
-To use Animate In Slide, place a copy of the shape to be animated at each "stop" along the desired animation path. Next, select the shapes in the order to be animated (by `Ctrl+click`ing them), then click the `Animate In Slide` button.
+To use Animate In Slide, place a copy of the shape to be animated at each "stop" along the desired animation path. Next, select the shapes in the order to be animated (by `ctrl-click`ing them), then click the `Animate In Slide` button.
 
 <p>
   <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/animation-lab-8.png" />

@@ -19,11 +19,11 @@ Suppose we want to position the three shapes shown below to make them overlap.
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_3.png" width="400">
 
-First, we `click` on the shape ‘Visuals’, which is the (reference) object we want to align to. Next, we use `ctrl-click` to select the rest of the objects. By clicking `Align Left`, we can align all other objects to the left visual edge of the ‘Visuals’ object as seen below.
+First, we `click` on the shape with the text "Visuals", which is the reference object we want to align to. Next, we use `ctrl-click` to select the rest of the objects. By clicking `Align Left`, we can align all other objects to the left visual edge of the "Visuals" shape as seen below.
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_4.png" width="400">
 
-We continue by clicking `Align Bottom` to align all other objects to the bottom of the Visuals object. 
+We continue by clicking `Align Bottom` to align all other objects to the bottom of the "Visuals" shape. 
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_5.png" width="400">
 
@@ -37,7 +37,7 @@ Suppose now you want to align the component objects by a particular object’s c
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_7.png" width="550">
 
-We can do this by using the *Align to Axis* functions.
+We can do this by using the **Align to Axis** functions.
 
 Click to select the biggest circle as the reference object. Use `ctrl-click` to select the rest of the objects. Click `Align Horizontal` to horizontally align all other objects to the center of the reference object.
 
@@ -51,7 +51,7 @@ Now add in some labels to create our relationship diagram.
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_10.png" width="200">
 
-`Align Center` is the combination of both Align Horizontal and Align Vertical. For the previous example, we could have used `Align Center` to achieve the same result we wanted in just one step.
+`Align Center` is the combination of both **Align Horizontal** and **Align Vertical**. For the previous example, we could have used `Align Center` to achieve the same result we wanted in just one step.
 
 ### Aligning Radially
 
@@ -99,11 +99,11 @@ Another difference to note between Positions Lab’s Align and PowerPoint’s de
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/positions-lab/image_19.png"><img class="box-shadow" src="{{ site.baseurl }}/img/docs/positions-lab/image_20.png">
 
-Suppose, in the example below, we want to move the shapes on the left to form a timeline as shown on the right. Click to select the first object (in this case, the ‘IMPLEMENTATION’ object) as the reference object for all other objects to adjoin to. Use `ctrl-click` to select the rest of the objects. Click `Adjoin Vertical` to get the result below.
+Suppose, in the example below, we want to move the shapes on the left to form a timeline as shown on the right. Click to select the first object (in this case, the "IMPLEMENTATION" object) as the reference object for all other objects to adjoin to. Use `ctrl-click` to select the rest of the objects. Click `Adjoin Vertical` to get the result below.
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_21.png" width="700">
 
-Note that the ‘IMPLEMENTATION’ object has not moved, while the rest of the objects moved vertically towards it in the specified direction. The first selected object is always stationary and the rest of the objects are moved such that they are adjoined to each other. For `Adjoin Horizontal`, the objects will only move horizontally.
+The "IMPLEMENTATION" object has not moved, while the rest of the objects moved vertically towards it in the specified direction. The first selected object is always stationary and the rest of the objects are moved such that they are adjoined to each other. For `Adjoin Horizontal`, the objects will only move horizontally.
 
 ### Adjoining with Aligning
 
@@ -339,7 +339,7 @@ If the position of the objects distributed looks slightly deviated, you can crea
 
 ### Swap
 
-<img src="{{ site.baseurl }}/img/docs/positions-lab/image_58.png">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/positions-lab/image_58.png">
 
 Swap allows you to swap the positions of any 2 or more objects. By default, when more than 2 objects are selected, the objects will be swapped in a cyclic order, from left to right. After selecting a group of objects, at each click of the swap button, the objects will be swapped to the right. If there are only two objects, then they will simply swap locations.
 
@@ -393,7 +393,7 @@ First, click the picture of the Sun (because you want to use it as the reference
 
 > **Note:** Instead of using the dragging the mouse to rotate objects, you can press `Up arrow` or `Left arrow` key to rotate anti-clockwise and `Down arrow` or ` Right arrow` key to rotate clockwise. 
 
-You can also press `ctrl+arrow` keys to rotate slightly in the specified direction. Once you’re done rotating the shapes, simply click anywhere that is not within the selected shapes and the rotate mode will come to an end.
+You can also press `ctrl-arrow` keys to rotate slightly in the specified direction. Once you’re done rotating the shapes, simply click anywhere that is not within the selected shapes and the rotate mode will come to an end.
 
 `Duplicate and Rotate` works similar to the `Rotate` feature above except that it rotates a duplicate of the objects being rotated i.e. originals remain intact.  
 
@@ -421,7 +421,7 @@ Suppose you want to reorient the green arrows to point away from the picture of 
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_73.png" width="600">
 
-Select the Sun first followed by the green arrows (use `ctrl-click`) and click the `Snap Away` button. You can click the button multiple times to get different orientations relative to the reference object. For example, the blue arrows and red arrows in the picture below.
+Select the Sun, then `ctrl-click` to select the green arrows and click the `Snap Away` button. You can click the button multiple times to get different orientations relative to the reference object. For example, the blue arrows and red arrows in the picture below.
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_74.png" width="400">
 

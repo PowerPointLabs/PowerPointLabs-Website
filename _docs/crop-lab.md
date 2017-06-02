@@ -14,7 +14,7 @@ Using Crop Lab however, you are able to specify exactly which area of the pictur
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_2.png" width="350">
 
-Unlike PowerPoint’s built-in ‘crop’ feature, Crop Lab can crop to match a custom shape. Here’s an example:
+Unlike PowerPoint’s built-in *Crop* feature, Crop Lab can crop to match a custom shape. Here’s an example:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_3.png" width="350">
 
@@ -28,7 +28,7 @@ Select the shape, then click the `Crop To Shape` button under Crop Lab.
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_6.png" width="200">
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/crop-lab/image_7.png" width="300">
 
-PowerPoint's *shadow and soft edges* effects can be used to enhance the look of the cropped image - for instance, here's the same image above after *soft edges* were applied.
+PowerPoint's *Shadow* and *Soft Edges* effects can be used to enhance the look of the cropped image - for instance, here's the same image above after *Soft Edges* were applied.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/crop-lab/image_8.png" width="300">
 
@@ -36,7 +36,7 @@ Alternatively, you can draw multiple shapes to cover the area you want to crop o
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/crop-lab/image_9.png" width="350">
 
-The result of the above crop, with the *shadow* effect applied:
+The result of the above crop, with the *Shadow* effect applied:
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/crop-lab/image_10.png" width="350">
 
@@ -46,7 +46,7 @@ The result of the above crop, with the *shadow* effect applied:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_11.png" width="700">
 
-Use `ctrl-click` (or click and drag) to select every shape or picture you want to crop:
+Use `ctrl-click` to select every shape or picture you want to crop:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_12.png" width="700">
 
@@ -76,10 +76,11 @@ Finally, select `Crop To Same Dimensions` under Crop Lab:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_18.png" width="200">
 
-All pictures will be cropped to the same width and height as the first selected picture (reference object). The crop can be further adjusted using PowerPoint’s crop feature.
+All pictures will be cropped to the same width and height as the first selected shape or picture (reference object). The crop can be further adjusted using PowerPoint’s crop feature.
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_19.png" width="700">
 
+> **Tip:** 
 > **Note:** You can set an Anchor Point for your crop features under Crop Lab Settings.
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_20.png" width="200">

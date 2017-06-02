@@ -33,7 +33,7 @@ Once a shape has been saved in the Shapes Lab, it can be reused anywhere in the 
 
 Shapes can also be removed from the Shapes Lab by right-clicking on them and selecting `Remove Shape`. Similarly, a shape can be renamed by selecting `Edit Name`, or by clicking on it after it has been selected.
 
-> **Tip:** you can also click and drag or `Ctrl+Click` to select and manipulate multiple shapes at once.
+> **Tip:** you can also click and drag or `ctrl-click` to select and manipulate multiple shapes at once.
 
 ### <a class="anchor-bookmark" id="categories"></a> Categories
 

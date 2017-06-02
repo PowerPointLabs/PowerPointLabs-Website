@@ -9,7 +9,7 @@ You can add animated timers onto your slide show using **Timer Lab**, like this 
 <img src="{{ site.baseurl }}/img/docs/timer-lab/image_0.gif" onload='this.width = 700'/>
 </p>
 
-> **Note:** You can add timers onto your slides and present them using other computers.
+> **Tip:** You can add timers onto your slides and present them using other computers which do not have PowerPointLabs.
 
 ## <a class="anchor-bookmark" id="inserting-a-timer-into-a-slide"></a> Inserting a Timer into a Slide
 
@@ -25,7 +25,7 @@ Insert the timer by clicking on the `CREATE` button.
 <img src="{{ site.baseurl }}/img/docs/timer-lab/image_2.png" onload='this.width = 100'/>
 </p>
 
-You can customize the timer’s duration and size under "PROPERTIES", before and after you create your timer.
+You can customize the timer’s duration and size under **PROPERTIES**, before and after you create your timer.
 
 > **Tip:** Create the timer before setting its properties by clicking the `CREATE` button, so that you can see the changes made. If you moved or deleted some parts of the timer, just click the `CREATE` button again to realign the timer. 
 
@@ -100,13 +100,13 @@ First, create your timer. You will see four animations for the timer in the *Ani
 <img src="{{ site.baseurl }}/img/docs/timer-lab/image_13.png" onload='this.width = 700'/>
 </p>
 
-Next, create your object (e.g. a text box object containing text "Time’s Up!") and add an animation (e.g. Grow & Turn) to it. Make sure that the new animation is below the timer’s animations in the *Animation Pane*.
+Next, create your object (e.g. a text box object containing text "Time’s Up!") and add an animation (e.g. *Grow & Turn*) to it. Make sure that the new animation is below the timer’s animations in the *Animation Pane*.
 
 <p>
 <img src="{{ site.baseurl }}/img/docs/timer-lab/image_14.png" onload='this.width = 700'/>
 </p>
 
-> **Note:** You can also add an audio and make it play at the end of the timer animations.
+> **Tip:** You can also add an audio and make it play at the end of the timer animations.
 
 Finally, set the new animation to start automatically after the the timer animation ends. 
 

@@ -64,7 +64,7 @@ During the presentation, each bullet point will then be highlighted after a corr
 
 > **Note:** if there are multiple text boxes on the slide with bullet points in them, the order in which the text boxes appear in PowerPoint's [selection pane](http://www.ellenfinkelstein.com/pptblog/the-wonderful-selection-pane-lets-you-easily-hide-objects-select-them-and-even-rename-them/) will be the order in which they will be highlighted.
 
->If you'd like to specify a different ordering, simply `Ctrl+click` the text boxes in the desired order, then click `Highlight Text`.
+>If you'd like to specify a different ordering, simply `ctrl-click` the text boxes in the desired order, then click `Highlight Text`.
 
 ## <a class="anchor-bookmark" id="highlight-background"></a> Highlight Background
 **Highlight Background** can be used when you want a flashier way of emphasis, and provides an effect similar to that of a real highlighter on paper.
@@ -83,7 +83,7 @@ When the presentation is running, each bullet point will be highlighted after a 
 
 > **Note:** just as with Highlight Points, multiple text boxes will be highlighted in the order in which they appear in the selection pane.
 
-> To override this ordering, just `Ctrl+click` the text boxes in the order they should be highlighted in, then click `Highlight Background`.
+> To override this ordering, just `ctrl-click` the text boxes in the order they should be highlighted in, then click `Highlight Background`.
 
 ## <a class="anchor-bookmark" id="highlight-text"></a> Highlight Text
 **Highlight Text** can be used if you'd like to emphasize a smaller section of text anywhere on the slide.
