@@ -145,6 +145,8 @@ Firstly, you can decide what will the selected objects be distributed within. `D
 
 Alternative options are -- `Within Slide Edges`, which will distribute the selected objects evenly throughout the slide. For this mode, the order of selection is not important. 
 
+<img src="{{ site.baseurl }}/img/docs/positions-lab/setting_image_1.png" width="390">
+
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_31.png">
 
 > **Note:** "Within Slide Edges" option is not applicable to `Distribute Grid`.
@@ -163,6 +165,8 @@ Lastly, `Within Corner Most Objects`, which allows you to select the objects in 
 
 For `Distribute Radial`, the first selected object is the reference object. The center of the reference object is the origin where all angle will be calculated from. By default, `Distribute Radial` uses the option `Within Objects Selected Second and Third`.
 
+<img src="{{ site.baseurl }}/img/docs/positions-lab/setting_image_2.png" width="390">
+
 `Within Objects Selected Second and Third` option distributes objects evenly around the reference object within an angle starting from the second selected object to the third selected object in a clockwise manner. If you would like to distribute objects in the opposite direction instead, swap the order of selection for the second and third selected object.
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_34.png">
@@ -171,11 +175,7 @@ For `Distribute Radial`, the first selected object is the reference object. The 
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_35.png">
 
-We have also included an option that allows you to decide how the gaps are calculated. By default, we will use the shape edges, and its results are shown in the examples above. Alternatively, you may choose to use the shapes’ centers as the reference point. Distribute will now work by equalising the distance between each selected shape’s center point.
-
-An example of the difference between these two reference points is shown below for distribute horizontal within a reference object:
-
-<img src="{{ site.baseurl }}/img/docs/positions-lab/image_36.png" width="700">
+<img src="{{ site.baseurl }}/img/docs/positions-lab/setting_image_4.png" width="390">
 
 `Distribute Radial` moves shapes around the center of the reference object. You can choose whether the orientation of shapes changes when moving them. By default, `Distribute Radial` uses the option `Fixed`, which retains the orientation of shapes moved. Alternatively, you may select the option `Dynamic` to rotate shapes when they move.
 
@@ -237,6 +237,8 @@ Distribute Grid uses settings from both the `Distribute Settings` window and `Di
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_49.png" width="500">
 
 #### Equalise Space Between
+
+<img src="{{ site.baseurl }}/img/docs/positions-lab/setting_image_3.png" width="390">
 
 `Shape edges` and `Shape centers` options determine how the rows and columns are created. `Shape edges` will keep the rows (and columns if applicable) to be of the same length. `Shape centers`, on the other hand, align the objects in the columns by their centers.
 
