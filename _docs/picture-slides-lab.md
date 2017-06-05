@@ -99,9 +99,24 @@ Select the slide you want to tweak/redesign in PowerPoint, and open PSL. PSL wil
 
 Use the **`Go To Slide`** to load the destination slide.
 
-Click the **`Load...`** button. In the next dialog (example shown below) choose which slide to copy from and click `Load Picture` or `Load Style` button to load the picture or the style. PSL will show a preview of the current slide with the loaded picture. You can tweak the design further if necessary, before applying it to the current slide.
+Click the **`Load From Slide`** button. In the next dialog (example shown below) choose which slide to copy from and click `Load Picture` or `Load Style` button to load the picture or the style. PSL will show a preview of the current slide with the loaded picture. You can tweak the design further if necessary, before applying it to the current slide.
 
 ![]({{ site.baseurl }}/img/docs/picture-slides-lab/image_18.png)
+
+
+## <a class="anchor-bookmark" id="save-load-custom-style"></a> To save and load a custom style for another presentation
+
+To save a style, right-click on a slide preview after customizing a style and choose **`Save Custom Style`**.
+
+![]({{ site.baseurl }}/img/docs/picture-slides-lab/image_26.png)
+
+In the next dialog, enter a name for the custom style.
+
+![]({{ site.baseurl }}/img/docs/picture-slides-lab/image_27.png)
+
+To load or delete a style, click the **`Load Custom Style`** button. In the next dialog, choose a custom style that was previously saved and click the `Load` or `Delete` button. PSL will show a preview of the current slide with the loaded style. As before, you can tweak the style further before applying it to the current slide.
+
+![]({{ site.baseurl }}/img/docs/picture-slides-lab/image_28.png)
 
 
 ## <a class="anchor-bookmark" id="adjust-picture-area-shown"></a> To adjust which part of the picture is shown on the slide
