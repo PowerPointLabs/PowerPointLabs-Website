@@ -62,7 +62,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family:'Lato', sans-serif;
   color: @primary-brand;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 0.5em;
+  margin-top: 2em
 }
 
 body {
@@ -431,20 +432,12 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-
-blockquote:after {
-  content: close-quote;
-  visibility: hidden;
-}
 blockquote p {
-  margin-left: 3em;
+  margin-left: 1em;
   margin-right: 1em;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+td, th {
+  padding: 5px;
 }
