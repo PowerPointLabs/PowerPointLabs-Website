@@ -13,7 +13,7 @@ For example, we'd like to use this image as the background for the title slide; 
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-1.png">
 
-To turn an image or shape transparent, select it, then click `Make Transparent` from the Effects Lab dropdown.
+To turn an image or shape transparent, select it, then click `Make Transparent` from the Effects dropdown menu.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-2.png">
 
@@ -31,7 +31,7 @@ The Magnifying Glass effect can be used to enlarge a small detail on the slide. 
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-4.png">
 
-Select the shape, then click `Magnifying Glass` from the Effects Lab dropdown.
+Select the shape, then click `Magnifying Glass` from the Effects dropdown menu.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-5.png">
 
@@ -47,7 +47,7 @@ To use it, first draw a shape over the area to be blurred.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-15.png">
 
-Select the shape, then select `Blur Selected` from the Effects Lab dropdown and choose the blurriness level to use - in our example here, we chose 90% Blurriness.
+Select the shape, then select `Blur Selected` from the Effects dropdown menu and choose the blurriness level to use - in our example here, we chose 90% Blurriness.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-16.png">
 
@@ -61,7 +61,7 @@ This blurs the area covered by the shape:
 
 Blur features can create a tinted effect when applying the blur effect. When this option is checked, the respective feature will insert an overlay shape over the blurred shape.
 
-To check this option, select your desired Blur feature from the Effects Lab dropdown and select the `Tint` option - in our example here, we checked `Tint Selected` for `Blur Selected` feature.
+To check this option, select your desired Blur feature from the Effects dropdown menu and select the `Tint` option - in our example here, we checked `Tint Selected` for `Blur Selected` feature.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-18.png">
 
@@ -73,7 +73,7 @@ Apply the respective feature and the tinted effect will be created.
 
 ### <a class="anchor-bookmark" id="blurriness-options"></a> Blurriness Options
 
-If you want to use a different blurriness level from the default variations, you can select `Blurriness Options` under the desired Blur feature in the Effects Lab dropdown.
+If you want to use a different blurriness level from the default variations, you can select `Blurriness Options` under the desired Blur feature in the Effects dropdown menu.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-20.png">
 
@@ -90,7 +90,7 @@ To use it, first draw a shape over the area to be kept in focus.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-7.png">
 
-Select the shape, then select `Blur Remainder` from the Effects Lab dropdown and choose the blurriness level to use - in our example here, we chose 70% Blurriness.
+Select the shape, then select `Blur Remainder` from the Effects dropdown menu and choose the blurriness level to use - in our example here, we chose 70% Blurriness.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-8.png">
 
@@ -107,7 +107,7 @@ First draw a shape over the area which should be left unchanged.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-7.png">
 
-Next, select the shape, select `Recolor Remainder` from the Effects Lab dropdown, then choose the scheme to use - in our example here, we chose Gray Scale.
+Next, select the shape, select `Recolor Remainder` from the Effects dropdown menu, then choose the scheme to use - in our example here, we chose Gray Scale.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-10.png">
 
@@ -124,7 +124,7 @@ Suppose that your wish to draw attention to the text box in this slide:
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-13.png">
 
-After selecting the text box, select `Blur All Except Selected` from the Effects Lab dropdown and choose the blurriness level to use - in our example here, we chose 90% Blurriness.
+After selecting the text box, select `Blur All Except Selected` from the Effects dropdown menu and choose the blurriness level to use - in our example here, we chose 90% Blurriness.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-12.png">
 

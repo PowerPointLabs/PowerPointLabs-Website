@@ -9,7 +9,7 @@ For content-heavy and long presentations, you can use agenda slides to mark impo
 
 However, the process of creating agenda slides and updating it when there are changes is often long and tedious.
 
-The **Agenda Lab** allows you to automatically generate agenda slides for your presentation. You can also easily customize the agenda and synchronize its format throughout the presentation in the click of a button. The following video demonstrates how Agenda Lab works.
+**Agenda Lab** allows you to automatically generate agenda slides for your presentation. You can also easily customize the agenda and synchronize its format throughout the presentation in the click of a button. The following video demonstrates how Agenda Lab works.
 
 <iframe style="display:block;margin-left:auto;margin-right:auto;" width="420" height="315" src="https://www.youtube.com/embed/VgLUU3q0ZGk" frameborder="0" allowfullscreen></iframe>
 
@@ -53,7 +53,7 @@ The first section in your presentation serves as an introduction, and thus is no
 
 For more information on sections, you can refer to <a href="https://support.office.com/en-us/article/Organize-your-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8">here</a>.
 
-To generate the agenda slides using the Agenda Lab, click on its button on the ribbon and choose the type of agenda you want to generate.
+To generate the agenda slides using Agenda Lab, click on its button on the ribbon and choose the type of agenda you want to generate.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/agenda-lab-7.png">
 
@@ -64,7 +64,7 @@ More details about each agenda type are given in the following sections.
 
 ## <a class="anchor-bookmark" id="text-agenda"></a> Text Agenda
 
-Click `Create Text Agenda` from the Agenda Lab dropdown to generate a text agenda.
+Click `Create Text Agenda` from the Agenda dropdown menu to generate a text agenda.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/agenda-lab-8.png">
 
@@ -83,7 +83,7 @@ In the following example, we change the header and bullet points of the template
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/agenda-lab-10.png">
 
-After configuring your template slide, click `Synchronize Agenda` from the Agenda Lab dropdown to apply your changes to the rest of the agenda slides.
+After configuring your template slide, click `Synchronize Agenda` from the Agenda dropdown menu to apply your changes to the rest of the agenda slides.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/agenda-lab-11.png">
 
@@ -99,7 +99,7 @@ This causes the agenda slides in the presentation to be updated to match the tem
 
 
 ## <a class="anchor-bookmark" id="visual-agenda"></a> Visual Agenda
-To generate the visual agenda, click `Create Visual Agenda` under from the Agenda Lab dropdown.
+To generate the visual agenda, click `Create Visual Agenda` under from the Agenda dropdown menu.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/agenda-lab-13.png">
 
@@ -123,7 +123,7 @@ As before, click `Synchronize Agenda` to synchronize the visual agenda throughou
 
 ## <a class="anchor-bookmark" id="sidebar-agenda"></a> Sidebar Agenda
 
-To generate the agenda, click on `Create Sidebar Agenda` under the Agenda Lab dropdown. By default, the agenda is generated on all slides other than the first section.
+To generate the agenda, click on `Create Sidebar Agenda` under the Agenda dropdown menu. By default, the agenda is generated on all slides other than the first section.
 
 Alternatively, we can generate the sidebar on only specific slides. To do this, we select the slides we want individually before clicking the `Agenda Sidebar` button.
 
@@ -153,7 +153,7 @@ Even after the agenda has been generated, you can still make changes to the arra
 
 ## <a class="anchor-bookmark" id="remove-regenerate-agenda"></a> Removing and Regenerating Agendas
 
-To remove all traces of an existing agenda, click `Remove Agenda` in the Agenda Lab dropdown. Removing the agenda will not affect your other slides. 
+To remove all traces of an existing agenda, click `Remove Agenda` in the Agenda dropdown menu. Removing the agenda will not affect your other slides. 
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/agenda-lab-19.png">
 
