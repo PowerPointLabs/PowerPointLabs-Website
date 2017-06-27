@@ -13,7 +13,7 @@ You can add animated timers onto your slide show using **Timer Lab**, like this 
 
 ## <a class="anchor-bookmark" id="inserting-a-timer-into-a-slide"></a> Inserting a Timer into a Slide
 
-First, open up the Timer Lab pane by clicking on `Timer Lab` button under PowerPointLabs in the ribbon. The Timer Lab pane will open up as shown below.
+First, open up the Timer Lab pane by clicking on `Timer` button under PowerPointLabs in the ribbon. The Timer Lab pane will open up as shown below.
 
 <p>
 <img src="{{ site.baseurl }}/img/docs/timer-lab/image_1.png" onload='this.width = 400'/>
