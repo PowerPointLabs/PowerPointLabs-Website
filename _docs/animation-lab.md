@@ -13,7 +13,7 @@ sample: "/samples/animation-lab%20sample.pptx"
 For the animation above, our start slide looks like this. Each of the items here is a separate shape, created using PowerPoint's shape tools.
 
 <p>
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/animation-lab-1.png" />
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/animation-lab-1.png" />
 </p>
 
 <br/>Next, create the slide that will serve as the ending position of the animation - our **end slide** - by duplicating the start slide. This can be done either by right-clicking the slide in the slide list and selecting
@@ -24,7 +24,10 @@ Once the end slide has been created, modify the shapes on it so they resemble th
 In our example, the end slide looks like this (with the changes magnified in detail on the right):
 
 <p>
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/animation-lab-2.png" />
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/animation-lab-2a.png" />
+</p>
+<p>
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/animation-lab-2b.png" />
 </p>
 
 <br />To create the actual animation, select the start slide, go to the `PowerPointLabs`
