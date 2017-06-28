@@ -29,7 +29,7 @@ The Magnifying Glass effect can be used to enlarge a small detail on the slide. 
 
 > **Note:** though the example shown here uses a circle, any type of shape can be used as the magnifier.
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-4.png" width="200">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-4.png" width="400">
 
 Select the shape, then click `Magnifying Glass` from the Effects dropdown menu.
 
@@ -52,7 +52,7 @@ This magnifies the area covered by the shape:
 Using Spotlight is easy. First, draw a shape to indicate the area which should be lit up - you can use any of PowerPoint's included shapes, or even draw a freeform shape.
 
 <p>
-  <img src="{{ site.baseurl }}/img/docs/spotlight-lab-2.png">
+  <img src="{{ site.baseurl }}/img/docs/spotlight-lab-2.png" width="400">
 </p>
 
 To produce the example shown above, we drew a shape like so:
@@ -64,7 +64,7 @@ To produce the example shown above, we drew a shape like so:
 With the shape selected (by clicking once on it), go to the <code>PowerPointLabs</code> tab on the Office Ribbon and click <code>Create Spotlight</code>. 
 
 <p>
-  <img src="{{ site.baseurl }}/img/docs/spotlight-lab-4.png" width="200">
+  <img src="{{ site.baseurl }}/img/docs/spotlight-lab-4.png" width="400">
 </p>
 
 And that's it! PowerPointLabs will create a new slide with the spotlight effect on it.
@@ -72,7 +72,7 @@ And that's it! PowerPointLabs will create a new slide with the spotlight effect 
 If you'd like, you can adjust the transparency of the darkened area and the softness of the spotlight's edges from the same tab. Just click the options button here:
 
 <p>
-  <img src="{{ site.baseurl }}/img/docs/spotlight-lab-5.png" width="200">
+  <img src="{{ site.baseurl }}/img/docs/spotlight-lab-5.png" width="400">
 </p>
 
 <p>
@@ -115,7 +115,7 @@ In the dialog box, enter your desired blurriness level between 1% and 100%. You 
 
 You can customize the blurriness by changing the value of the "Custom Blurriness" textbox. Once you click `OK`, the custom blurriness you specified will be on the Effects dropdown menu with the text "Custom (30%)". Where "30%" is the custom blurriness you specified.
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-22.png">
+<img src="{{ site.baseurl }}/img/docs/effects-lab-22.png" width="400">
 
 ### <a class="anchor-bookmark" id="tint-selected"></a> Tint Selected
 
