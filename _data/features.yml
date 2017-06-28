@@ -13,13 +13,6 @@
 }
 
 - {
-  img: "/img/spotlightlab.gif",
-  tagline: "Light up your slides.",
-  description: "Draw a region of any shape, and use <strong>Spotlight</strong> to attract your audience's attention to it.",
-  url: "/docs/highlight-lab.html#spotlight"
-}
-
-- {
   img: "/img/animationlab.gif",
   tagline: "Easily transition from A to B.",
   description: "Show where objects start, and where they should go. <strong>Animation Lab</strong> takes care of the rest.",

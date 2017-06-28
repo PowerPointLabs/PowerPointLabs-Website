@@ -13,7 +13,7 @@ For example, we'd like to use this image as the background for the title slide; 
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-1.png">
 
-To turn an image or shape transparent, select it, then click `Make Transparent` from the Effects Lab dropdown.
+To turn an image or shape transparent, select it, then click `Make Transparent` from the Effects dropdown menu.
 
 <img src="{{ site.baseurl }}/img/docs/effects-lab-2.png" width="200">
 
@@ -31,7 +31,7 @@ The Magnifying Glass effect can be used to enlarge a small detail on the slide. 
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-4.png" width="200">
 
-Select the shape, then click `Magnifying Glass` from the Effects Lab dropdown.
+Select the shape, then click `Magnifying Glass` from the Effects dropdown menu.
 
 <img src="{{ site.baseurl }}/img/docs/effects-lab-5.png" width="200">
 
@@ -45,26 +45,42 @@ This magnifies the area covered by the shape:
 **Spotlight** darkens all but a specified region on the slide, allowing you to easily focus your audience's attention on a particular aspect.
 
 <p>
+<<<<<<< HEAD
   <img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-1.png">
+=======
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-1.png" />
+>>>>>>> update-website-ui
 </p>
 <small>(Original Image Credit: Wikipedia)</small>
 
 Using Spotlight is easy. First, draw a shape to indicate the area which should be lit up - you can use any of PowerPoint's included shapes, or even draw a freeform shape.
 
+<<<<<<< HEAD
 <p>
   <img src="{{ site.baseurl }}/img/docs/spotlight-lab-2.png">
 </p>
+=======
+![]({{ site.baseurl }}/img/docs/spotlight-lab-2.png)
+>>>>>>> update-website-ui
 
 To produce the example shown above, we drew a shape like so:
 
 <p>
+<<<<<<< HEAD
   <img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-3.png">
+=======
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-3.png" />
+>>>>>>> update-website-ui
 </p>
 
 With the shape selected (by clicking once on it), go to the <code>PowerPointLabs</code> tab on the Office Ribbon and click <code>Create Spotlight</code>. 
 
 <p>
+<<<<<<< HEAD
   <img src="{{ site.baseurl }}/img/docs/spotlight-lab-4.png" width="200">
+=======
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-4.png" />
+>>>>>>> update-website-ui
 </p>
 
 And that's it! PowerPointLabs will create a new slide with the spotlight effect on it.
@@ -72,17 +88,29 @@ And that's it! PowerPointLabs will create a new slide with the spotlight effect 
 If you'd like, you can adjust the transparency of the darkened area and the softness of the spotlight's edges from the same tab. Just click the options button here:
 
 <p>
+<<<<<<< HEAD
   <img src="{{ site.baseurl }}/img/docs/spotlight-lab-5.png" width="200">
 </p>
 
 <p>
   <img src="{{ site.baseurl }}/img/docs/spotlight-lab-6.png" width="350">
+=======
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-5.png" />
+</p>
+
+<p>
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/spotlight-lab-6.png" />
+>>>>>>> update-website-ui
 </p>
 
 If you're not quite happy with the way things turned out, simply adjust the settings from the dialog (shown above), delete the slide with the spotlight effect, and click `Create Spotlight` again.
 
 **You can download the slides used in this example [here.]({{ site.baseurl }}/samples/spotlight%20sample.pptx)**
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> update-website-ui
 ## <a class="anchor-bookmark" id="blur-selected"></a> Blur Selected
 
 Blur Selected can be used to create a frosted glass effect by adding a blur effect to the selected area.
@@ -91,7 +119,7 @@ To use it, first draw a shape over the area to be blurred.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-15.png">
 
-Select the shape, then select `Blur Selected` from the Effects Lab dropdown and choose the blurriness level to use - in our example here, we chose 90% Blurriness.
+Select the shape, then select `Blur Selected` from the Effects dropdown menu and choose the blurriness level to use - in our example here, we chose 90% Blurriness.
 
 <img src="{{ site.baseurl }}/img/docs/effects-lab-16.png" width="400">
 
@@ -101,23 +129,32 @@ This blurs the area covered by the shape:
 
 > **Note:** Blur Selected can also be used on text boxes.
 
-### <a class="anchor-bookmark" id="custom-blurriness"></a> Custom Blurriness
+## <a class="anchor-bookmark" id="blur-settings"></a> Blur Settings
 
-If you want to use a different blurriness level from the default variations, you can select `Settings` under the desired Blur feature in the Effects Lab dropdown.
+If you want to use a different blurriness level from the default variations, you can select `Settings` under the desired Blur feature in the Effects dropdown menu.
 
 <img src="{{ site.baseurl }}/img/docs/effects-lab-20.png" width="400">
 
-In the dialog box, enter your desired blurriness level between 1% and 100%. You can also choose to check the tint option.
+In the dialog box, enter your desired blurriness level between 1% and 100%. You can also choose to check the `Tint Selected` option.
 
 <img src="{{ site.baseurl }}/img/docs/effects-lab-21.png" width="350">
 
-### <a class="anchor-bookmark" id="tint-option"></a> Tint Option
+### <a class="anchor-bookmark" id="custom-blurriness"></a> Custom Blurriness
+
+You can customize the blurriness by changing the value of the "Custom Blurriness" textbox. Once you click `OK`, the custom blurriness you specified will be on the Effects dropdown menu with the text "Custom (30%)". Where "30%" is the custom blurriness you specified.
+
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-22.png">
+
+### <a class="anchor-bookmark" id="tint-selected"></a> Tint Selected
 
 Blur features can create a tinted effect when applying the blur effect. When this option is checked, the respective feature will insert an overlay shape over the blurred shape.
 
-To check this option, select your desired Blur feature from the Effects Lab dropdown and select `Settings` and check `Tint Selected` - in our example here, we checked `Tint Selected` for `Blur Selected` feature. Apply the respective feature and the tinted effect will be created.
+To check this option, select your desired Blur feature from the Effects dropdown menu and select the `Tint` option - in our example here, we checked `Tint Selected` for `Blur Selected` feature.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-19.png">
+
+> **Tip:** To adjust the tint color and transparency, right-click on the overlay shape and select `Format Shape`.
+
 
 > **Tip:** To adjust the tint color and transparency, right-click on the overlay shape and select `Format Shape`.
 
@@ -129,7 +166,7 @@ To use it, first draw a shape over the area to be kept in focus.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-7.png">
 
-Select the shape, then select `Blur Remainder` from the Effects Lab dropdown and choose the blurriness level to use - in our example here, we chose 70% Blurriness.
+Select the shape, then select `Blur Remainder` from the Effects dropdown menu and choose the blurriness level to use - in our example here, we chose 70% Blurriness.
 
 <img src="{{ site.baseurl }}/img/docs/effects-lab-8.png" width="400">
 
@@ -146,7 +183,7 @@ First draw a shape over the area which should be left unchanged.
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-7.png">
 
-Next, select the shape, select `Recolor Remainder` from the Effects Lab dropdown, then choose the scheme to use - in our example here, we chose Gray Scale.
+Next, select the shape, select `Recolor Remainder` from the Effects dropdown menu, then choose the scheme to use - in our example here, we chose Gray Scale.
 
 <img src="{{ site.baseurl }}/img/docs/effects-lab-10.png" width="400">
 
@@ -163,7 +200,7 @@ Suppose that your wish to draw attention to the text box in this slide:
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/effects-lab-13.png">
 
-After selecting the text box, select `Blur All Except Selected` from the Effects Lab dropdown and choose the blurriness level to use - in our example here, we chose 90% Blurriness.
+After selecting the text box, select `Blur All Except Selected` from the Effects dropdown menu and choose the blurriness level to use - in our example here, we chose 90% Blurriness.
 
 <img src="{{ site.baseurl }}/img/docs/effects-lab-12.png" width="400">
 

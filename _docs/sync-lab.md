@@ -29,7 +29,7 @@ Now, let’s assume you changed the orange circle as follows:
 
 To sync this style change to other circles, you must first copy these three attribute. Here are the steps to do that:
 
-1. Open the Sync Lab  pane (if it is not already open) by clicking the `Sync Lab` button in the PowerPointLabs ribbon.
+1. Open the Sync Lab  pane (if it is not already open) by clicking the `Sync` button in the PowerPointLabs ribbon.
 
 2. Select the orange circle you modified.
 

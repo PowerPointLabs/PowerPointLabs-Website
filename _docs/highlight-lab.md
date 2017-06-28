@@ -3,7 +3,7 @@ layout: docs
 title: Highlight Lab
 ---
 
-**Highlight Lab** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in Four different ways: **Spotlight**, **Highlight Points**, **Highlight Background**, and **Highlight Text**.
+**Highlight Lab** can be used to easily emphasise individual bullet points or segments of text on a slide, allowing points to stand out in turn as you present them. This can be done in Three different ways: **Highlight Points**, **Highlight Background**, and **Highlight Text**.
 
 ## <a class="anchor-bookmark" id="highlight-points"></a> Highlight Points
 **Highlight Points** can be used when a more subtle approach is desired, and adjusts only the color of each bullet point.
