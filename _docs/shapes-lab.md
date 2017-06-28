@@ -16,7 +16,7 @@ To open the Shapes Lab, click on its button on the ribbon:
 To save a shape for later use, first select it on the slide, then right-click and select `Add to Shapes Lab` in the submenu `PowerPointLabs`.
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-2.png" width="800">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-2.png" width="500">
 </p>
 
 The shape will then appear as an entry in the Shapes Lab pane.
