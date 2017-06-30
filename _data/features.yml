@@ -14,7 +14,7 @@
 
 - {
   img: "/img/features/narrationslab.gif",
-  tagline: "Narrations from speaker notes.",
+  tagline: "Narrate your speaker notes.",
   description: "<strong>Narrations Lab</strong> creates audio explanations from your speaker notes - perfect for self-learning materials.",
   url: "/docs/narrations-lab.html"
 }
