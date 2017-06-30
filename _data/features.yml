@@ -1,98 +1,111 @@
 - {
-  img: "/img/highlightpoints.gif",
-  tagline: "Point-by-point highlights.",
-  description: "<strong>Highlight</strong> individual bullet points to show what you're describing.",
-  url: "/docs/highlight-lab.html#highlight-points"
-}
-
-- {
-  img: "/img/PictureSlidesLab.gif",
-  tagline: "Create Picture Slides the easy way.",
-  description: "No more long hours of tweaking <strong>picture slides</strong>. Compare pictures, compare styles, choose the one you like, and that’s it!",
-  url: "/docs/picture-slides-lab.html"
-}
-
-- {
-  img: "/img/spotlightlab.gif",
-  tagline: "Light up your slides.",
-  description: "Draw a region of any shape, and use <strong>Spotlight</strong> to attract your audience's attention to it.",
-  url: "/docs/highlight-lab.html#spotlight"
-}
-
-- {
-  img: "/img/animationlab.gif",
-  tagline: "Easily transition from A to B.",
-  description: "Show where objects start, and where they should go. <strong>Animation Lab</strong> takes care of the rest.",
+  img: "/img/features/animationlab.gif",
+  tagline: "Fancy animations, simplified.",
+  description: "<strong>Animation Lab</strong> makes multi-step multi-object custom animations a breeze.",
   url: "/docs/animation-lab.html"
 }
 
 - {
-  img: "/img/animate-in-slide.gif",
-  tagline: "In-slide animations, simplified.",
-  description: "<strong>Animate In Slide</strong> makes custom animations a breeze.",
-  url: "/docs/animation-lab.html#animate-in-slide"
+  img: "/img/features/zoomlab.gif",
+  tagline: "Zoom and pan with ease.",
+  description: "Easily zoom in on and pan between parts of your slides with <strong>Zoom Lab</strong>.",
+  url: "/docs/zoom-lab.html"
 }
 
 - {
-  img: "/img/notestoaudio.gif",
-  tagline: "Create narration without effort.",
+  img: "/img/features/narrationslab.gif",
+  tagline: "Narrations from speaker notes.",
   description: "<strong>Narrations Lab</strong> creates audio explanations from your speaker notes - perfect for self-learning materials.",
   url: "/docs/narrations-lab.html"
 }
 
 - {
-  img: "/img/captionslab.gif",
+  img: "/img/features/captionslab.gif",
   tagline: "Caption with a click.",
   description: "Want subtitles with your narration? <strong>Captions Lab</strong> makes it a one-click process.",
   url: "/docs/captions-lab.html"
 }
 
 - {
-  img: "/img/zoom-to-area.gif",
-  tagline: "Zoom and Pan.",
-  description: "Easily zoom in on and pan between parts of the slide with <strong>Zoom to Area</strong>.",
-  url: "/docs/zoom-lab.html#zoom-to-area"
+  img: "/img/features/highlightlab.gif",
+  tagline: "Point-by-point highlights.",
+  description: "Highlight individual bullet points to show what you're describing with <strong>Highlight Lab</strong>.",
+  url: "/docs/highlight-lab.html"
 }
 
 - {
-  img: "/img/zoomlab.gif",
-  tagline: "Drill down. Step back.",
-  description: "Use <strong>Drill Down</strong> to effortlessly drill down to the details, then step back out to see the whole picture.",
-  url: "/docs/zoom-lab.html#drill-down"
-}
-
-
-- {
-  img: "/img/croplab.gif",
-  tagline: "Cut it out.",
-  description: "Need just part of an image? <strong>Crop Lab</strong> lets you cut it, no image editor necessary.",
-  url: "/docs/crop-lab.html"
-}
-
-- {
-  img: "/img/colorslab.gif",
-  tagline: "Add a splash of color.",
-  description: "The <strong>Colors Lab</strong> makes picking colors a snap, even from outside PowerPoint.",
-  url: "/docs/colors-lab.html"
-}
-
-- {
-  img: "/img/shapeslab.gif",
-  tagline: "Save the shapes, and your effort.",
-  description: "Add shapes or other elements to the <strong>Shapes Lab</strong>, and reuse them easily in any presentation.",
-  url: "/docs/shapes-lab.html"
-}
-
-- {
-  img: "/img/effectsLab.gif",
+  img: "/img/features/effectslab.gif",
   tagline: "Special effects without special software.",
-  description: "Magnify a part of the slide. Blur out the rest, or change its color. <strong>Effects Lab</strong> has you covered.",
+  description: "Draw attention to a part of the slide with a spotlight or blurring out the rest. <strong>Effects Lab</strong> has you covered.",
   url: "/docs/effects-lab.html"
 }
 
 - {
-  img: "/img/agendalab.gif",
+  img: "/img/features/positionslab.gif",
+  tagline: "Tweak positions to match your layout.",
+  description: "Use <strong>Positions Lab</strong> to perfectly position shapes to create the exact layout you want.",
+  url: "/docs/positions-lab.html"
+}
+
+- {
+  img: "/img/features/resizelab.gif",
+  tagline: "Resize with precision.",
+  description: "Resize shapes to match other shapes or to the size you want using <strong>Resize Lab</strong>.",
+  url: "/docs/resize-lab.html"
+}
+
+- {
+  img: "/img/features/colorslab.gif",
+  tagline: "Match colors, perfectly.",
+  description: "<strong>Colors Lab</strong> makes picking colors a snap, even from outside PowerPoint.",
+  url: "/docs/colors-lab.html"
+}
+
+- {
+  img: "/img/features/synclab.gif",
+  tagline: "Sync just the styles you want.",
+  description: "<strong>Sync Lab</strong> can copy selected styles from one object to other objects.",
+  url: "/docs/sync-lab.html"
+}
+
+- {
+  img: "/img/features/shapeslab.gif",
+  tagline: "Save the shapes, and your effort.",
+  description: "Add shapes or other elements to <strong>Shapes Lab</strong>, and reuse them easily in any presentation.",
+  url: "/docs/shapes-lab.html"
+}
+
+- {
+  img: "/img/features/croplab.gif",
+  tagline: "Cut out custom shapes.",
+  description: "Need just part of an image? <strong>Crop Lab</strong> lets you cut it in the exact shape you want, no image editor necessary.",
+  url: "/docs/crop-lab.html"
+}
+
+- {
+  img: "/img/features/pastelab.gif",
+  tagline: "Paste with more control.",
+  description: "Replace an image while preserving its animations. Paste Lab provides many different new ways for you to paste objects in slides.",
+  url: "/docs/paste-lab.html"
+}
+
+- {
+  img: "/img/features/timerlab.gif",
+  tagline: "Add timers to guide in-presentation activities.",
+  description: "Want your audience to do an activity for 10 seconds? <strong>Timer Lab</strong> lets you create visual timers for your slides.",
+  url: "/docs/timer-lab.html"
+}
+
+- {
+  img: "/img/features/agendalab.gif",
   tagline: "Create roadmaps for long presentations.",
-  description: "Need a roadmap for your presentation? <strong>Agenda Lab</strong> builds or updates one with a single click.",
+  description: "Need a roadmap for your presentation? <strong>Agenda Lab</strong> builds one with a single click.",
   url: "/docs/agenda-lab.html"
+}
+
+- {
+  img: "/img/features/pictureslideslab.gif",
+  tagline: "Create picture slides the easy way.",
+  description: "No more long hours of tweaking picture slides. With <strong>Picture Slides Lab</strong>, all you need to do is compare pictures, compare styles and choose the one you like!",
+  url: "/docs/picture-slides-lab.html"
 }
