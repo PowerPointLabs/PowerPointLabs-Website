@@ -4,7 +4,7 @@ title: Narrations Lab
 ---
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-1.png">
+  <img src="{{ site.baseurl }}/img/docs/narrations-lab-1.png" width="250">
 </p>
 
 **Narrations Lab** creates synthesized audio from your speaker notes, and embeds it on each slide. It's great for figuring out exactly what your speech will sound like, or creating pre-packaged presentations that can play automatically. If you'd like, you can go one step further and easily record your own replacements for the generated audio. In the following video, the audio narration was created by Narrations Lab.
@@ -33,10 +33,12 @@ To hear what a particular sentence or phrase will sound like without having to a
 The settings dialog allows you to change the default voice used for narration, or to preview audio after it is added:
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-5.png">
+  <img src="{{ site.baseurl }}/img/docs/narrations-lab-5.png" width="250">
 </p>
 
-![]({{ site.baseurl }}/img/docs/narrations-lab-6.png)
+<p>
+  <img src="{{ site.baseurl }}/img/docs/narrations-lab-6.png" width="350">
+</p>
 
 > Older versions of PowerPointLabs offered an "All Slides" checkbox in the settings dialog. Starting with version 1.7, PowerPointLabs will add or remove audio from the slides selected in the lefthand slide selection pane.
 
@@ -63,17 +65,19 @@ Speed tags are used to specify the pace at which the text they enclose should be
 #### <a class="anchor-bookmark" id="voice"></a> Voice
 Voice tags can be used to change the synthesized voice for a particular section of text. You can see a list of all voices installed on your computer in the `Default Voice` dropdown:
 
-![]({{ site.baseurl }}/img/docs/narrations-lab-4.png)
+<p>
+  <img src="{{ site.baseurl }}/img/docs/narrations-lab-4.png" width="350">
+</p>
 
->**Note:** there's no need to type the entire name displayed in the dropdown; PowerPointLabs will choose the first voice that contains the portion that you enter.
->
+> **Note:** there's no need to type the entire name displayed in the dropdown; PowerPointLabs will choose the first voice that contains the portion that you enter.
+
 > The amount of voices you have installed may vary depending on Windows' language settings - installing additional languages may provide more voices. Voices may also be purchased from third-party vendors.
 
-<p></p>
+<br>
 
->**Syntax:** `[Voice: <voice name>]`&lt;Text to say&gt;`[EndVoice]`
+> **Syntax:** `[Voice: <voice name>]`&lt;Text to say&gt;`[EndVoice]`
 
->**Example:** `[Voice: David]` Hello there! `[EndVoice]`
+> **Example:** `[Voice: David]` Hello there! `[EndVoice]`
  
  
 #### <a class="anchor-bookmark" id="pronounce"></a> Pronounce
@@ -81,8 +85,7 @@ Pronounce tags can be used to specify the way a word should be pronounced, using
 
 > **Note:** the [Dictionary.com](http://www.dictionary.com) definition pages include IPA pronunciations that can be used with the Pronounce tag.
 
-<p>
-</p>
+<br>
 
 > **Syntax:** `[Pronounce: <IPA pronunciation>]` &lt;Word to pronounce&gt; `[EndPronounce]`
   
@@ -106,8 +109,7 @@ The AfterClick tag is used to set portions of narration to be triggered only aft
 
 > **Note:** this tag is especially useful if you have existing animations on the slide which are triggered by clicks. PowerPointLabs will set narration to play after all animations triggered by the corresponding click have completed.
 
-<p>
-</p>
+<br>
 
 > **Syntax:** `[AfterClick]`
 
@@ -116,34 +118,44 @@ PowerPointLabs also makes it easy to record your own audio narration, whether yo
 
 To bring up the recording pane, click on the `Add Audio` menu button, then click `Record Audio Manually`.
 
-![]({{ site.baseurl }}/img/docs/narrations-lab-7.png)
+<p>
+  <img src="{{ site.baseurl }}/img/docs/narrations-lab-7.png" width="250">
+</p>
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-8.png">
+<p>
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-8.png">
+</p>
 
 ### <a class="anchor-bookmark" id="replace-synthesized-narration"></a> Replacing Synthesized Narration
 Any synthesized pieces of narration will appear in the `Audio` panel of the recording pane. To replace a particular section of the narration, simply select it - the corresponding section of the script (from the speaker notes) will then be shown in the `Current Script` field.
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-9.png">
+<p>
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-9.png">
+</p>
 
 Simply click the record button to begin recording, then click stop once you have finished.
 
 > **Tip**: you can also right-click on any of the audio segments listed in the `Audio` panel to play, remove, or replace it.
-
-> <img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-13.png">
-
+> <p>
+>   <img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-13.png">
+> </p>
 > Double-clicking on anything within the `Audio` or `Scripts` panes will also play the corresponding piece of audio if it has been generated.
 
 ### <a class="anchor-bookmark" id="record-from-script"></a> Recording from a Script
 Even if you haven't used Narrations Lab to create synthesized narration, you can still record your own narration easily using the same process. Simply enter your speech into the speaker notes pane as if you were going to use Auto Narrate (including `AfterClick` tags to separate speech for animations), then bring up the recording pane.
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-12.png">
+<p>
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-12.png">
+</p>
 
 Each "line" to record will be displayed in the `Scripts` panel of the recording pane. Just select the one you'd like to record, then use the recording controls to start!
 
 ### <a class="anchor-bookmark" id="in-show-recording"></a> In-Show Recording
 Clicking `Record During Slide Show` will launch the slide show, with two buttons overlaid onto each slide:
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-10.png">
+<p>
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-10.png">
+</p>
 
 This allows you to record narration for the slide or presentation in sequence, viewing animations and transitions in the process. Think of the presentation as being made of many segments, each separated by an animation or transition triggered by a mouse click; you can record narration for each of these segments.
 
@@ -151,6 +163,8 @@ This allows you to record narration for the slide or presentation in sequence, v
 
 To record, just hit the `Start Recording` button.
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-11.png">
+<p>
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/narrations-lab-11.png">
+</p>
 
 When you're done, click `Stop and Advance`. If you want to go back and try again, just click `Undo` afterwards.

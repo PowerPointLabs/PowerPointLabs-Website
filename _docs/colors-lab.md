@@ -7,7 +7,7 @@ title: Colors Lab
 
 The **Colors Lab** allows you to easily apply colors to text and shapes in your presentation, as well as find sets of matching colors to use. To access it, just click the `Colors Lab` button on the ribbon:
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab-2.png">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab-2.png" width="50">
 
 To select a different color, click on the colored square near the top of the pane to open the color picker.
 
