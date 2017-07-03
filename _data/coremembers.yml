@@ -12,29 +12,23 @@
 }
 
 - {
-  name: "Yan Chan Min Oo",
+  name: "Ian Teo",
   position: "Project Lead",
-  url: "http://github.com/yancmo",
-  img: "/img/team/minoo.jpg"
+  url: "https://github.com/IanTeo",
+  img: "/img/team/ian.png"
 }
 
 - {
-  name: "Wu Yu Ting",
-  position: "Co-Lead",
-  img: "/img/team/yuting.png",
-  url: "https://github.com/youthinkk"
+  name: "Ong Heng Le",
+  position: "Project Lead",
+  url: "https://github.com/initialshl",
+  img: "/img/team/hengle.png"
 }
 
 - {
   name: "Ang Shi Ya",
   url: "https://github.com/AngShiYa",
   img: "/img/team/shiya.png"
-}
-
-- {
-  name: "Ian Teo",
-  url: "https://github.com/IanTeo",
-  img: "/img/team/ian.png"
 }
 
 - {
@@ -50,29 +44,7 @@
 }
 
 - {
-  name: "Liu Hanyang",
-  img: "/img/team/hanyang.png"
-}
-
-- {
-  name: "Oh Shunhao",
-  img: "/img/team/oh.png"
-}
-
-- {
-  name: "Ong Heng Le",
-  url: "https://github.com/initialshl",
-  img: "/img/team/hengle.png"
-}
-
-- {
   name: "Syed Abdullah",
   url: "http://syedabdullah.net",
   img: "/img/team/syed.png"
-}
-
-- {
-  name: "Victor Hazali",
-  url: "https://github.com/vhazali",
-  img: "/img/team/victor.png"
 }

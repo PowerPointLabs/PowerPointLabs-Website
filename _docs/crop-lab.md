@@ -23,7 +23,7 @@ To use the feature, first use the Freeform Shape tool to mark out the area you'd
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_4.png" width="300">
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_5.png" width="300">
 
-Select the shape, then click the `Crop To Shape` button under Crop Lab.
+Select the shape, then click the `Crop To Shape` button under Crop downdown menu.
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_6.png" width="200">
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/crop-lab/image_7.png" width="300">
@@ -50,7 +50,7 @@ Use `ctrl-click` to select every shape or picture you want to crop:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_12.png" width="700">
 
-Then, click `Crop To Slide` under Crop Lab:
+Then, click `Crop To Slide` under Crop downdown menu:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_13.png" width="200">
 
@@ -72,7 +72,7 @@ Then, use `ctrl-click` to select all other picture(s) you want to crop:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_17.png" width="700">
 
-Finally, select `Crop To Same Dimensions` under Crop Lab:
+Finally, select `Crop To Same Dimensions` under Crop dropdown menu:
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_18.png" width="200">
 
@@ -99,7 +99,7 @@ To do so, select all the pictures which you would like to crop using `ctrl-click
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_23.png" width="700">
 
-Then, click on `Crop To Aspect Ratio` under Crop Lab and select your desired aspect ratio. 
+Then, click on `Crop To Aspect Ratio` under Crop downdown menu and select your desired aspect ratio. 
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_24.png" width="300">
 
@@ -121,7 +121,7 @@ Select the pictures with extra paddings.
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_28.png" width="700">
 
-With the pictures selected, click `Crop Out Padding` under Crop Lab.
+With the pictures selected, click `Crop Out Padding` under Crop downdown menu.
 
 <img src="{{ site.baseurl }}/img/docs/crop-lab/image_29.png" width="200">
 

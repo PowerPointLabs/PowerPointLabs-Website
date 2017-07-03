@@ -23,9 +23,13 @@ Next, select the rectangle, and click the `Zoom to Area` button. A single animat
 
 > **Note:** if you'd like, you can have the animations be inserted on separate slides instead. Just open the Zoom Lab settings dialog, and check the `Put all zoom effects on separate slides` option.
 > 
-> <img class="box-shadow" src="{{ site.baseurl }}/img/docs/zoom-to-area-6.png">  
-> <img class="box-shadow" src="{{ site.baseurl }}/img/docs/zoom-to-area-7.png">
-
+> <p>
+>   <img src="{{ site.baseurl }}/img/docs/zoom-to-area-6.png" width="150">  
+> </p>
+> 
+> <p>
+>   <img src="{{ site.baseurl }}/img/docs/zoom-to-area-7.png" width="350">
+> </p>
 
 ### <a class="anchor-bookmark" id="zoom-and-pan"></a> Zoom and Pan
 <p>
@@ -50,32 +54,42 @@ Next, click the `Zoom to Area` button. PowerPointLabs will create an animation s
 ## <a class="anchor-bookmark" id="drill-down"></a> Drill Down
 
 <p>
-  <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/drill-down-1.gif" />
+  <img class="box-shadow slide" src="{{ site.baseurl }}/img/docs/drill-down-1.gif">
 </p>
 
 **Drill Down** allows you to show your audience the bigger picture and progressively zoom into details without overwhelming them with information.
 
 To use Drill Down, you first need to create two slides: one for the "bigger picture" view, and one with the content to drill down into. Leave an empty area on the "big picture" slide where you want the zoom effect to take place:
 
-![]({{ site.baseurl }}/img/docs/drill-down-2.png)
+<p>
+  <img src="{{ site.baseurl }}/img/docs/drill-down-2.png">
+</p>
 
 Next, on the "big picture" slide, draw a rectangle in the empty space - this will be where the content from the "drill down" slide will appear.
 
-![]({{ site.baseurl }}/img/docs/drill-down-3.png)
+<p>
+  <img src="{{ site.baseurl }}/img/docs/drill-down-3.png">
+</p>
 
 Select the rectangle, and click the `Drill Down` button.
 
-![]({{ site.baseurl }}/img/docs/drill-down-4.png)
+<p>
+  <img src="{{ site.baseurl }}/img/docs/drill-down-4.png" width="150">
+</p>
 
 PowerPointLabs will replace the rectangle with an image of the "drill down" slide, and add an animation slide with the zoom effect.
 
-![]({{ site.baseurl }}/img/docs/drill-down-5.png)
+<p>
+  <img src="{{ site.baseurl }}/img/docs/drill-down-5.png">
+</p>
 
 If you change the content of the "drill down" slide later, just select the picture and click `Drill Down` again to regenerate the zoom animation.
 
 To create the effect of zooming back out to the "big picture" slide, simply duplicate the "big picture" slide and place it after the "drill down" slide. Next, select the picture of the "drill down" slide and click `Step Back`.
 
-![]({{ site.baseurl }}/img/docs/drill-down-6.png)
+<p>
+  <img src="{{ site.baseurl }}/img/docs/drill-down-6.png" width="150">
+</p>
 
 **The [Quick Tutorial file]({{ site.baseurl }}/samples/tutorial.pptx) also contains a full walkthrough of this process, including both zooming in and out.**
 
