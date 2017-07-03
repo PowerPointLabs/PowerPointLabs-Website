@@ -22,6 +22,34 @@
 }
 
 - {
+  name: "Liu Hanyang",
+  img: "/img/team/hanyang.png"
+}
+
+- {
+  name: "Oh Shunhao",
+  img: "/img/team/oh.png"
+}
+
+- {
   name: "Raunak Rajpuria",
   img: "/img/team/raunak.png",
+}
+
+- {
+  name: "Victor Hazali",
+  url: "https://github.com/vhazali",
+  img: "/img/team/victor.png"
+}
+
+- {
+  name: "Wu Yu Ting",
+  img: "/img/team/yuting.png",
+  url: "https://github.com/youthinkk"
+}
+
+- {
+  name: "Yan Chan Min Oo",
+  url: "http://github.com/yancmo",
+  img: "/img/team/minoo.jpg"
 }
