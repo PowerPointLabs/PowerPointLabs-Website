@@ -2,6 +2,7 @@
 layout: docs
 title: Positions Lab
 ---
+Just a test
 
 **Positions Lab** allows you to reposition objects on a slide with fewer steps than before. With a variety of options in the settings of each function, you can fine tune how objects are positioned on a slide.
 
