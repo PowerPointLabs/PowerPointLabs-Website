@@ -13,13 +13,28 @@ To open the Shapes Lab, click on its button on the ribbon:
 
 ## <a class="anchor-bookmark" id="save-shapes"></a> Saving Shapes
 
-To save a shape for later use, first select it on the slide, then right-click and select `Add to Shapes Lab` in the submenu `PowerPointLabs`.
+There are two ways to save a shape for later use.
+
+Right-clicking a shape:
+
+1. Select it on the slide
+
+2. Right-click and select `Add to Shapes Lab` in the submenu `PowerPointLabs`.
+
+Button in Shapes Lab pane:
+
+1. Open the Shapes Lab pane (if it is not already open) using the PowerPointLabs ribbon.
+
+2. Select the shape for later use.
+
+3. Click the Add button in the Shapes Lab pane.
 
 <p>
   <img src="{{ site.baseurl }}/img/docs/shapes-lab-2.png" width="500">
 </p>
 
 The shape will then appear as an entry in the Shapes Lab pane.
+
 
 <p>
   <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-3.png">
