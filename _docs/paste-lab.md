@@ -25,6 +25,28 @@ The objects are now pasted to fill the entire slide.
 
 Multiple objects can be selected to be used for Paste To Fill Slide, and the pasted objects will automatically be grouped together.
 
+## <a class="anchor-bookmark" id="paste-to-fit-slide"></a> Paste To Fit Slide
+
+**Paste To Fit Slide** helps you paste your copied objects to fit the entire slide.
+
+<img src="{{ site.baseurl }}/img/docs/paste-lab/image_14.png" width="800">
+
+First, copy a picture using `Copy` under the right-click context menu or the `ctrl-c` keyboard shortcut.
+
+> **Note:** All Paste Lab features requires a copied object. You can also copy pictures from other applications on your computer.
+
+Then, `right-click` on the slide, and select `Paste To Fit Slide` under PowerPointLabs.
+
+<img src="{{ site.baseurl }}/img/docs/paste-lab/image_15.png" width="350">
+
+The objects are now pasted to fit the entire slide.
+
+<img src="{{ site.baseurl }}/img/docs/paste-lab/image_16.png" width="700">
+
+> **Note:** The pictures will always be within the bounds of the slide. 
+
+Multiple objects can be selected to be used for Paste To Fit Slide, and the pasted objects will automatically be grouped together.
+
 ## <a class="anchor-bookmark" id="paste-at-cursor-position"></a> Paste At Cursor Position
 
 When you paste an object on the slide, it is often not at the position where you want it. **Paste At Cursor Position** allows you to paste your copied objects at a specified position on your slide. 
