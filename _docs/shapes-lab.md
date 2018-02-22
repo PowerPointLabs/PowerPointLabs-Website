@@ -25,7 +25,7 @@ Button in Shapes Lab pane:
 
 1. Open the Shapes Lab pane (if it is not already open) using the PowerPointLabs ribbon.
 
-2. Select the shape for later use.
+2. Select the shape to save.
 
 3. Click the Add button in the Shapes Lab pane.
 
