@@ -199,7 +199,9 @@ Now, `ctrl-click` on the leftmost image, then the rightmost image, followed by t
 
 Distribute is also not limited to just one direction (horizontal or vertical). For example, instead of arranging the objects horizontally like the picture above, you’d now want to cascade the objects that you have.
 
-Similarly, `Distribute Center` allows you to distribute a bunch of objects along the line from one object to another.  In the example below, we distribute objects along the line between the `Launch` arrow and the `Analysis` arrows 
+Similarly, `Distribute Center` allows you to distribute a bunch of objects along the line from one object to another.  In the example below, we distribute objects along the line between the `Launch` arrow and the `Analysis` arrows.
+
+If only one image is selected, it will be aligned to the slide.
 
 <img src="{{ site.baseurl }}/img/docs/positions-lab/image_41.png" width="500">
 
