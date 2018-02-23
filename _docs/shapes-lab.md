@@ -35,7 +35,6 @@ Button in Shapes Lab pane:
 
 The shape will then appear as an entry in the Shapes Lab pane.
 
-
 <p>
   <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-3.png">
 </p>
