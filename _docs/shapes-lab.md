@@ -13,7 +13,7 @@ To open the Shapes Lab, click on its button on the ribbon:
 
 ## <a class="anchor-bookmark" id="save-shapes"></a> Saving Shapes
 
-To save a shape for later use, first select it on the slide, then right-click and select `Add to Shapes Lab` in the submenu `PowerPointLabs`.
+To save a shape for later use, first select it on the slide, then right-click and select `Add to Shapes Lab` in the submenu `PowerPointLabs`. Alternatively, you could also select the shape(s) on the slide and click the "Add" button on the Shapes Lab pane.
 
 <p>
   <img src="{{ site.baseurl }}/img/docs/shapes-lab-2.png" width="500">
@@ -82,7 +82,7 @@ Note that individiual shapes have the extension `.pptlabsshape`, while shape lib
 
 ### <a class="anchor-bookmark" id="create-shape-libraries"></a> Creating Shape Libraries
 
-If you'd like to create your own shape libraries, first create a new empty PowerPoint presentation and insert a blank slide. Each slide in this presentation will correspondohohca to a single category; you can thus save multiple categories of shapes in a single library file.
+If you'd like to create your own shape libraries, first create a new empty PowerPoint presentation and insert a blank slide. Each slide in this presentation will correspond to a single category; you can thus save multiple categories of shapes in a single library file.
 
 To name each category, create a textbox on the slide containing "Category:" followed by the desired name:
 
