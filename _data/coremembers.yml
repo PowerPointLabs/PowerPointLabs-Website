@@ -51,6 +51,12 @@
 
 - {
   name: "Alex Fong Jie Wen",
-  url: "https:://github.com/alexfjw",
+  url: "https://github.com/alexfjw",
   img: "/img/team/alexfong.png"
+}
+
+- {
+  name: "Tan Jun Kiat",
+  url: "https://github.com/junkiattan",
+  img: "/img/team/junkiattan.png"
 }
