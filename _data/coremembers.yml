@@ -13,38 +13,21 @@
 
 - {
   name: "Ian Teo",
-  position: "Project Lead",
+  position: "Mentor",
   url: "https://github.com/IanTeo",
   img: "/img/team/ian.png"
 }
 
 - {
   name: "Ong Heng Le",
-  position: "Project Lead",
+  position: "Mentor",
   url: "https://github.com/initialshl",
   img: "/img/team/hengle.png"
 }
 
 - {
-  name: "Ang Shi Ya",
-  url: "https://github.com/AngShiYa",
-  img: "/img/team/shiya.png"
-}
-
-- {
-  name: "Jamos Tay",
-  url: "https://github.com/jamos-tay",
-  img: "/img/team/jamos.png"
-}
-
-- {
-  name: "Kenneth Loh",
-  url: "https://github.com/Kenneth-LJS",
-  img: "/img/team/kennethloh.png"
-}
-
-- {
   name: "Syed Abdullah",
+  position: "Mentor",
   url: "http://syedabdullah.net",
   img: "/img/team/syed.png"
 }

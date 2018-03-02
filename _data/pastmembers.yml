@@ -1,4 +1,10 @@
 - {
+  name: "Ang Shi Ya",
+  url: "https://github.com/AngShiYa",
+  img: "/img/team/shiya.png"
+}
+
+- {
   name: "Chan Ao Wei Oswell",
   url: "https://github.com/oswellchan",
   img: "/img/team/oswell.png"
@@ -7,6 +13,12 @@
 - {
   name: "Huang Da",
   img: "/img/team/huangda.jpg"
+}
+
+- {
+  name: "Jamos Tay",
+  url: "https://github.com/jamos-tay",
+  img: "/img/team/jamos.png"
 }
 
 - {
@@ -19,6 +31,12 @@
   name: "Karan Kamath",
   img: "/img/team/karan.jpg",
   url: "http://karankamath.com"
+}
+
+- {
+  name: "Kenneth Loh",
+  url: "https://github.com/Kenneth-LJS",
+  img: "/img/team/kennethloh.png"
 }
 
 - {

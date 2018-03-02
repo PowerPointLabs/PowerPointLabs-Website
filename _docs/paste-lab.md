@@ -27,7 +27,7 @@ Multiple objects can be selected to be used for Paste To Fill Slide, and the pas
 
 ## <a class="anchor-bookmark" id="paste-to-fit-slide"></a> Paste To Fit Slide
 
-**Paste To Fit Slide** helps you paste your copied objects to fit the entire slide.
+**Paste To Fit Slide** helps to resize the object to the maximum size that can fit within the slide, before pasting the copied object.
 
 Similar to `Paste To Fill Slide` previously, copy a picture using `Copy` under the right-click context menu or the `ctrl-c` keyboard shortcut.
 
