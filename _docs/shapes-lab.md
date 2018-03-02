@@ -30,13 +30,13 @@ Button in Shapes Lab pane:
 3. Click the Add button in the Shapes Lab pane.
 
 <p>
-  <img src="{{ site.baseurl }}/img/docs/shapes-lab-2.png" width="500">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-2.png" width="500">
 </p>
 
 The shape will then appear as an entry in the Shapes Lab pane.
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-3.png">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-3.png" width="600">
 </p>
 
 > **Note:** selecting a group of items, as in the example above, will save them as a single item in the Shapes Lab.
