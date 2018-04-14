@@ -15,7 +15,7 @@ Save Presentation allows you to select any number of slides in your current pres
 ## <a class="anchor-bookmark" id="save-settings"></a> Save Settings
 Save Lab also remembers where you want to save your presentations, so you can input your preferred storage location once, and subsequently save all presentations easily to your desired directory.
 
-The default storage location is specified under `Settings`. Simply click on `Settings` in the Save dropdown menu, and then on the ***Load*** icon to select your preferred storage location. After selecting, press `OK` to confirm.
+The default storage location is specified under `Settings`. Simply click on `Settings` in the Save dropdown menu, and then select your preferred storage location. After selecting, press `OK` to confirm.
 
 <p>
   <img src="{{ site.baseurl }}/img/docs/save-lab/save-lab-settings-1.png" width="200">
