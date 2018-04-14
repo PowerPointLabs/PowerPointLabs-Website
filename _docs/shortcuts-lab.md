@@ -24,3 +24,7 @@ Right-click any object and choose this option in the submenu `PowerPointLabs` to
 ## <img src="{{ site.baseurl }}/img/docs/shortcuts-lab/image_5.png" width="44"> Add Into Group
 
 Add an object into a group while preserving the group’s animations. First, select the group which you would like to add into, then ctrl-click to select the other objects which you would like to add. Right-click on your selections, and choose this option in the submenu `PowerPointLabs` to add them into the group.
+
+## <img src="{{ site.baseurl }}/img/docs/shortcuts-lab/image_7.png" width="44"> Fill Slide
+
+Fills any image(s) to the slide. First, select any image(s), then right-click on your selection, and choose this option in the submenu `PowerPointLabs` to make your selection fill the slide.
