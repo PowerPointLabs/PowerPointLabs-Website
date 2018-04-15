@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: General Settings
+title: Tab Management
 ---
 
 ## <a class="anchor-bookmark" id="tab-focus"></a> Maintain Tab Focus
