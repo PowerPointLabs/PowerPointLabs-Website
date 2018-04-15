@@ -27,4 +27,4 @@ Add an object into a group while preserving the group’s animations. First, sel
 
 ## <img src="{{ site.baseurl }}/img/docs/shortcuts-lab/image_7.png" width="44"> Fill Slide
 
-Fills any image(s) to the slide. First, select any image(s), then right-click on your selection, and choose this option in the submenu `PowerPointLabs` to make your selection fill the slide.
+Fills any image(s) to the slide while maintaining aspect ratio. Any area that exceeds the slide boundaries are automatically cropped. First, select any image(s), then right-click on your selection, and choose this option in the submenu `PowerPointLabs` to make your selection fill the slide.
