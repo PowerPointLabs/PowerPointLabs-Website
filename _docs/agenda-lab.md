@@ -88,7 +88,7 @@ If the initially generated text agenda format is not to your liking, you can con
 
 As seen in the template slide, there are three types of bullet styles for you to modify - *Unvisited*, *Highlighted* and *Visited*, which correspond to the style of *Unvisited*, *Highlighted* and *Visited* sections in the actual agenda in your presentation.
 
-You can also add items to or remove items from the template slide. These changes will be synchronized to the agenda throughout the presentation.
+You can also add items to or remove items from the template slide or even change the theme of the template slide. These changes will be synchronized to the agenda throughout the presentation.
 
 In the following example, we change the header and bullet points of the template slide.
 
@@ -119,7 +119,7 @@ To generate the visual agenda, click `Create Visual Agenda` under from the Agend
 
 The visual agenda uses snapshots of the slides in your presentation to generate a visual overview of your presentation. The Visual Agenda transitions between sections using zoom animations.
 
-Similar to the text agenda, a template slide will be generated, which can be used to configure the format of the visual agenda. By default, the images are laid out in a grid. You can rearrange and resize the images as you like.
+Similar to the text agenda, a template slide will be generated, which can be used to configure the format of the visual agenda. By default, the images are laid out in a grid. You can rearrange and resize the images as you like. You can also change the theme of the template slide.
 
 In the following example, we reposition the images and add additional shapes to the slide.
 
@@ -151,6 +151,8 @@ Alternatively, we can generate the sidebar on only specific slides. To do this, 
 
 Note that other than the template slide, the sidebar agenda generates no additional slides.
 
+As before, you can add items to or remove items from the template slide or even change the theme of the template slide. These changes will be synchronized to the agenda throughout the presentation.
+
 You can also modify the sidebar on the template slide and click `Synchronize Agenda` as before to synchronize the sidebar format throughout the presentation. The format of each individual text box in the sidebar can be modified separately.
 Note that you have to keep the shapes in the sidebar grouped.
 
@@ -173,7 +175,7 @@ Even after the agenda has been generated, you can still make changes to the arra
 
 ## <a class="anchor-bookmark" id="remove-regenerate-agenda"></a> Removing and Regenerating Agendas
 
-To remove all traces of an existing agenda, click `Remove Agenda` in the Agenda dropdown menu. Removing the agenda will not affect your other slides. 
+To remove all traces of an existing agenda, click `Remove Agenda` in the Agenda dropdown menu. Removing the agenda will not affect your other slides.
 
 <p>
   <img src="{{ site.baseurl }}/img/docs/agenda-lab-19.png" width="200">
