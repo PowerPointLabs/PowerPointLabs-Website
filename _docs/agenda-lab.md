@@ -197,9 +197,11 @@ However, if you add additional shapes or transitions to the individual slides an
 </p>
 
 ### <a class="anchor-bookmark" id="replace-template-slide"></a> Replacing a Template Slide
-If you have a generated agenda, you can copy over a template slide from another presentation into the current presentation. Place the new template slide as the first slide of the presentation, delete the previous template slide, and press *Synchronize Agenda* to use the new template slide in your agenda.
+If you have an existing generated agenda from another presentation, you can copy over the template slide from the other presentation into the current presentation. Place the new template slide as the first slide of the presentation, delete the previous template slide, and press *Synchronize Agenda* to use the new template slide in your agenda.
 
-Note that for this to work, the agenda types for both presentations must be the same.
+Note that the theme of the new template slide introduced would also be synced across the current presentation's agenda slides.
+
+For this to work, the agenda types for both presentations must be the same.
 
 ### <a class="anchor-bookmark" id="reset-image-layout"></a> Resetting the Visual Agenda image layout
 When the Visual Agenda is initially generated, the images corresponding to each section are laid out in a grid, which can then be rearranged to your liking.
