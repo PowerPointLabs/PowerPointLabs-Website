@@ -1,10 +1,10 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "therubyracer", "0.12.2"
-gem "jekyll", "3.1.6"
-gem "jekyll-less", "0.0.4"
-gem "redcarpet", "3.3.4"
-gem "html-proofer", "3.0.4"
-gem "image_optim", "0.22.1"
-gem "image_optim_pack", "0.2.1.20160221"
-gem "rake", "11.1.1"
+gem 'therubyracer', '0.12.3'
+gem 'jekyll', '3.8.5'
+gem 'jekyll-less', '0.0.4'
+gem 'redcarpet', '3.4.0'
+gem 'html-proofer', '3.10.1'
+gem 'image_optim', '0.26.3'
+gem 'image_optim_pack', '0.5.1.20190105'
+gem 'rake', '12.3.2'
