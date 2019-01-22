@@ -10,7 +10,7 @@ grep -o 'http://www.microsoft.com/[^"]*' ./vsto-redirect.html | xargs curl -s | 
     exit 2
 }
 
-curl -s 'http://www.comp.nus.edu.sg/~pptlabs/vsto-redirect.html' | grep -o 'http://www.microsoft.com/[^"]*' | xargs curl -s | grep -o -c "Visual Studio 2010 Tools for Office Runtime" || {
+curl -s 'https://www.comp.nus.edu.sg/~pptlabs/vsto-redirect.html' | grep -o 'http://www.microsoft.com/[^"]*' | xargs curl -s | grep -o -c "Visual Studio 2010 Tools for Office Runtime" || {
     echo "ERROR: fail to verify the VSTO runtime download link in the server. Please upload the correct version of vsto-redirect.html to the server."
     exit 2
 }
