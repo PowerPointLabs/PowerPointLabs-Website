@@ -16,6 +16,11 @@
 }
 
 - {
+  name: "Fiona Chang",
+  img: "/img/team/fionachang.png"
+}
+
+- {
   name: "Jamos Tay",
   url: "https://github.com/jamos-tay",
   img: "/img/team/jamos.png"
