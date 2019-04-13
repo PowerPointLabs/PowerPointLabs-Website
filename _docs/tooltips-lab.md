@@ -6,7 +6,7 @@ title: Tooltips Lab
 **Tooltips Lab** can be used to create tooltips for your presentation. It allows you to generate a new tooltip from scratch, or to use existing shapes on your presentation slides and convert them into a tooltip. The tooltip created consists of a *callout* shape and a *trigger* shape. In slideshow mode, the hidden callout shape will be revealed on click of the trigger shape, and it can be hidden again on a subsequent click.
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/tooltip-example.gif">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/tooltip-example.gif" width="500">
 </p>
 
 ## <a class="anchor-bookmark" id="create-tooltip"></a> Create Tooltip
@@ -21,7 +21,7 @@ To add a new tooltip to a slide, go to `Tooltips Lab` and select `Create Tooltip
 You can now go into slideshow mode to try the tooltip!
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/create-tooltip.gif" width="450">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/create-tooltip.gif" width="500">
 </p>
 
 > **Note:** Clicking "Create Tooltip" will generate a blank callout and default trigger shape for you. You can then add in your own text and information, or to format the shapes as desired after it is generated!
@@ -32,7 +32,7 @@ You can now go into slideshow mode to try the tooltip!
 To use this feature, create the shape you want to use as the trigger of the tooltip, then select the shape.
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/select-trigger.png">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/select-trigger.png" width="500">
 </p>
 
 Next, go to `Tooltips Lab` and select `Create Callout for Shape`.
@@ -44,7 +44,7 @@ Next, go to `Tooltips Lab` and select `Create Callout for Shape`.
 You can now go into slideshow mode to try the tooltip!
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/create-callout.gif" width="450">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/create-callout.gif" width="500">
 </p>
 
 > **Note:** This feature will be disabled when there is no selection.
@@ -57,7 +57,7 @@ You can now go into slideshow mode to try the tooltip!
 To use this feature, create your own shape first and then select the shape.
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/select-callout.png" width="450">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/select-callout.png" width="500">
 </p>
 
 Next, go to `Tooltips Lab` and select `Create Trigger for Shape`.
@@ -69,7 +69,7 @@ Next, go to `Tooltips Lab` and select `Create Trigger for Shape`.
 You can now go into slideshow mode to try the tooltip!
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/create-trigger.gif" width="450">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/create-trigger.gif" width="500">
 </p>
 
 > **Note:** This feature will be disabled when there is no selection.
@@ -82,7 +82,7 @@ You can now go into slideshow mode to try the tooltip!
 To use this feature, create at least 2 shapes and then select the trigger shape first, followed by the callout shape(s). Click on `Convert Shapes to Tooltip` and they will be converted into a tooltip. 
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/select-multiple.png" width="450">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/select-multiple.png" width="500">
 </p>
 
 Next, go to `Tooltips Lab` and select `Convert Shapes To Tooltip`.
@@ -94,7 +94,7 @@ Next, go to `Tooltips Lab` and select `Convert Shapes To Tooltip`.
 You can now go into slideshow mode to try the tooltip!
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/convert-tooltip.gif" width="450">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/tooltips-lab/convert-tooltip.gif" width="500">
 </p>
 
 > **Note:** This feature will be disabled when there is no selection.
