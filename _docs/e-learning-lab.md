@@ -23,7 +23,7 @@ Adding such explanations to slides is particularly useful when creating e-Learni
 
 * Here is an example self-study slide deck that has such explanations.
 
-* Here is an e-Learning video created from such slides.
+<iframe src="{{ site.baseurl }}/img/docs/e-learning-lab/eLL.gif" width="600" height="350"></iframe>
 
 ## <a class="anchor-bookmark" id="adding-explanations"></a> Adding explanations
 
@@ -82,11 +82,11 @@ Now, try playing the slide in presentation mode and observe how the explanation 
 
 You can similarly add explanations to the remaining bullet points, or attach an explanation to any animation step in any slide.
 
-Notes:
+> **Note:**
 
-* You can add multiple explanations to a slide without ‘syncing’ after each addition. But you should ‘sync’ before moving onto a different slide.
+> You can add multiple explanations to a slide without syncing after each addition. But you should `sync` before moving onto a different slide.
 
-* To change the words of a caption/callout/audio, simply edit the corresponding text in the eLL panel and ‘sync’. If you edit the text in the callout/caption shapes, those changes will be lost when you sync the next time.
+> To change the words of a caption/callout/audio, simply edit the corresponding text in the eLL task pane and `sync`. If you edit the text in the callout/caption shapes, those changes will be lost when you sync the next time.
 
 ## <a class="anchor-bookmark" id="other-features"></a> Other Features
 
@@ -106,9 +106,9 @@ Not only that, if you customize an existing callout/caption format on a slide, t
 
 By default, eLL uses text-to-speech voices that comes with your Windows. However, it is possible to use the following additional voice options in eLL.
 
-* Microsoft Azure Speech services -- refer to the [`Adding Microsoft Azure Speech Services` section] for instructions. 
+* Microsoft Azure Speech services -- refer to the <a href="#create-azure-account">Adding Microsoft Azure Speech Services</a> for instructions. 
 
-* IBM Watson Speech Services -- refer to this [`Adding IBM Watson Voice Options` section] for instructions. 
+* IBM Watson Speech Services -- refer to the <a href="#create-ibm-account">Adding IBM Watson Speech Services</a> for instructions. 
 
 ## <a class="anchor-bookmark" id="eLL-ui"></a> User Interface 
 
@@ -198,7 +198,7 @@ Use this section to set the default voice for voice generation.
 
 **Voice Preferences:**
 
-You can also select and rank up to 5 *preferred *voices (reason: preferred voices are easier to preview when trying to select a voice for an explanation). To set preferred voices, click on the `Edit` button in `Voice Preferences` section and rank up to 5 voices as indicated in the diagram above. 
+You can also select and rank up to 5 preferred voices (reason: preferred voices are easier to preview when trying to select a voice for an explanation). To set preferred voices, click on the `Edit` button in `Voice Preferences` section and rank up to 5 voices as indicated in the diagram above. 
 
 **Other Settings:**
 
@@ -210,7 +210,7 @@ To hear the audio after generating/syncing an audio explanation, tick the `Previ
 
 To create an Azure text-to-speech (TTS for short) service instance, there are two options available. The first option creates a free Azure trial for 3 months. While this is the simpler, you will have to create a proper Azure account (i.e., option 2) after the trial expires. 
 
-###<a class="anchor-bookmark" id="option-1"></a> Option 1: Azure Free Trial for 3 months
+###<a class="anchor-bookmark" id="azure-option-1"></a> Option 1: Azure Free Trial for 3 months
 
 Go to [link](https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/) and click on the green `Try Speech Services` button.
 
@@ -242,9 +242,9 @@ You will be presented with the following screen.
   <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_21.png" width="800">
 </p>
 
-Copy the API key. Use this API key to login to Azure account and select the correct region during login. 
+Copy key 1 or key 2. Use this API key to login to Azure account and select the correct region during login. 
 
-### <a class="anchor-bookmark" id="option-2"></a> Option 2: Register for an Azure Account
+### <a class="anchor-bookmark" id="azure-option-2"></a> Option 2: Register for an Azure Account
 
 Go to this [link](https://azure.microsoft.com/en-us/free/) and select the green button `Start Free`. 
 
@@ -311,15 +311,16 @@ You will be directed to a login page as shown below.
 
 Enter your API key copied from step 1 and select the correct endpoint. Click `Confirm` to login. 
 
-##<a class="anchor-bookmark" id="create-ibm-account"></a> Adding IBM Watson Voice Options
+##<a class="anchor-bookmark" id="create-ibm-account"></a> Adding IBM Watson Speech Services
 
 ### Step 1. Create a Watson Speech Service Instance
 
-We will guide you towards creating a Watson text-to-speech instance under `free` plan. Note that only 10,000 characters can be generated per month under the free plan. To upgrade, please refer to [link to `Note` section].
+We will guide you towards creating a Watson text-to-speech instance under `free` plan. 
 
-The following procedures are adapted from Watson cloud documentation at [link](https://console.bluemix.net/docs/services/text-to-speech/getting-started.html#gettingStarted).
+The following procedures are adapted from [Watson cloud documentation](https://console.bluemix.net/docs/services/text-to-speech/getting-started.html#gettingStarted).
 
-Go to [link](https://console.bluemix.net/catalog/services/text-to-speech) 
+### <a class="anchor-bookmark" id="ibm-option-1"></a> Option 1: Create Instance under Free Plan
+To start off, go to the link [here](https://console.bluemix.net/catalog/services/text-to-speech) 
 
   <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_35.png" width="600">
 
@@ -357,13 +358,16 @@ Click on the `View credentials` button to reveal your instance credentials. Your
 
 Copy the apiKey value. Key in this value when you login to Watson voice. The region refers to the location where you choose your instance to be deployed in.
 
-Note:
+> **Note:**
+> Only 10,000 characters are allowed under `free` plan, to upgrade to standard plan with unlimited characters, we suggest you to continue reading <a href="#ibm-option-2">option 2</a>.
+
+### <a class="anchor-bookmark" id="ibm-option-2"></a> Option 2: Create Instance under Standard Plan
 
 If you create your TTS instance under free tier, then you are only allowed to generate 10,000 characters per month. The instance will be automatically deleted after 30 days of inactivity. To upgrade to standard tier, go to your dashboard and click on your instances. Choose `Plan` from the menu bar and select `Standard` tier. Click `Save` to save your changes. 
 
-  <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_43.png" width="600">
+<img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_43.png" width="600">
 
-You may need to re-stage or re-start your instance after that. For details, please refer to [link](https://console-tok02-black.cdn.s-bluemix.net/docs/account/change-plan.html#changing) .
+You may need to re-stage or re-start your instance after that. For details, please refer to [here](https://console-tok02-black.cdn.s-bluemix.net/docs/account/change-plan.html#changing) .
 
 ### Step 2: Add Watson voices to e-Learning Lab
 
