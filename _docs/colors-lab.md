@@ -3,7 +3,7 @@ layout: docs
 title: Colors Lab
 ---
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-1.png">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-1.png" width="250">
 
 **Colors Lab** allows you to easily apply colors to text and shapes in your presentation, as well as find sets of matching colors to use. To access it, just click the `Colors Lab` button on the ribbon:
 
@@ -11,13 +11,13 @@ title: Colors Lab
 
 To select a different color, click on the colored square under the 'General' section to open the color picker.
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-3.png">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-3.png" width="300">
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-4.png">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-4.png" width="500">
 
 You can also fine-tune your choice by using the Brightness and Contrast sliders.
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-5.png">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-5.png" width="300">
 
 Alternatively, you can click and drag from the 'Eyedropper' button to the color you wish to select. This is useful for selecting a color that is already part of the presentation.
 
@@ -36,13 +36,13 @@ Alternatively, clicking on the button will bring up the color picker to choose a
 
 You can use the Colors Lab to create entire color schemes from just a single color. Five different schemes are generated and shown in the `Matching Colors` section.
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-6.png">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-6.png" width="300">
 
 You can drag and drop the colors you like to the Favorites palette, which can then be saved for later use.
 
 ### <a class="anchor-bookmark" id="save-load-fav-colors"></a> Saving and Loading Favorite Colors
 
-<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-7.png">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-7.png" width="300">
 
 The four buttons below the Favorite Color palette can be used to save, load, restore, and clear it respectively.
 
