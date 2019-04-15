@@ -31,4 +31,4 @@ Fills any image(s) to the slide while maintaining aspect ratio. Any area that ex
 
 ## <img src="{{ site.baseurl }}/img/docs/shortcuts-lab/image_8.png" width="44"> Export Slide As Image
 
-Right=click on a slide thumbnail and choose this option in the submenu `PowerPointLabs` to exports the selected slide(s) as an image to the specified directory. If multiple slides are selected, they will be exported as separate images into a new folder created in the specified directory.
+Right-click on a slide thumbnail and choose this option in the submenu `PowerPointLabs` to exports the selected slide(s) as an image to the specified directory. If multiple slides are selected, they will be exported as separate images into a new folder created in the specified directory.
