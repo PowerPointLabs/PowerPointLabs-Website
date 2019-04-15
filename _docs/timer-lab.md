@@ -86,6 +86,34 @@ You can select the entire line marker group, and change its color using *Shape O
 
 You can select the group of line marker text, and change its color using *Font Color*. 
 
+##<a class="anchor-bookmark" id="using-countdown-mode"></a> Using Countdown Mode
+
+You can change the mode of the timer to *Countdown mode*. Simply check the *Countdown mode* checkbox.
+
+<p>
+<img src="{{ site.baseurl }}/img/docs/timer-lab/image_16.png" onload='this.width = 100'/>
+</p>
+
+The countdown timer will now be in **Countdown mode**
+
+<p>
+<img src="{{ site.baseurl }}/img/docs/timer-lab/image_17.gif" onload='this.width = 700'/>
+</p>
+
+##<a class="anchor-bookmark" id="using-countdown-mode"></a> Using Progress Bar Mode
+
+You can change the mode of the timer to *Progress Bar mode*. Simply check the *Progress Bar mode* checkbox.
+
+<p>
+<img src="{{ site.baseurl }}/img/docs/timer-lab/image_18.png" onload='this.width = 100'/>
+</p>
+
+The countdown timer will now be in **Progress Bar mode**
+
+<p>
+<img src="{{ site.baseurl }}/img/docs/timer-lab/image_19.gif" onload='this.width = 700'/>
+</p>
+
 ##<a class="anchor-bookmark" id="timer-animations"></a> Timer Animations
 
 You can add animations for other objects that starts after the timer’s duration. Here is an example: 
