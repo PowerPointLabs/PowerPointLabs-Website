@@ -100,7 +100,7 @@ The countdown timer will now be in **Countdown mode**
 <img src="{{ site.baseurl }}/img/docs/timer-lab/image_17.gif" onload='this.width = 700'/>
 </p>
 
-##<a class="anchor-bookmark" id="using-countdown-mode"></a> Using Progress Bar Mode
+##<a class="anchor-bookmark" id="using-progressbar-mode"></a> Using Progress Bar Mode
 
 You can change the mode of the timer to *Progress Bar mode*. Simply check the *Progress Bar mode* checkbox.
 
