@@ -28,7 +28,7 @@ The Colors Lab allows you to apply colors to text and shapes on any of your slid
 
 The Colors Lab can change the color of text, as well as the border outline color and background fill color of shapes. This can be done by clicking and dragging from the appropriate button to the color you wish to use:
 
-<img src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-8.gif" width="720">
+<img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-8.gif" width="720">
 
 Alternatively, clicking on the button will bring up the color picker to choose a different color.
 
