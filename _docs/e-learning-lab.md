@@ -47,7 +47,7 @@ You should see something like this.
 
 The items you see in the eLL task pane are animations that already exists in the slide (i.e., those used to animate the three bullet points). The number on each item corresponds to the click number under which the animation should appear e.g., the first bullet point appears after the first click.
 
-To add an explanation to the first bullet point, right click on the first item in the eLL panel and select `Add Explanation Below`
+To add an explanation to the first bullet point, right click on the first item in the eLL task pane and select `Add Explanation Below`
 
 <p>
   <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_4.png" width="500" style="border:2px solid black">
@@ -65,7 +65,7 @@ Type some text into the empty textbox and tick the `Callout`, `Caption` and `Voi
   <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_6.png" width="500">
 </p>
 
-Next, click on the `Sync` button on the top of eLL panel to synchronize the new explanation we added with the slide.
+Next, click on the `Sync` button on the top of eLL task pane to synchronize the new explanation we added with the slide.
 
 <p>
   <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_7.png">
@@ -128,54 +128,54 @@ There are two types of items on eLL. Normal item is a group of regular animation
 
 Custom items are shown for reference only. You will not be able to add/edit them using the eLL. They should be managed using the normal PowerPoint features. 
 
-The main job of the eLL panel is to help you manage explanation items. An example is shown below:
+The main job of the eLL task pane is to help you manage explanation items. An example is shown below:
 
 <p>
   <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_12.png" width="600">
 </p>
 
-a. **Animation trigger**: Use this to control when the explanation will appear. 
+&nbsp;&nbsp;&nbsp;&nbsp;a. **Animation trigger**: Use this to control when the explanation will appear. 
 
 * `On Click`: The explanation appears upon a click by the user
 
-* `With Previous`: The explanation item appears together with the item that is above it in the eLL panel.
+* `With Previous`: The explanation item appears together with the item that is above it in the eLL task pane.
 
-b. **Callout checkbox**: Tick the callout checkbox to create a callout for this explanation.
+&nbsp;&nbsp;&nbsp;&nbsp;b. **Callout checkbox**: Tick the callout checkbox to create a callout for this explanation.
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;c. **Caption checkbox**: Tick the caption checkbox to create a caption for this explanation.
 
-c. **Caption checkbox**: Tick the caption checkbox to create a caption for this explanation.
+&nbsp;&nbsp;&nbsp;&nbsp;d. **Voice checkbox**: Tick the voice checkbox to create audio for this explanation.
 
-d. **Voice checkbox**: Tick the voice checkbox to create audio for this explanation.
-
-e. **Audio preview button**: Click on this button to open `Audio Preview Window` as shown below which allows you to:
+&nbsp;&nbsp;&nbsp;&nbsp;e. **Audio preview button**: Click on this button to open `Audio Preview Window` as shown below which allows you to:
 
 * Preview different voices for the same text
 
 * Select the best voice for the explanation item
 
 <p>
-  <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_13.png" width="400">
+&nbsp;&nbsp;&nbsp;&nbsp;  <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_13.png" width="400">
 </p>
 
-To preview the audio for a preferred voice, click the `speak` button next to it. To preview other voices, select the voice (using the radio button and drop-downs) and click on `speak` button at the bottom. Click `OK` to confirm you selection.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To preview the audio for a preferred voice, click the `speak` button next to it. To preview other voices, select the voice (using &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the radio button and drop-downs) and click on `speak` button at the bottom. Click `OK` to confirm you selection.
 
-f. **Caption textbox**: Type your text for callout/caption here.
+&nbsp;&nbsp;&nbsp;&nbsp;f. **Caption textbox**: Type your text for callout/caption here.
 
-g. **Use a different text for the callout**: Tick this checkbox if you want callout to have a different text from the caption/audio. When you tick it, another text box will appear for you to fill in the text for the caption.
+&nbsp;&nbsp;&nbsp;&nbsp;g. **Use a different text for the callout**: Tick this checkbox if you want callout to have a different text from the caption/audio. <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When you tick it, another text box will appear for you to fill in the text for the caption.
 
-h. **Move down button**: Use this button to move the explanation down in the animation order.
+&nbsp;&nbsp;&nbsp;&nbsp;h. **Move down button**: Use this button to move the explanation down in the animation order.
 
-i. **Delete button**: Use this button to delete the explanation item.
+&nbsp;&nbsp;&nbsp;&nbsp;i. **Delete button**: Use this button to delete the explanation item.
 
-j. **Move up button**: Use this button to move up the explanation button up in the animation order.
+&nbsp;&nbsp;&nbsp;&nbsp;j. **Move up button**: Use this button to move up the explanation button up in the animation order.
 
-k. **Click number label**: Indicates the click number for the explanation item.
+&nbsp;&nbsp;&nbsp;&nbsp;k. **Click number label**: Indicates the click number for the explanation item.
 
 * If an explanation item has trigger type `With Previous`, then it will not have any click number as it will be attached to the click of an item above it. 
 
 * If the explanation item has none of the three types  `Callout`, `Caption` and `Voice` are ticked, the click number will appear as a grey circle (example given below).
 
 <p>
-  <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_14.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;  <img src="{{ site.baseurl }}/img/docs/e-learning-lab/image_14.png" width="500">
 </p>
 
 ### <a class="anchor-bookmark" id="eLL-settings"></a> Settings
