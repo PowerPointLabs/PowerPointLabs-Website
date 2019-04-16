@@ -40,7 +40,7 @@ You can use the Colors Lab to create entire color schemes from just a single col
 
 You can drag and drop the colors you like to the Favorites palette, which can then be saved for later use.
 
-### <a class="anchor-bookmark" id="save-load-fav-colors"></a> Saving and Loading Favorite Colors
+## <a class="anchor-bookmark" id="save-load-fav-colors"></a> Saving and Loading Favorite Colors
 
 <img class="box-shadow" src="{{ site.baseurl }}/img/docs/colors-lab/colors-lab-7.png" width="300">
 
