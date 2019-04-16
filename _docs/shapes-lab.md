@@ -8,7 +8,7 @@ The **Shapes Lab** allows you to keep track of and save elements from presentati
 To open the Shapes Lab, click on its button on the ribbon:
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-1.png" width="50">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-1.png" width="200">
 </p>
 
 ## <a class="anchor-bookmark" id="save-shapes"></a> Saving Shapes
@@ -30,13 +30,13 @@ Button in Shapes Lab pane:
 3. Click the Add button in the Shapes Lab pane.
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-2.png" width="500">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-2.png" width="700">
 </p>
 
 The shape will then appear as an entry in the Shapes Lab pane.
 
 <p>
-  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-3.png" width="600">
+  <img class="box-shadow" src="{{ site.baseurl }}/img/docs/shapes-lab-3.png" width="750">
 </p>
 
 > **Note:** selecting a group of items, as in the example above, will save them as a single item in the Shapes Lab.
@@ -55,7 +55,7 @@ Once a shape has been saved in the Shapes Lab, it can be reused anywhere in the 
 
 Shapes can also be removed from the Shapes Lab by right-clicking on them and selecting `Remove Shape`. Similarly, a shape can be renamed by selecting `Edit Name`, or by clicking on it after it has been selected.
 
-> **Tip:** you can also click and drag or `ctrl-click` to select and manipulate multiple shapes at once.
+> **Tip:** you can `ctrl-click` or `shift-click` to select and manipulate multiple shapes at once.
 
 ### <a class="anchor-bookmark" id="categories"></a> Categories
 
