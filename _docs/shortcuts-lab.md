@@ -33,4 +33,4 @@ Fills any image(s) to the slide while maintaining aspect ratio. Any area that ex
 
 Right-click on a slide thumbnail and choose this option in the submenu `PowerPointLabs` to exports the selected slide(s) as an image to the specified directory. If multiple slides are selected, they will be exported as separate images into a new folder created in the specified directory.
 
-> **Note:** Slide thumbnails can be found on the left side of PowerPoint: <img src="{{ site.baseurl }}/img/docs/shortcuts-lab/image_9.png" width="300">
+> **Note:** Slide thumbnails can be found on the left side of PowerPoint: <br><br><img class="box-shadow" src="{{ site.baseurl }}/img/docs/shortcuts-lab/image_9.png" width="300">
