@@ -12,27 +12,6 @@
 }
 
 - {
-  name: "Ian Teo",
-  position: "Mentor",
-  url: "https://github.com/IanTeo",
-  img: "/img/team/ian.png"
-}
-
-- {
-  name: "Ong Heng Le",
-  position: "Mentor",
-  url: "https://github.com/initialshl",
-  img: "/img/team/hengle.png"
-}
-
-- {
-  name: "Syed Abdullah",
-  position: "Mentor",
-  url: "http://syedabdullah.net",
-  img: "/img/team/syed.png"
-}
-
-- {
   name: "Alex Fong Jie Wen",
   url: "https://github.com/alexfjw",
   img: "/img/team/alexfong.png"
