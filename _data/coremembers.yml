@@ -28,3 +28,33 @@
   url: "https://github.com/leeyh20",
   img: "/img/team/yanhwa.jpg"
 }
+
+- {
+  name: "Bryan Lew",
+  url: "https://github.com/blewjy",
+  img: "/img/team/bryan.png"
+}
+
+- {
+  name: "Chester Sng",
+  url: "https://github.com/ChesterSng",
+  img: "/img/team/chester.png"
+}
+
+- {
+  name: "Henry Yu",
+  url: "https://github.com/YuPeiHenry",
+  img: "/img/team/henry.png"
+}
+
+- {
+  name: "Li Xiao Wei",
+  url: "https://github.com/LiXiaoooowei",
+  img: "/img/team/xiaowei.png"
+}
+
+- {
+  name: "Herald Yu",
+  url: "https://github.com/yuhongherald",
+  img: "/img/team/herald.png"
+}
