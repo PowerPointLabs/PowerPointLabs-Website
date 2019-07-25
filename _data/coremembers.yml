@@ -12,27 +12,6 @@
 }
 
 - {
-  name: "Ian Teo",
-  position: "Mentor",
-  url: "https://github.com/IanTeo",
-  img: "/img/team/ian.png"
-}
-
-- {
-  name: "Ong Heng Le",
-  position: "Mentor",
-  url: "https://github.com/initialshl",
-  img: "/img/team/hengle.png"
-}
-
-- {
-  name: "Syed Abdullah",
-  position: "Mentor",
-  url: "http://syedabdullah.net",
-  img: "/img/team/syed.png"
-}
-
-- {
   name: "Alex Fong Jie Wen",
   url: "https://github.com/alexfjw",
   img: "/img/team/alexfong.png"
@@ -48,4 +27,34 @@
   name: "Lee Yan Hwa",
   url: "https://github.com/leeyh20",
   img: "/img/team/yanhwa.jpg"
+}
+
+- {
+  name: "Bryan Lew",
+  url: "https://github.com/blewjy",
+  img: "/img/team/bryan.png"
+}
+
+- {
+  name: "Chester Sng",
+  url: "https://github.com/ChesterSng",
+  img: "/img/team/chester.png"
+}
+
+- {
+  name: "Henry Yu",
+  url: "https://github.com/YuPeiHenry",
+  img: "/img/team/henry.png"
+}
+
+- {
+  name: "Li Xiao Wei",
+  url: "https://github.com/LiXiaoooowei",
+  img: "/img/team/xiaowei.png"
+}
+
+- {
+  name: "Herald Yu",
+  url: "https://github.com/yuhongherald",
+  img: "/img/team/herald.png"
 }

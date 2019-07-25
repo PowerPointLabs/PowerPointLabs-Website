@@ -21,6 +21,12 @@
 }
 
 - {
+  name: "Ian Teo",
+  url: "https://github.com/IanTeo",
+  img: "/img/team/ian.png"
+}
+
+- {
   name: "Jamos Tay",
   url: "https://github.com/jamos-tay",
   img: "/img/team/jamos.png"
@@ -55,8 +61,20 @@
 }
 
 - {
+  name: "Ong Heng Le",
+  url: "https://github.com/initialshl",
+  img: "/img/team/hengle.png"
+}
+
+- {
   name: "Raunak Rajpuria",
   img: "/img/team/raunak.png",
+}
+
+- {
+  name: "Syed Abdullah",
+  url: "http://syedabdullah.net",
+  img: "/img/team/syed.png"
 }
 
 - {
